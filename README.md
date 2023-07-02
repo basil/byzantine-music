@@ -5,7 +5,7 @@ The musical settings are typeset with [Neanes](https://github.com/danielgarthur/
 
 ## License
 
-Unless otherwise noted, the translations are copyright © Holy Transfiguration Monastery, Brookline. All rights reserved.
+Unless otherwise noted, the translations are copyright © Holy Transfiguration Monastery, Brookline, MA. All rights reserved.
 These texts may not be further reproduced without the prior written authorization of Holy Transfiguration Monastery.
 
 The musical settings are copyright © [Basil Crow](https://basilcrow.com), under a [Creative Commons BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1) license.
