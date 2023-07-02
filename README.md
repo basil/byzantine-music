@@ -8,7 +8,7 @@ The musical settings are typeset with [Neanes](https://github.com/danielgarthur/
 Unless otherwise noted, the translations are copyright © Holy Transfiguration Monastery, Brookline. All rights reserved.
 These texts may not be further reproduced without the prior written authorization of Holy Transfiguration Monastery.
 
-The musical settings are copyright © [Basil Crow](https://basilcrow.com), under a [Creative Commons BY-NC-ND 4.0![](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1)](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1) license.
+The musical settings are copyright © [Basil Crow](https://basilcrow.com), under a [Creative Commons BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1) license.
 
 ## Contributing
 
