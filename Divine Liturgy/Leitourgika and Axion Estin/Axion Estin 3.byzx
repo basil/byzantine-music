@@ -419,7 +419,6 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarTop",
-        "ison": "Ison.Pa",
         "vareia": true,
         "lyrics": "ed,",
         "isMelisma": true,
@@ -454,6 +453,7 @@
         "gorgonNeume": "GorgonDottedRight",
         "accidental": "Flat_2_Right",
         "measureBarLeft": "MeasureBarTop",
+        "ison": "Ison.Pa",
         "lyrics": "The",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -859,31 +859,24 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
+        "quantitativeNeume": "Ison",
+        "timeNeume": "Klasma_Top",
+        "lyrics": "ble"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusElaphronPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "lyrics": "ble",
+        "accidental": "Sharp_2_Left",
+        "measureBarLeft": "MeasureBarTop",
+        "lyrics": "than",
         "isMelisma": true,
         "isMelismaStart": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "OligonPlusRunningElaphronPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarTop",
-        "lyrics": "than",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "measureBarLeftOffsetX": 0.5,
-        "measureBarLeftOffsetY": -0.2
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "accidental": "Sharp_2_Left",
         "isMelisma": true
       },
       {
@@ -1388,14 +1381,12 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "fthora": "Enharmonic_Top",
         "chromaticFthoraNote": "Ga",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "The",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true,
-        "fthoraOffsetY": -0.2
+        "isHyphen": true
       },
       {
         "elementType": "Note",
@@ -1472,8 +1463,8 @@
         "elementType": "Martyria",
         "auto": true,
         "note": "Ke",
-        "rootSign": "AlphaDotted",
-        "scale": "EnharmonicZoHigh"
+        "rootSign": "Alpha",
+        "scale": "Diatonic"
       },
       {
         "elementType": "Note",
