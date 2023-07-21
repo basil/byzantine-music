@@ -1,6 +1,5 @@
 {
   "version": "1.0",
-  "appVersion": "0.3.0-beta.20",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -1381,12 +1380,14 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
+        "fthora": "Enharmonic_Top",
         "chromaticFthoraNote": "Ga",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "The",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true
+        "isHyphen": true,
+        "fthoraOffsetY": -0.25
       },
       {
         "elementType": "Note",
@@ -1463,8 +1464,8 @@
         "elementType": "Martyria",
         "auto": true,
         "note": "Ke",
-        "rootSign": "Alpha",
-        "scale": "Diatonic"
+        "rootSign": "AlphaDotted",
+        "scale": "EnharmonicZoHigh"
       },
       {
         "elementType": "Note",
