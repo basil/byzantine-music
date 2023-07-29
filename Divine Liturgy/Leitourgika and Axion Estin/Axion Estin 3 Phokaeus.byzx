@@ -238,7 +238,7 @@
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#000000",
-        "content": "Adapted by Basil Crow from the melody by Theodore Phokaeus",
+        "content": "Adapted from Theodore Phokaeus by Basil Crow",
         "fontSize": 16,
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
@@ -1022,9 +1022,8 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "quantitativeNeume": "Petasti",
+        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Pa",
         "lyrics": "who",
         "isMelisma": true,
@@ -1037,19 +1036,38 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
-        "timeNeume": "Klasma_Top",
-        "lyrics": "with",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
+        "quantitativeNeume": "Apostrophos",
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarTop",
-        "ison": "Ison.Unison",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "RunningElaphron",
+        "timeNeume": "Klasma_Top",
+        "measureBarLeft": "MeasureBarShortTheseos",
+        "lyrics": "with",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true,
+        "measureBarLeftOffsetX": 0.6
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "measureBarLeft": "MeasureBarShortDouble",
+        "ison": "Ison.Ni",
         "lyrics": "out",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1063,6 +1081,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
+        "ison": "Ison.Ga",
         "lyrics": "cor",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1237,7 +1256,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "fthora": "DiatonicGa_Bottom",
+        "fthora": "DiatonicGa_Top",
         "lyrics": "the"
       },
       {
