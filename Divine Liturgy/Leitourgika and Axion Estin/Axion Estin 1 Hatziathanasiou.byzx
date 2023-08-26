@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.0",
+  "appVersion": "0.4.3",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -901,7 +901,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "vocalExpressionNeume": "HeteronConnecting",
+        "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Ke",
         "lyrics": "ble",
@@ -910,8 +910,8 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "Kentemata",
+        "gorgonNeume": "Gorgon_Bottom",
         "isMelisma": true
       },
       {
@@ -1814,6 +1814,12 @@
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "isMelisma": true
+      },
+      {
+        "elementType": "Tempo",
+        "neume": "Moderate",
+        "bpm": 100,
+        "error": false
       },
       {
         "elementType": "Note",
