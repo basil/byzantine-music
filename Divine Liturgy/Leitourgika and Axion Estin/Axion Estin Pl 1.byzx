@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.2",
+  "appVersion": "0.4.3",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -977,7 +977,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "vareia": true,
         "lyrics": "ri",
         "isMelisma": true,
@@ -1009,23 +1009,34 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarShortTheseos",
-        "lyrics": "ous"
+        "fthora": "DiatonicKe_Bottom",
+        "measureBarLeft": "MeasureBarTop",
+        "ison": "Ison.Pa",
+        "lyrics": "ous",
+        "isMelisma": true,
+        "isMelismaStart": true
       },
       {
-        "elementType": "Martyria",
-        "auto": true,
-        "note": "Ke",
-        "rootSign": "Alpha",
-        "scale": "Diatonic",
-        "fthora": "DiatonicKe_Top"
+        "elementType": "Note",
+        "quantitativeNeume": "Petasti",
+        "isMelisma": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarShortDouble",
-        "ison": "Ison.Pa",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "than",
         "isMelisma": true,
         "isMelismaStart": true
