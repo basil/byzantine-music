@@ -263,6 +263,7 @@
         "mode": 7,
         "scale": "Diatonic",
         "scaleNote": "Zo",
+        "fthora": "Enharmonic_Top",
         "martyria": "ModeSign.VarysZo",
         "note": "ModeSign.Zo",
         "fthoraAboveNote": "Enharmonic_Top",
@@ -292,8 +293,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusHypsiliPlusKentimaVertical",
-        "fthora": "Enharmonic_Bottom",
-        "chromaticFthoraNote": "Ga",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Zo",
         "lyrics": "t"
@@ -420,7 +419,7 @@
         "auto": true,
         "note": "Thi",
         "rootSign": "DeltaDotted",
-        "scale": "EnharmonicZoHigh"
+        "scale": "Diatonic"
       },
       {
         "elementType": "Note",
@@ -751,9 +750,9 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusHyporoePlusKentemata",
         "secondaryGorgonNeume": "GorgonSecondary",
-        "fthora": "Enharmonic_Top",
-        "chromaticFthoraNote": "Ga",
-        "isMelisma": true
+        "secondaryFthora": "Enharmonic_TopSecondary",
+        "isMelisma": true,
+        "secondaryFthoraOffsetY": -0.25
       },
       {
         "elementType": "Note",
@@ -1068,11 +1067,8 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusRunningElaphronPlusKentemata",
-        "fthora": "Enharmonic_Top",
-        "chromaticFthoraNote": "Ga",
-        "lyrics": "the",
-        "fthoraOffsetX": -1.25,
-        "fthoraOffsetY": -0.15
+        "tertiaryFthora": "Enharmonic_TopTertiary",
+        "lyrics": "the"
       },
       {
         "elementType": "Note",
@@ -1321,7 +1317,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "gorgonNeume": "Gorgon_Bottom",
         "lyrics": "the"
       },
       {
@@ -1435,14 +1430,11 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusRunningElaphronPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "fthora": "Enharmonic_Top",
-        "chromaticFthoraNote": "Ga",
+        "tertiaryFthora": "Enharmonic_TopTertiary",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "do",
         "isMelisma": true,
         "isMelismaStart": true,
-        "fthoraOffsetX": -1.6,
-        "fthoraOffsetY": -0.15,
         "measureBarLeftOffsetX": 0.55,
         "measureBarLeftOffsetY": -0.25
       },
