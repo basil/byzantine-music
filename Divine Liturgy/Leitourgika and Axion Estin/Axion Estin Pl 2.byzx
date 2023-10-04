@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.0",
+  "appVersion": "0.4.4",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -1199,18 +1199,19 @@
         "auto": true,
         "note": "Thi",
         "rootSign": "Tilt",
-        "scale": "HardChromatic",
-        "fthora": "DiatonicThi_Top",
-        "measureBarLeft": "MeasureBarShortTheseos"
+        "scale": "HardChromatic"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
+        "fthora": "DiatonicThi_Bottom",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "ison": "Ison.Thi",
         "lyrics": "gav",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true
+        "isHyphen": true,
+        "measureBarLeftOffsetX": -0.7
       },
       {
         "elementType": "Note",
