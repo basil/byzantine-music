@@ -797,13 +797,13 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "fthora": "DiatonicThi_Top",
+        "secondaryFthora": "DiatonicGa_TopSecondary",
         "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Zo",
         "lyrics": "of",
         "isMelisma": true,
         "isMelismaStart": true,
-        "fthoraOffsetY": -0.25
+        "isonOffsetY": -0.3
       },
       {
         "elementType": "Note",
@@ -869,7 +869,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentima",
-        "fthora": "HardChromaticPa_Bottom",
+        "fthora": "HardChromaticPa_Top",
         "chromaticFthoraNote": "Pa",
         "ison": "Ison.Pa",
         "lyrics": "More"
@@ -1549,17 +1549,18 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
+        "secondaryFthora": "DiatonicPa_TopSecondary",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Zo",
         "lyrics": "mag",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true
+        "isHyphen": true,
+        "isonOffsetY": -0.25
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "fthora": "DiatonicPa_Top",
         "isMelisma": true,
         "isHyphen": true
       },
