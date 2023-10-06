@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.0",
+  "appVersion": "0.4.4",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -334,7 +334,8 @@
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
         "accidental": "Sharp_2_Left",
-        "isMelisma": true
+        "isMelisma": true,
+        "spaceAfter": 1.3333333333333333
       },
       {
         "elementType": "Note",
@@ -456,7 +457,8 @@
         "lyrics": "o",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true
+        "isHyphen": true,
+        "spaceAfter": 1.3333333333333333
       },
       {
         "elementType": "Note",
@@ -1456,7 +1458,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "mag",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1512,7 +1514,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "vareia": true,
         "lyrics": "fy.",
         "isMelisma": true,
@@ -1530,7 +1532,7 @@
         "quantitativeNeume": "KentemataPlusOligon",
         "timeNeume": "Klasma_Top",
         "vocalExpressionNeume": "Homalon",
-        "measureBarLeft": "MeasureBarShortTheseos",
+        "measureBarLeft": "MeasureBarTop",
         "isMelisma": true,
         "measureBarLeftOffsetX": 0.75,
         "measureBarLeftOffsetY": -0.25
@@ -1538,15 +1540,10 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Dipli",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "timeNeume": "Klasma_Top",
+        "measureBarRight": "MeasureBarTop",
         "ison": "Ison.Thi",
         "isMelisma": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "VareiaDotted",
-        "measureBarRight": "MeasureBarTop"
       },
       {
         "elementType": "Martyria",
