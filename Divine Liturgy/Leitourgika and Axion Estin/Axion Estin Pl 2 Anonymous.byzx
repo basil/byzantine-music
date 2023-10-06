@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.0",
+  "appVersion": "0.4.4",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -556,8 +556,9 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusHypsiliRight",
-        "vocalExpressionNeume": "Psifiston",
+        "vocalExpressionNeume": "HomalonConnecting",
         "measureBarLeft": "MeasureBarTop",
+        "vareia": true,
         "lyrics": "to",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -565,9 +566,15 @@
       },
       {
         "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "gorgonNeume": "Digorgon",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "timeNeume": "Hapli",
-        "gorgonNeume": "GorgonDottedLeft",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -611,6 +618,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "vareia": true,
         "isMelisma": true,
         "isHyphen": true
       },
@@ -618,7 +626,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "GorgonDottedLeft",
-        "accidental": "Sharp_4_Left",
+        "accidental": "Sharp_2_Left",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -724,6 +732,7 @@
         "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarTop",
+        "ison": "Ison.Pa",
         "lyrics": "ed"
       },
       {
@@ -737,15 +746,13 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaBelow",
         "gorgonNeume": "Gorgon_Top",
-        "vocalExpressionNeume": "Antikenoma",
         "lyrics": "and"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "fthora": "HardChromaticPa_Bottom",
+        "fthora": "HardChromaticPa_Top",
         "chromaticFthoraNote": "Pa",
-        "ison": "Ison.Ke",
         "lyrics": "all",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -778,7 +785,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusElaphronPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "gorgonNeume": "GorgonDottedRight",
         "lyrics": "u",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -786,7 +793,15 @@
       },
       {
         "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "vareia": true,
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "gorgonNeume": "Gorgon_Top",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -795,7 +810,6 @@
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "HomalonConnecting",
         "measureBarLeft": "MeasureBarTop",
-        "ison": "Ison.Thi",
         "vareia": true,
         "lyrics": "late",
         "isMelisma": true,
@@ -823,7 +837,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "ElaphronPlusApostrophos",
-        "ison": "Ison.Pa",
         "lyrics": "and"
       },
       {
@@ -901,17 +914,23 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusHypsiliRight",
-        "vocalExpressionNeume": "Psifiston",
+        "vocalExpressionNeume": "HomalonConnecting",
         "measureBarLeft": "MeasureBarTop",
+        "vareia": true,
         "lyrics": "of",
         "isMelisma": true,
         "isMelismaStart": true
       },
       {
         "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "gorgonNeume": "Digorgon",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "timeNeume": "Hapli",
-        "gorgonNeume": "GorgonDottedLeft",
         "isMelisma": true
       },
       {
@@ -949,6 +968,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "vareia": true,
         "lyrics": "our",
         "isMelisma": true,
         "isMelismaStart": true
@@ -957,7 +977,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "GorgonDottedLeft",
-        "accidental": "Sharp_4_Left",
+        "accidental": "Sharp_2_Left",
         "isMelisma": true
       },
       {
@@ -1066,7 +1086,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
-        "gorgonNeume": "Digorgon",
+        "gorgonNeume": "DigorgonDottedLeft1",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -1088,7 +1108,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
-        "accidental": "Flat_4_Right",
+        "accidental": "Flat_2_Right",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "bim,",
         "isMelisma": true,
@@ -1215,7 +1235,6 @@
         "timeNeume": "Dipli",
         "fthora": "DiatonicNiHigh_Top",
         "measureBarLeft": "MeasureBarShortDouble",
-        "ison": "Ison.Thi",
         "lyrics": "glo",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1225,7 +1244,6 @@
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "measureBarLeft": "MeasureBarShortTheseos",
-        "ison": "Ison.Pa",
         "lyrics": "ri",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1277,8 +1295,9 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
+        "vocalExpressionNeume": "HomalonConnecting",
         "measureBarLeft": "MeasureBarShortDouble",
+        "vareia": true,
         "lyrics": "Ser",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1286,9 +1305,15 @@
       },
       {
         "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "gorgonNeume": "Digorgon",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "timeNeume": "Hapli",
-        "gorgonNeume": "GorgonDottedLeft",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -1332,6 +1357,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "vareia": true,
         "lyrics": "a",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1341,7 +1367,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "GorgonDottedLeft",
-        "accidental": "Sharp_4_Left",
+        "accidental": "Sharp_2_Left",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -1435,20 +1461,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentimaBelow",
-        "gorgonNeume": "GorgonDottedLeft",
-        "vocalExpressionNeume": "Antikenoma",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "isMelisma": true,
         "isHyphen": true
@@ -1472,9 +1484,24 @@
         "quantitativeNeume": "OligonPlusKentimaBelow",
         "gorgonNeume": "GorgonDottedLeft",
         "vocalExpressionNeume": "Antikenoma",
-        "accidental": "Flat_4_Right",
         "isMelisma": true,
         "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentimaBelow",
+        "gorgonNeume": "GorgonDottedLeft",
+        "vocalExpressionNeume": "Antikenoma",
+        "accidental": "Flat_2_Right",
+        "isMelisma": true,
+        "isHyphen": true,
+        "spaceAfter": 2.6666666666666665
       },
       {
         "elementType": "Note",
@@ -1581,18 +1608,16 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "fthora": "DiatonicThi_Top",
+        "fthora": "DiatonicThi_Bottom",
         "ison": "Ison.Thi",
-        "lyrics": "to",
-        "isonOffsetY": -0.25
+        "lyrics": "to"
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "PetastiPlusKentimaAbove",
+        "quantitativeNeume": "OligonPlusKentimaAbove",
         "timeNeume": "Hapli",
         "vocalExpressionNeume": "Antikenoma",
         "measureBarLeft": "MeasureBarTop",
-        "vareia": true,
         "lyrics": "God",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1691,6 +1716,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "ison": "Ison.Pa",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -1699,10 +1725,8 @@
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "GorgonDottedLeft",
         "measureBarLeft": "MeasureBarShortTheseos",
-        "ison": "Ison.Pa",
         "isMelisma": true,
         "isHyphen": true,
-        "isonOffsetY": -0.45,
         "measureBarLeftOffsetX": 0.35,
         "measureBarLeftOffsetY": -0.3
       },
@@ -1740,7 +1764,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Trigorgon",
-        "accidental": "Sharp_4_Left",
+        "accidental": "Sharp_2_Left",
         "isMelisma": true
       },
       {
@@ -1880,8 +1904,9 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
+        "vocalExpressionNeume": "HomalonConnecting",
         "measureBarLeft": "MeasureBarTop",
+        "vareia": true,
         "lyrics": "mag",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1889,9 +1914,15 @@
       },
       {
         "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "gorgonNeume": "Digorgon",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "timeNeume": "Hapli",
-        "gorgonNeume": "GorgonDottedLeft",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -1935,6 +1966,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "vareia": true,
         "lyrics": "ni",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1944,7 +1976,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "GorgonDottedLeft",
-        "accidental": "Sharp_4_Left",
+        "accidental": "Sharp_2_Left",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -1991,13 +2023,6 @@
         "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarShortTheseos",
         "isMelisma": true
-      },
-      {
-        "elementType": "Martyria",
-        "auto": true,
-        "note": "Thi",
-        "rootSign": "Tilt",
-        "scale": "HardChromatic"
       },
       {
         "elementType": "Note",
