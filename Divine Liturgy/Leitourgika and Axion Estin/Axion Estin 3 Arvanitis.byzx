@@ -848,7 +848,7 @@
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "lyrics": "’ra",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1585,13 +1585,13 @@
         "auto": true,
         "note": "NiHigh",
         "rootSign": "DeltaDotted",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "thee",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1733,8 +1733,9 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarShortTheseos",
-        "isMelisma": true
+        "measureBarLeft": "MeasureBarShortTheseosAbove",
+        "isMelisma": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "elementType": "Note",
@@ -1747,7 +1748,7 @@
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "gorgonNeume": "Hemiolion",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarShortDoubleAbove",
         "isMelisma": true
       },
       {

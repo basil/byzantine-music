@@ -285,6 +285,7 @@
         "mode": 7,
         "scale": "Diatonic",
         "scaleNote": "Zo",
+        "fthora": "Enharmonic_Top",
         "martyria": "ModeSign.VarysZo",
         "note": "ModeSign.Zo",
         "fthoraAboveNote": "Enharmonic_Top",
@@ -394,7 +395,8 @@
         "auto": true,
         "note": "Ga",
         "rootSign": "Squiggle",
-        "scale": "HardChromatic"
+        "scale": "HardChromatic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
@@ -402,7 +404,6 @@
         "timeNeume": "Klasma_Bottom",
         "fthora": "Enharmonic_Top",
         "chromaticFthoraNote": "Ga",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "call"
       },
       {
@@ -448,7 +449,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarShortDoubleAbove",
         "lyrics": "ed,",
         "isMelisma": true,
         "isMelismaStart": true
@@ -671,7 +672,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarShortDoubleAbove",
         "lyrics": "ed",
         "isMelisma": true,
         "isMelismaStart": true
@@ -715,14 +716,14 @@
         "auto": true,
         "note": "Ga",
         "rootSign": "Squiggle",
-        "scale": "HardChromatic"
+        "scale": "HardChromatic",
+        "measureBarLeft": "MeasureBarShortTheseosAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaAbove",
         "fthora": "Enharmonic_Top",
         "chromaticFthoraNote": "Ga",
-        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "all",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1289,12 +1290,12 @@
         "note": "Zo",
         "rootSign": "Delta",
         "rootSignOverride": "Delta",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarShortDoubleAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaAbove",
-        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "who"
       },
       {
@@ -1657,14 +1658,14 @@
         "auto": true,
         "note": "NiHigh",
         "rootSign": "Nana",
-        "scale": "EnharmonicZoHigh"
+        "scale": "EnharmonicZoHigh",
+        "measureBarLeft": "MeasureBarShortDoubleAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "vocalExpressionNeume": "HeteronConnecting",
-        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Zo",
         "lyrics": "thee",
         "isMelisma": true,

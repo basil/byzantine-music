@@ -712,13 +712,13 @@
         "auto": true,
         "note": "Ke",
         "rootSign": "AlphaDotted",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "and",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1169,13 +1169,13 @@
         "auto": true,
         "note": "Pa",
         "rootSign": "Alpha",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusKentimaAbove",
         "timeNeume": "Klasma_Bottom",
-        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Ni",
         "lyrics": "who"
       },
@@ -1470,13 +1470,13 @@
         "auto": true,
         "note": "Ke",
         "rootSign": "AlphaDotted",
-        "scale": "EnharmonicZoHigh"
+        "scale": "EnharmonicZoHigh",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "PetastiWithIson",
         "timeNeume": "Klasma_Bottom",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "thee",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1587,8 +1587,9 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarShortTheseos",
-        "isMelisma": true
+        "measureBarLeft": "MeasureBarShortTheseosAbove",
+        "isMelisma": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "elementType": "Note",
@@ -1600,7 +1601,7 @@
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "gorgonNeume": "Hemiolion",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarShortDoubleAbove",
         "isMelisma": true
       },
       {

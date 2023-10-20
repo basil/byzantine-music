@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.3",
+  "appVersion": "0.4.4",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -652,12 +652,12 @@
         "auto": true,
         "note": "NiHigh",
         "rootSign": "Nana",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "ElaphronPlusApostrophos",
-        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Pa",
         "lyrics": "and",
         "isMelisma": true,
@@ -889,13 +889,13 @@
         "auto": true,
         "note": "NiHigh",
         "rootSign": "Nana",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "and"
       },
       {
@@ -1100,12 +1100,12 @@
         "auto": true,
         "note": "Ni",
         "rootSign": "Delta",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusHypsiliRight",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "who"
       },
       {
@@ -1192,12 +1192,12 @@
         "auto": true,
         "note": "NiHigh",
         "rootSign": "Nana",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "gav",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1424,12 +1424,12 @@
         "auto": true,
         "note": "NiHigh",
         "rootSign": "Nana",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "ElaphronPlusApostrophos",
-        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Pa",
         "lyrics": "thee",
         "isMelisma": true,
@@ -1565,8 +1565,9 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarShortTheseos",
-        "isMelisma": true
+        "measureBarLeft": "MeasureBarShortTheseosAbove",
+        "isMelisma": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "elementType": "Note",
@@ -1579,7 +1580,7 @@
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "gorgonNeume": "Hemiolion",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarShortDoubleAbove",
         "isMelisma": true
       },
       {

@@ -948,13 +948,13 @@
         "auto": true,
         "note": "Thi",
         "rootSign": "DeltaDotted",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Ni",
         "lyrics": "than"
       },
@@ -1086,7 +1086,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
-        "measureBarLeft": "MeasureBarShortTheseos",
+        "measureBarLeft": "MeasureBarShortTheseosAbove",
         "ison": "Ison.Unison",
         "lyrics": "cor",
         "isMelisma": true,
@@ -1136,18 +1136,19 @@
         "note": "Thi",
         "rootSign": "SoftChromaticSquiggle",
         "scale": "SoftChromatic",
-        "fthora": "DiatonicThi_Top"
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
         "vocalExpressionNeume": "Homalon",
-        "measureBarLeft": "MeasureBarTop",
+        "fthora": "DiatonicKe_Top",
         "lyrics": "gav",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true
+        "isHyphen": true,
+        "fthoraOffsetX": 0.35
       },
       {
         "elementType": "Note",
@@ -1366,7 +1367,7 @@
         "quantitativeNeume": "OligonPlusRunningElaphronPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "vocalExpressionNeume": "HeteronConnecting",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "ison": "Ison.Pa",
         "lyrics": "thee",
         "isMelisma": true,
@@ -1491,8 +1492,9 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarShortTheseos",
-        "isMelisma": true
+        "measureBarLeft": "MeasureBarShortTheseosAbove",
+        "isMelisma": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "elementType": "Note",
@@ -1505,7 +1507,7 @@
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "gorgonNeume": "Hemiolion",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarShortDoubleAbove",
         "isMelisma": true
       },
       {

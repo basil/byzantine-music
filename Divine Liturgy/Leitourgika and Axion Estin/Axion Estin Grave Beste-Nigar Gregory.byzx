@@ -642,12 +642,12 @@
         "auto": true,
         "note": "Ga",
         "rootSign": "Nana",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "and",
         "isMelisma": true,
         "isMelismaStart": true
@@ -678,7 +678,7 @@
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "ison": "Ison.Zo",
         "lyrics": "Moth",
         "isMelisma": true,
@@ -975,7 +975,7 @@
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "lyrics": "than"
       },
       {
@@ -1432,8 +1432,9 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarTop",
-        "isMelisma": true
+        "measureBarLeft": "MeasureBarTopAbove",
+        "isMelisma": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "elementType": "Note",

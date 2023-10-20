@@ -1237,14 +1237,14 @@
         "auto": true,
         "note": "Pa",
         "rootSign": "Alpha",
-        "scale": "EnharmonicVou"
+        "scale": "EnharmonicVou",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusHypsiliLeft",
         "fthora": "Enharmonic_Top",
         "chromaticFthoraNote": "Ga",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "who"
       },
       {
@@ -1331,12 +1331,12 @@
         "auto": true,
         "note": "ZoHigh",
         "rootSign": "Nana",
-        "scale": "EnharmonicZoHigh"
+        "scale": "EnharmonicZoHigh",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Thi",
         "lyrics": "gav",
         "isMelisma": true,
@@ -1710,8 +1710,9 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarShortTheseos",
-        "isMelisma": true
+        "measureBarLeft": "MeasureBarShortTheseosAbove",
+        "isMelisma": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "elementType": "Note",

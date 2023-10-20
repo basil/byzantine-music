@@ -1010,14 +1010,14 @@
         "auto": true,
         "note": "Ga",
         "rootSign": "Delta",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "ElaphronPlusApostrophos",
         "fthora": "HardChromaticPa_Top",
         "chromaticFthoraNote": "Pa",
-        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Ni",
         "lyrics": "who",
         "isonOffsetY": -0.2
@@ -1101,7 +1101,8 @@
         "auto": true,
         "note": "Ni",
         "rootSign": "Squiggle",
-        "scale": "HardChromatic"
+        "scale": "HardChromatic",
+        "measureBarLeft": "MeasureBarShortDoubleAbove"
       },
       {
         "elementType": "Note",
@@ -1109,7 +1110,6 @@
         "timeNeume": "Hapli",
         "vocalExpressionNeume": "Antikenoma",
         "fthora": "DiatonicGa_Top",
-        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Ga",
         "lyrics": "gav",
         "isMelisma": true,
@@ -1399,8 +1399,9 @@
         "quantitativeNeume": "OligonPlusHyporoePlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "secondaryGorgonNeume": "GorgonSecondary",
-        "measureBarLeft": "MeasureBarShortDouble",
-        "isMelisma": true
+        "measureBarLeft": "MeasureBarShortDoubleAbove",
+        "isMelisma": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "elementType": "Note",

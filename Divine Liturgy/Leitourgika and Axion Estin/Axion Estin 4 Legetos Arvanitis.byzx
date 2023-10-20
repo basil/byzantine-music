@@ -351,7 +351,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "tie": "YfenBelow",
         "lyrics": "call",
         "isMelisma": true,
@@ -609,7 +609,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "lyrics": "ed"
       },
       {
@@ -770,7 +770,7 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusRunningElaphronPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "lyrics": "er",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1155,7 +1155,7 @@
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "lyrics": "ous",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1328,12 +1328,12 @@
         "auto": true,
         "note": "Vou",
         "rootSign": "Legetos",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "who"
       },
       {
@@ -1483,7 +1483,7 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusRunningElaphronPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "lyrics": "to",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1649,7 +1649,7 @@
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusRunningElaphron",
         "timeNeume": "Klasma_Bottom",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "lyrics": "The",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1743,7 +1743,7 @@
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusRunningElaphron",
         "timeNeume": "Klasma_Bottom",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "lyrics": "do",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1976,8 +1976,9 @@
         "quantitativeNeume": "Hyporoe",
         "timeNeume": "Dipli",
         "gorgonNeume": "GorgonDottedLeft",
-        "measureBarLeft": "MeasureBarTop",
-        "isMelisma": true
+        "measureBarLeft": "MeasureBarTopAbove",
+        "isMelisma": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "elementType": "Note",

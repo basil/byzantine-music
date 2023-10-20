@@ -791,14 +791,14 @@
         "auto": true,
         "note": "Ga",
         "rootSign": "Squiggle",
-        "scale": "HardChromatic"
+        "scale": "HardChromatic",
+        "measureBarLeft": "MeasureBarShortDoubleAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "secondaryFthora": "DiatonicGa_TopSecondary",
-        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Zo",
         "lyrics": "of",
         "isMelisma": true,
@@ -1090,13 +1090,13 @@
         "auto": true,
         "note": "Thi",
         "rootSign": "Tilt",
-        "scale": "HardChromatic"
+        "scale": "HardChromatic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
-        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Pa",
         "lyrics": "than",
         "isMelisma": true,
@@ -1366,7 +1366,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarTopAbove",
         "ison": "Ison.Zo",
         "lyrics": "God",
         "isMelisma": true,
@@ -1638,8 +1638,9 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarShortTheseos",
-        "isMelisma": true
+        "measureBarLeft": "MeasureBarShortTheseosAbove",
+        "isMelisma": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "elementType": "Note",
