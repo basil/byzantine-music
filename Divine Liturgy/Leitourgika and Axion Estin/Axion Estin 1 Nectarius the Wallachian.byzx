@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.4",
+  "appVersion": "0.4.5",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -833,7 +833,8 @@
         "gorgonNeume": "Gorgon_Top",
         "measureBarLeft": "MeasureBarTopAbove",
         "isMelisma": true,
-        "isHyphen": true
+        "isHyphen": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "elementType": "Note",
@@ -1430,7 +1431,8 @@
         "auto": true,
         "note": "Pa",
         "rootSign": "Alpha",
-        "scale": "EnharmonicZoHigh"
+        "scale": "EnharmonicZoHigh",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
@@ -1438,7 +1440,6 @@
         "gorgonNeume": "Gorgon_Top",
         "vocalExpressionNeume": "HeteronConnecting",
         "fthora": "Spathi_Bottom",
-        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Unison",
         "lyrics": "who",
         "isMelisma": true,
