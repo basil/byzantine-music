@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.4",
+  "appVersion": "0.4.5",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -293,33 +293,10 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusHypsiliPlusKentimaVertical",
+        "fthora": "Enharmonic_Top",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Zo",
-        "lyrics": "t"
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "ElaphronPlusApostrophos",
-        "lyrics": "is"
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "lyrics": "tru",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "lyrics": "ly"
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarTop",
-        "lyrics": "meet",
+        "lyrics": "t",
         "isMelisma": true,
         "isMelismaStart": true
       },
@@ -332,7 +309,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
-        "lyrics": "to",
+        "lyrics": "is",
         "isMelisma": true,
         "isMelismaStart": true
       },
@@ -350,40 +327,99 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentima",
-        "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
-        "ison": "Ison.Ga",
-        "lyrics": "call"
-      },
-      {
-        "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "lyrics": "thee",
-        "isMelisma": true,
-        "isMelismaStart": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
-        "ison": "Ison.Thi",
-        "lyrics": "bless",
+        "lyrics": "tru",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
+        "quantitativeNeume": "Apostrophos",
         "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "lyrics": "ly",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Elaphron"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Kentemata",
+        "gorgonNeume": "Gorgon_Bottom"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentimaBelow",
+        "measureBarLeft": "MeasureBarTop",
+        "vareia": true,
+        "lyrics": "meet",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Hyporoe",
+        "gorgonNeume": "DigorgonDottedLeft1",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "timeNeume": "Klasma_Top",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Martyria",
+        "auto": true,
+        "note": "ZoHigh",
+        "rootSign": "Nana",
+        "scale": "EnharmonicZoHigh"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "to"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "timeNeume": "Klasma_Top",
+        "measureBarLeft": "MeasureBarTop",
+        "ison": "Ison.Thi",
+        "lyrics": "call"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "thee",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Kentemata",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "timeNeume": "Klasma_Top",
+        "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarTop",
+        "lyrics": "bless",
+        "isMelisma": true,
+        "isMelismaStart": true,
         "isHyphen": true
       },
       {
@@ -419,7 +455,7 @@
         "auto": true,
         "note": "Thi",
         "rootSign": "DeltaDotted",
-        "scale": "Diatonic"
+        "scale": "EnharmonicZoHigh"
       },
       {
         "elementType": "Note",
@@ -1010,8 +1046,9 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Petasti",
-        "timeNeume": "Klasma_Bottom",
+        "quantitativeNeume": "Oligon",
+        "timeNeume": "Klasma_Top",
+        "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Thi",
         "lyrics": "glo",
@@ -1068,7 +1105,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusRunningElaphronPlusKentemata",
-        "tertiaryFthora": "Enharmonic_TopTertiary",
         "lyrics": "the"
       },
       {
@@ -1122,8 +1158,8 @@
         "elementType": "Martyria",
         "auto": true,
         "note": "Zo",
-        "rootSign": "Nana",
-        "scale": "EnharmonicVou",
+        "rootSign": "Varys",
+        "scale": "EnharmonicZoHigh",
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
@@ -1432,7 +1468,6 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusRunningElaphronPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "tertiaryFthora": "Enharmonic_TopTertiary",
         "measureBarLeft": "MeasureBarTopAbove",
         "lyrics": "do",
         "isMelisma": true,
