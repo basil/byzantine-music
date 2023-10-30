@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.4",
+  "appVersion": "0.4.5",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -60,7 +60,8 @@
     "dropCapDefaultFontStyle": "normal",
     "dropCapDefaultColor": "#CD1041",
     "dropCapDefaultStrokeWidth": 0,
-    "hyphenSpacing": 72
+    "hyphenSpacing": 72,
+    "chrysanthineAccidentals": true
   },
   "headers": {
     "default": {
@@ -258,13 +259,16 @@
       },
       {
         "elementType": "ModeKey",
-        "templateId": 701,
+        "templateId": 703,
         "alignment": "center",
         "mode": 7,
         "scale": "Diatonic",
-        "scaleNote": "Zo",
+        "scaleNote": "Thi",
+        "fthora": "DiatonicNiLow_Top",
         "martyria": "ModeSign.VarysZo",
         "note": "ModeSign.Zo",
+        "fthoraAboveQuantitativeNeumeRight": "DiatonicNiLow_Top",
+        "quantitativeNeumeRight": "OligonPlusHypsiliLeft",
         "color": "#CD1041",
         "fontSize": 26.666666666666668,
         "strokeWidth": 0,
@@ -290,8 +294,7 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusHypsiliLeft",
-        "fthora": "DiatonicNiLow_Top",
+        "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Thi",
         "lyrics": "t",
@@ -1319,7 +1322,6 @@
         "fthora": "SoftChromaticThi_Top",
         "chromaticFthoraNote": "Thi",
         "measureBarLeft": "MeasureBarTop",
-        "ison": "Ison.Pa",
         "vareia": true,
         "lyrics": "rup",
         "isMelisma": true,
