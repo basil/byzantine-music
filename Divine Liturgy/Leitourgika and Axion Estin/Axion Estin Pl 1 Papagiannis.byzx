@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.4",
+  "appVersion": "0.4.5",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -60,7 +60,8 @@
     "dropCapDefaultFontStyle": "normal",
     "dropCapDefaultColor": "#CD1041",
     "dropCapDefaultStrokeWidth": 0,
-    "hyphenSpacing": 72
+    "hyphenSpacing": 72,
+    "chrysanthineAccidentals": true
   },
   "headers": {
     "default": {
@@ -258,13 +259,16 @@
       },
       {
         "elementType": "ModeKey",
-        "templateId": 500,
+        "templateId": 504,
         "alignment": "center",
         "mode": 5,
         "scale": "Diatonic",
-        "scaleNote": "Pa",
+        "scaleNote": "Ga",
+        "fthora": "Enharmonic_Top",
         "martyria": "ModeSign.Alpha",
         "note": "ModeSign.Pa",
+        "fthoraAboveQuantitativeNeumeRight": "Enharmonic_Top",
+        "quantitativeNeumeRight": "OligonPlusKentima",
         "color": "#CD1041",
         "fontSize": 26.666666666666668,
         "strokeWidth": 0,
@@ -290,7 +294,7 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusHypsiliRight",
+        "quantitativeNeume": "OligonPlusKentima",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Pa",
         "lyrics": "t"
