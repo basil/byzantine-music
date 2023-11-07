@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.5",
+  "appVersion": "0.4.6",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -404,10 +404,10 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
-        "accidental": "Flat_2_Right",
+        "secondaryAccidental": "Sharp_2_LeftSecondary",
         "isMelisma": true,
         "isHyphen": true,
-        "accidentalOffsetY": -0.25
+        "secondaryAccidentalOffsetY": -0.25
       },
       {
         "elementType": "Note",
@@ -437,13 +437,21 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "DigorgonDottedLeft1",
+        "vocalExpressionNeume": "HeteronConnecting",
         "accidental": "Sharp_2_Left",
+        "isMelisma": true,
+        "vocalExpressionNeumeOffsetX": 0.55,
+        "vocalExpressionNeumeOffsetY": -0.1
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
         "isMelisma": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "timeNeume": "Klasma_Top",
+        "quantitativeNeume": "Apostrophos",
         "isMelisma": true
       },
       {
@@ -1930,9 +1938,11 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "DigorgonDottedLeft1",
-        "accidental": "Sharp_2_Left",
+        "secondaryAccidental": "Sharp_2_LeftSecondary",
         "isMelisma": true,
-        "accidentalOffsetY": -1.1
+        "spaceAfter": 2.6666666666666665,
+        "secondaryAccidentalOffsetX": 0.2,
+        "secondaryAccidentalOffsetY": 0.15
       },
       {
         "elementType": "Note",
