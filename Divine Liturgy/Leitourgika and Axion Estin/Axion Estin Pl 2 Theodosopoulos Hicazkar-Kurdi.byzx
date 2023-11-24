@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.6",
+  "appVersion": "0.4.8",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -1138,7 +1138,10 @@
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarShortTheseos",
         "vareia": true,
-        "lyrics": "ri"
+        "lyrics": "ri",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",
@@ -1707,7 +1710,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vareia": true,
-        "lyrics": "do",
+        "lyrics": "we",
         "isMelisma": true,
         "isMelismaStart": true
       },
@@ -1789,9 +1792,7 @@
         "gorgonNeume": "Gorgon_Top",
         "fthora": "DiatonicThi_Bottom",
         "measureBarLeft": "MeasureBarTopAbove",
-        "lyrics": "_",
         "isMelisma": true,
-        "isMelismaStart": true,
         "measureBarLeftOffsetY": -0.3
       },
       {

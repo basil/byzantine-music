@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.5",
+  "appVersion": "0.4.8",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -60,7 +60,8 @@
     "dropCapDefaultFontStyle": "normal",
     "dropCapDefaultColor": "#CD1041",
     "dropCapDefaultStrokeWidth": 0,
-    "hyphenSpacing": 72
+    "hyphenSpacing": 72,
+    "chrysanthineAccidentals": true
   },
   "headers": {
     "default": {
@@ -995,7 +996,10 @@
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarTop",
-        "lyrics": "Ser"
+        "lyrics": "Ser",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",

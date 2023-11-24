@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.4",
+  "appVersion": "0.4.8",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -60,7 +60,8 @@
     "dropCapDefaultFontStyle": "normal",
     "dropCapDefaultColor": "#CD1041",
     "dropCapDefaultStrokeWidth": 0,
-    "hyphenSpacing": 72
+    "hyphenSpacing": 72,
+    "chrysanthineAccidentals": true
   },
   "headers": {
     "default": {
@@ -1218,7 +1219,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "phim,",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1230,11 +1231,21 @@
         "isMelisma": true
       },
       {
+        "elementType": "Note",
+        "quantitativeNeume": "VareiaDotted"
+      },
+      {
         "elementType": "Martyria",
         "auto": true,
         "note": "Pa",
         "rootSign": "Delta",
-        "scale": "EnharmonicGa"
+        "scale": "EnharmonicGa",
+        "measureBarLeft": "MeasureBarTopAbove"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "who"
       },
       {
         "elementType": "Note",
@@ -1247,7 +1258,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "out"
       },
       {

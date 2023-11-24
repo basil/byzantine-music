@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "appVersion": "0.4.4",
+  "appVersion": "0.4.8",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -60,7 +60,8 @@
     "dropCapDefaultFontStyle": "normal",
     "dropCapDefaultColor": "#CD1041",
     "dropCapDefaultStrokeWidth": 0,
-    "hyphenSpacing": 72
+    "hyphenSpacing": 72,
+    "chrysanthineAccidentals": true
   },
   "headers": {
     "default": {
@@ -907,7 +908,10 @@
         "quantitativeNeume": "PetastiPlusApostrophos",
         "timeNeume": "Klasma_Bottom",
         "measureBarLeft": "MeasureBarTop",
-        "lyrics": "Cher"
+        "lyrics": "Cher",
+        "isMelisma": true,
+        "isMelismaStart": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",
@@ -1350,7 +1354,7 @@
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarTop",
-        "lyrics": "Word.",
+        "lyrics": "Word,",
         "isMelisma": true,
         "isMelismaStart": true
       },
@@ -1369,7 +1373,8 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "VareiaDotted"
+        "quantitativeNeume": "VareiaDotted",
+        "isMelisma": true
       },
       {
         "elementType": "Martyria",
@@ -1381,7 +1386,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Hamili",
-        "lyrics": "The"
+        "lyrics": "the"
       },
       {
         "elementType": "Note",
