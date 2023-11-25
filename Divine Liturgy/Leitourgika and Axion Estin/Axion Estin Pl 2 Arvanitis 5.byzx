@@ -216,12 +216,12 @@
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#000000",
-        "content": "Plagal Second Mode (Heptaphonic)\nMakam Hicâzkâr",
+        "content": "Plagal Second Mode\n",
         "fontSize": 16,
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
         "italic": true,
-        "height": 44,
+        "height": 22,
         "useDefaultStyle": true
       },
       {
@@ -259,16 +259,14 @@
       },
       {
         "elementType": "ModeKey",
-        "templateId": 604,
+        "templateId": 600,
         "alignment": "center",
         "mode": 6,
         "scale": "HardChromatic",
-        "scaleNote": "PaHigh",
+        "scaleNote": "Pa",
         "martyria": "ModeSign.SoftChromatic6",
         "note": "ModeSign.Pa",
         "fthoraAboveNote": "HardChromaticPa_Top",
-        "fthoraAboveQuantitativeNeumeRight": "HardChromaticThi_Top",
-        "quantitativeNeumeRight": "OligonPlusHypsiliPlusKentimaVertical",
         "color": "#CD1041",
         "fontSize": 26.666666666666668,
         "strokeWidth": 0,
@@ -294,20 +292,12 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
-        "secondaryFthora": "DiatonicThi_TopSecondary",
+        "quantitativeNeume": "PetastiPlusHypsiliPlusKentimaVertical",
+        "timeNeume": "Klasma_Bottom",
+        "fthora": "DiatonicThi_Bottom",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Thi",
-        "lyrics": "t",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "secondaryFthoraOffsetY": 0.2
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
+        "lyrics": "t"
       },
       {
         "elementType": "Note",
@@ -329,10 +319,7 @@
         "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarTop",
-        "lyrics": "tru",
-        "isMelisma": true,
-        "isMelismaStart": true,
-        "isHyphen": true
+        "isMelisma": true
       },
       {
         "elementType": "Note",
