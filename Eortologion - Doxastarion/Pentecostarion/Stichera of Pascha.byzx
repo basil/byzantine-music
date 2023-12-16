@@ -1,5 +1,6 @@
 {
   "version": "1.0",
+  "appVersion": "0.4.8",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -59,7 +60,8 @@
     "dropCapDefaultFontStyle": "normal",
     "dropCapDefaultColor": "#CD1041",
     "dropCapDefaultStrokeWidth": 0,
-    "hyphenSpacing": 72
+    "hyphenSpacing": 72,
+    "chrysanthineAccidentals": true
   },
   "headers": {
     "default": {
@@ -993,7 +995,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Dipli",
+        "timeNeume": "Klasma_Top",
         "lyrics": "ful,"
       },
       {
@@ -1036,7 +1038,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarRight",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "o",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1403,7 +1405,8 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "VareiaDotted"
+        "quantitativeNeume": "VareiaDotted",
+        "measureBarRight": "MeasureBarTop"
       },
       {
         "lineBreak": true,
@@ -1660,12 +1663,12 @@
         "auto": true,
         "note": "NiHigh",
         "rootSign": "Nana",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "of"
       },
       {
@@ -1800,12 +1803,12 @@
         "auto": true,
         "note": "PaHigh",
         "rootSign": "DeltaDotted",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "ElaphronPlusApostrophos",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "dance,",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1991,6 +1994,11 @@
         "timeNeume": "Dipli",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "chre."
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "VareiaDotted",
+        "measureBarRight": "MeasureBarTop"
       },
       {
         "lineBreak": true,
@@ -2236,14 +2244,14 @@
         "auto": true,
         "note": "NiHigh",
         "rootSign": "Nana",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "vocalExpressionNeume": "HomalonConnecting",
         "fthora": "DiatonicKe_Top",
-        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Pa",
         "vareia": true,
         "lyrics": "at",
