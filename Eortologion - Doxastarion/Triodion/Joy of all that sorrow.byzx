@@ -750,17 +750,10 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "PetastiWithIson",
+        "timeNeume": "Klasma_Bottom",
         "measureBarLeft": "MeasureBarShortDouble",
-        "lyrics": "staff",
-        "isMelisma": true,
-        "isMelismaStart": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
+        "lyrics": "staff"
       },
       {
         "elementType": "Note",
@@ -848,6 +841,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
+        "ison": "Ison.Ga",
         "lyrics": "vis",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -867,7 +861,6 @@
         "timeNeume": "Klasma_Top",
         "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarTop",
-        "ison": "Ison.Ga",
         "lyrics": "a",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -950,9 +943,9 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusHypsiliRight",
-        "vocalExpressionNeume": "HeteronConnecting",
         "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Thi",
+        "vareia": true,
         "lyrics": "shel",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -960,7 +953,15 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
+        "quantitativeNeume": "Apostrophos",
+        "gorgonNeume": "Gorgon_Top",
+        "vocalExpressionNeume": "HeteronConnecting",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "isMelisma": true,
         "isHyphen": true
@@ -1227,7 +1228,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "vareia": true,
         "lyrics": "er",
         "isMelisma": true,
@@ -1242,7 +1243,13 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaBelow",
-        "vocalExpressionNeume": "Psifiston",
+        "vocalExpressionNeume": "HomalonConnecting",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "gorgonNeume": "Gorgon_Top",
         "isMelisma": true
       },
       {
@@ -1258,13 +1265,27 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "vocalExpressionNeume": "HeteronConnecting",
+        "measureBarLeft": "MeasureBarTop",
+        "lyrics": "of",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarShortTheseos",
-        "lyrics": "of"
+        "isMelisma": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentimaAbove",
+        "quantitativeNeume": "OligonPlusHypsiliRight",
         "measureBarLeft": "MeasureBarShortDouble",
         "vareia": true,
         "lyrics": "God",
@@ -1541,6 +1562,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "vareia": true,
         "lyrics": "thee",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1548,8 +1570,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "isMelisma": true,
-        "spaceAfter": 2.6666666666666665
+        "isMelisma": true
       },
       {
         "elementType": "Note",
