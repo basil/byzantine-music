@@ -947,6 +947,46 @@
         "alignRight": true
       },
       {
+        "elementType": "TextBox",
+        "alignment": "left",
+        "color": "#000000",
+        "content": "",
+        "contentLeft": "",
+        "contentCenter": "",
+        "contentRight": "",
+        "fontSize": 8,
+        "fontFamily": "Omega",
+        "strokeWidth": 0,
+        "height": 10
+      },
+      {
+        "elementType": "TextBox",
+        "alignment": "center",
+        "color": "#CD1041",
+        "content": "The priest censeth the Holy Table and the people, or the house where\nthe Canon is being chanted; and we chant the following Megalynaria:",
+        "contentLeft": "",
+        "contentCenter": "",
+        "contentRight": "",
+        "fontSize": 16,
+        "fontFamily": "Palatino Linotype",
+        "strokeWidth": 0,
+        "italic": true,
+        "height": 44
+      },
+      {
+        "elementType": "TextBox",
+        "alignment": "left",
+        "color": "#000000",
+        "content": "",
+        "contentLeft": "",
+        "contentCenter": "",
+        "contentRight": "",
+        "fontSize": 8,
+        "fontFamily": "Omega",
+        "strokeWidth": 0,
+        "height": 10
+      },
+      {
         "elementType": "DropCap",
         "content": "H",
         "fontFamily": "Palatino Linotype",
@@ -1708,6 +1748,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "ison": "Ison.Unison",
         "lyrics": "er"
       },
       {
@@ -1738,13 +1779,11 @@
         "auto": true,
         "note": "Ga",
         "rootSign": "Delta",
-        "scale": "Diatonic",
-        "measureBarLeft": "MeasureBarTopAbove"
+        "scale": "Diatonic"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "ison": "Ison.Ni",
         "lyrics": "re",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1752,12 +1791,14 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "PetastiPlusOligon",
+        "measureBarLeft": "MeasureBarTop",
+        "ison": "Ison.Ni",
         "lyrics": "ceive"
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "sup",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -2125,8 +2166,7 @@
         "auto": true,
         "note": "Ga",
         "rootSign": "Delta",
-        "scale": "Diatonic",
-        "measureBarLeft": "MeasureBarTopAbove"
+        "scale": "Diatonic"
       },
       {
         "elementType": "Note",
@@ -2141,12 +2181,13 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Petasti",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "ode"
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "most"
       },
       {
@@ -2511,8 +2552,7 @@
         "auto": true,
         "note": "Ga",
         "rootSign": "Delta",
-        "scale": "Diatonic",
-        "measureBarLeft": "MeasureBarTopAbove"
+        "scale": "Diatonic"
       },
       {
         "elementType": "Note",
@@ -2531,6 +2571,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "fuse"
       },
       {
@@ -2944,7 +2985,8 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "Psifiston",
         "lyrics": "ho",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -2952,7 +2994,7 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "ly"
       },
       {
