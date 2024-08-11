@@ -326,7 +326,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Vou",
         "lyrics": "hree",
         "isMelisma": true,
@@ -355,7 +354,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "Youths",
         "isMelisma": true,
         "isMelismaStart": true
@@ -901,7 +900,7 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "ag",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -917,7 +916,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "measureBarRight": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "es."
       },
       {
@@ -988,7 +987,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "save",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1002,6 +1001,7 @@
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "timeNeume": "Klasma_Top",
+        "measureBarLeft": "MeasureBarShortTheseosAbove",
         "lyrics": "us."
       },
       {
@@ -1026,9 +1026,14 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Vou",
-        "lyrics": "hy",
+        "lyrics": "hy"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "measureBarLeft": "MeasureBarShortDouble",
+        "lyrics": "womb",
         "isMelisma": true,
         "isMelismaStart": true
       },
@@ -1041,13 +1046,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "timeNeume": "Klasma_Top",
-        "lyrics": "womb"
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "hath"
       },
       {
@@ -1062,7 +1060,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "ceived",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1598,7 +1596,7 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "ag",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1614,7 +1612,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "measureBarRight": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "es."
       },
       {
@@ -1685,7 +1683,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "save",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1699,6 +1697,7 @@
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "timeNeume": "Klasma_Top",
+        "measureBarLeft": "MeasureBarShortTheseosAbove",
         "lyrics": "us."
       },
       {
@@ -1723,22 +1722,13 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Vou",
-        "lyrics": "lest",
-        "isMelisma": true,
-        "isMelismaStart": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "KentemataPlusOligon",
-        "gorgonNeume": "Gorgon_Top",
-        "isMelisma": true
+        "lyrics": "lest"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "timeNeume": "Klasma_Top",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "Mo",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1746,8 +1736,14 @@
       },
       {
         "elementType": "Note",
+        "quantitativeNeume": "KentemataPlusOligon",
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "ses"
       },
       {
@@ -1759,7 +1755,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "proph",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -2319,7 +2315,7 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "ag",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -2335,7 +2331,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "measureBarRight": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "es."
       },
       {
@@ -2420,6 +2416,7 @@
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "timeNeume": "Klasma_Top",
+        "measureBarRight": "MeasureBarTop",
         "lyrics": "us."
       },
       {
@@ -3148,7 +3145,7 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "Spir",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -3164,7 +3161,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "measureBarRight": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "it."
       },
       {
@@ -3189,9 +3186,14 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Vou",
-        "lyrics": "he",
+        "lyrics": "he"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "measureBarLeft": "MeasureBarTop",
+        "lyrics": "dead",
         "isMelisma": true,
         "isMelismaStart": true
       },
@@ -3204,13 +3206,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "timeNeume": "Klasma_Top",
-        "lyrics": "dead"
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "are,"
       },
       {
@@ -3222,7 +3217,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "thee,",
         "isMelisma": true,
         "isMelismaStart": true
@@ -3475,7 +3470,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Dipli",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "quent;"
       },
       {
@@ -3483,11 +3478,14 @@
         "auto": true,
         "note": "Pa",
         "rootSign": "Alpha",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "OligonPlusKentimaBelow",
+        "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Unison",
         "lyrics": "lep",
         "isMelisma": true,
@@ -3496,29 +3494,28 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarShortTheseos",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "ers"
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "are"
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Petasti",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "quantitativeNeume": "Oligon",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "cleansed,"
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Oligon",
         "lyrics": "all"
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentima",
+        "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Thi",
         "lyrics": "mal",
@@ -3950,7 +3947,6 @@
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarTop",
-        "measureBarRight": "MeasureBarTop",
         "lyrics": "men."
       },
       {
@@ -3975,24 +3971,25 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Vou"
       },
       {
         "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "measureBarLeft": "MeasureBarTop",
+        "lyrics": "thou",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
-        "gorgonNeume": "Gorgon_Top"
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "timeNeume": "Klasma_Top",
-        "lyrics": "thou"
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "who"
       },
       {
@@ -4004,7 +4001,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "bear",
         "isMelisma": true,
         "isMelismaStart": true
@@ -4587,7 +4584,7 @@
       }
     ],
     "lyrics": {
-      "text": "Three__ guilt-less Youths cast in the fur--nace were saved__ by the Off-spring which the The-o-to-kos bare, then in fig-ure and in type, now in ver-y truth and__ deed; and He hath gath-ered all the world, which cri-eth out__ in__ chant: Ye works of His,__ O sing the Lord’s prais-es, and ex-alt Him great--ly for ag-es and all ag--es.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nThy__ womb hath re-ceived the Word and Mas--ter; thou held--est with-in thee Him Who doth sus-tain all things. With thy milk, O most pure Maid, thou didst feed and nour-ish__ Him Who, by a nod, doth nour-ish all the world; to Him__ we__ chant: Ye works of His,__ O sing the Lord’s prais-es, and ex-alt Him great--ly for ag-es and all ag--es.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nBlest__ Mo-ses the proph-et did per-ceive__ in the bush__ thy most won-drous child-birth’s awe-some mys-ter-y; this too did the god-ly Youths once clear-ly de-pict of__ old, as they stood in the flam-ing fire and were not burned__ there--by, O un-de-filed__ and most ho-ly Vir-gin; hence, we all ex-alt__ thee to ag-es and all ag--es.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nWe__ that by de-ceit were once stripped na--ked are clothed__ with blest in-cor-rup-tion by thy bring-ing forth; though we sat in sin’s dark night, through thee we have seen the__ light; for thou, O Maid-en full of grace, art an a-bode__ of the Light. For this, we chant__ and cry out thy prais-es, and ex-alt thee great--ly for ag-es and all ag--es.\n\nGlo-ry to the Fa-ther, and to the Son, and to the Ho-ly Spir--it.\n\nThe__ dead are, through thee, O Vir-gin, quick--ened, for thou__ didst give birth to Christ, the hy-po-stat-ic Life; they that were be-reft of speech, through thee, are made el-o--quent; lep-ers are cleansed, all mal-a-dies are cast a-way__ from__ us; the mul-ti-tude__ of aer-i-al spir-its suf-fer-eth de-feat,__ O sal-va-tion of all mor--tals.\n\nBoth now and ev--er, and un-to the ag--es of ag-es. A-men.\n\nO_ _ thou who didst bear the world’s Sal-va--tion, through thee__ are we raised from earth un-to the Heav-ens’ heights. Re-joice, O all-blest Maid, for thou art the shel-ter and de--fence, the wall and ram-part, O pure one, of them that cry__ in__ chant: Ye works of His,__ O sing the Lord’s prais-es, and ex-alt Him great--ly for ag-es and all ag--es."
+      "text": "Three__ guilt-less Youths cast in the fur--nace were saved__ by the Off-spring which the The-o-to-kos bare, then in fig-ure and in type, now in ver-y truth and__ deed; and He hath gath-ered all the world, which cri-eth out__ in__ chant: Ye works of His,__ O sing the Lord’s prais-es, and ex-alt Him great--ly for ag-es and all ag--es.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nThy womb__ hath re-ceived the Word and Mas--ter; thou held--est with-in thee Him Who doth sus-tain all things. With thy milk, O most pure Maid, thou didst feed and nour-ish__ Him Who, by a nod, doth nour-ish all the world; to Him__ we__ chant: Ye works of His,__ O sing the Lord’s prais-es, and ex-alt Him great--ly for ag-es and all ag--es.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nBlest Mo--ses the proph-et did per-ceive__ in the bush__ thy most won-drous child-birth’s awe-some mys-ter-y; this too did the god-ly Youths once clear-ly de-pict of__ old, as they stood in the flam-ing fire and were not burned__ there--by, O un-de-filed__ and most ho-ly Vir-gin; hence, we all ex-alt__ thee to ag-es and all ag--es.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nWe__ that by de-ceit were once stripped na--ked are clothed__ with blest in-cor-rup-tion by thy bring-ing forth; though we sat in sin’s dark night, through thee we have seen the__ light; for thou, O Maid-en full of grace, art an a-bode__ of the Light. For this, we chant__ and cry out thy prais-es, and ex-alt thee great--ly for ag-es and all ag--es.\n\nGlo-ry to the Fa-ther, and to the Son, and to the Ho-ly Spir--it.\n\nThe dead__ are, through thee, O Vir-gin, quick--ened, for thou__ didst give birth to Christ, the hy-po-stat-ic Life; they that were be-reft of speech, through thee, are made el-o--quent; lep-ers are cleansed, all mal-a-dies are cast a-way__ from__ us; the mul-ti-tude__ of aer-i-al spir-its suf-fer-eth de-feat,__ O sal-va-tion of all mor--tals.\n\nBoth now and ev--er, and un-to the ag--es of ag-es. A-men.\n\nO_ thou__ who didst bear the world’s Sal-va--tion, through thee__ are we raised from earth un-to the Heav-ens’ heights. Re-joice, O all-blest Maid, for thou art the shel-ter and de--fence, the wall and ram-part, O pure one, of them that cry__ in__ chant: Ye works of His,__ O sing the Lord’s prais-es, and ex-alt Him great--ly for ag-es and all ag--es."
     }
   }
 }
