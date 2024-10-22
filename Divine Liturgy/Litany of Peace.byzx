@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.4.52",
+  "appVersion": "0.4.53",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -232,7 +232,7 @@
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#000000",
-        "content": "Litany of Peace",
+        "content": "The Litany of Peace",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
@@ -640,8 +640,7 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "mer",
         "isMelisma": true,
@@ -650,13 +649,21 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "OligonPlusKentimaBelow",
+        "gorgonNeume": "Gorgon_Top",
+        "vocalExpressionNeume": "Antikenoma",
         "isMelisma": true,
         "isHyphen": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "RunningElaphron",
         "timeNeume": "Klasma_Top",
         "measureBarRight": "MeasureBarTop",
         "lyrics": "cy."
@@ -1147,7 +1154,7 @@
       }
     ],
     "lyrics": {
-      "text": "Lord,___ have mer--cy.\n\nLord,___ have mer-cy.\n\nLord,___ have mer-cy.\n\nLord,__ have mer--cy.\n\nLord,__ have mer--cy.\n\nLord,__ have mer----cy. \n\nLord,__ have mer-cy.\n\nLord, have__ mer--cy.\n\nLord, have mer--cy.\n\nLord, have mer-cy.\n\nLord, have mer--cy.\n\nLord,__ have mer--cy.\n\nTo Thee, O Lord."
+      "text": "Lord,___ have mer--cy.\n\nLord,___ have mer-cy.\n\nLord,___ have mer-cy.\n\nLord,__ have mer--cy.\n\nLord,__ have mer---cy.\n\nLord,__ have mer----cy. \n\nLord,__ have mer-cy.\n\nLord, have__ mer--cy.\n\nLord, have mer--cy.\n\nLord, have mer-cy.\n\nLord, have mer--cy.\n\nLord,__ have mer--cy.\n\nTo Thee, O Lord."
     }
   }
 }
