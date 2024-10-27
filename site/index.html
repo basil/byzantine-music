@@ -1,161 +1,594 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="utf-8">
-		<title>Byzantine Music</title>
-		<style>
-			body {
-				margin: 0;
-			}
-			#header {
-				background-color: #ddd;
-				padding: 0.5em 3%;
-			}
-			#body {
-				margin-left: 3%;
-				margin-right: 3%;
-			}
-		</style>
-	</head>
-	<body>
-		<div id="header">
-			<a href="/">Byzantine Music</a>
-		</div>
-		<div id="body">
-			<h1>Byzantine Music</h1>
-			<h2>Axion Estin</h2>
-			<p>Additional information coming soon&hellip;</p>
-			<h3>First Mode</h3>
-			<ul>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Slow%20Heirmologic.pdf">Slow Heirmologic</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Sticheraric.pdf">Sticheraric</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Slow%20Pann.pdf">Adapted from Anton Pann</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou (Heptaphonic)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Arvanitis%20Isfahan.pdf">Adapted from Ioannis Arvanitis (Triphonic / Makam Isfahân)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Arvanitis%20Modern.pdf">Adapted from Ioannis Arvanitis</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Theophanes.pdf">Adapted from Father Theophanes of Vatopedi (Heptaphonic)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Nectarius.pdf">Adapted from Nectarius of Prodromos</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Al-Murr.pdf">Adapted from Mitri Al-Murr</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Dositheus%20Saba.pdf">Adapted from Father Dositheus Paraskevaides of Katounakia (Makam Sabâ)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Dositheus%20Tahir.pdf">Adapted from Father Dositheus Paraskevaides of Katounakia (Heptaphonic / Makam Tâhir)</a></li>
-			</ul>
-			<h3>Second Mode</h3>
-			<ul>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Customary.pdf">Adapted from the customary melody</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Chourmouzios.pdf">Adapted from Chourmouzios the Archivist</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Arvanitis%20Diphonic%20Customary.pdf">Adapted from Ioannis Arvanitis (Diphonic)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Arvanitis.pdf">Adapted from Ioannis Arvanitis</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Deuteroprotos%20Sourlantzes.pdf">Adapted from Demetrius Sourlantzes (Deuteroprotos / Makam Karcığar)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Deuteroprotos%20Philanthides.pdf">Adapted from Peter Philanthides (Deuteroprotos / Makam Karcığar)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Pringos.pdf">Adapted from Constantine Pringos (Deuterotetartos / Makam Hüzzâm)</a></li>
-			</ul>
-			<h3>Third Mode</h3>
-			<ul>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Peter%20Byzantius.pdf">Adapted from Peter Byzantius the Agiotaphite</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Phokaeus.pdf">Adapted from Theodore Phokæus (Enharmonic)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Arvanitis.pdf">Adapted from Ioannis Arvanitis</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Theophanes.pdf">Adapted from Father Theophanes of Vatopedi (Triphonic)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Al-Murr.pdf">Adapted from Mitri Al-Murr</a></li>
-			</ul>
-			<h3>Fourth Mode</h3>
-			<ul>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Agia%20Gregory.pdf">Adapted from Gregory the Protopsaltis (Agia)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Legetos%20Phokaeus.pdf">Adapted from Theodore Phokæus (Legetos)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Chourmouzios.pdf">Adapted from Chourmouzios the Archivist (Sticheraric)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Agia.pdf">Agia (based on the Slow Doxology by Peter the Peloponnesian)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Agia%20Arvanitis%201.pdf">Adapted from Ioannis Arvanitis (Agia)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Agia%20Arvanitis%202.pdf">Adapted from Ioannis Arvanitis (Agia)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Agia%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou (Agia)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Legetos.pdf">Legetos</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Legetos%20Greek.pdf">Legetos (Greek)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Legetos%20Arvanitis.pdf">Adapted from Ioannis Arvanitis (Legetos)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Humayun.pdf">Adapted from Eustathius Timonides and Demetrius Vasiades (Chromatic / Makam Hümâyûn)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Mavropoulos.pdf">Adapted from Demetrius Mavropoulos (Zygos / Makam Müsteâr)</a></li>
-			</ul>
-			<h3>Plagal First Mode</h3>
-			<ul>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Patriarchal.pdf">Adapted from the Patriarchal melody</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Gregory.pdf">Adapted from Gregory the Protopsaltis (Slow Heirmologic)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Sticheraric.pdf">Sticheraric</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Nectarius.pdf">Adapted from Nectarius the Monk (based on the Slow Doxology by Peter Byzantius)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Papagiannes.pdf">Adapted from Father Constantine Papagiannes (Makam Bûselik)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou (Phrygian)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Arvanitis%20Evlogitaria.pdf">Adapted from Ioannis Arvanitis (based on the Slow Evlogitaria by Peter the Peloponnesian)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Arvanitis%20Tetraphonic.pdf">Adapted from Ioannis Arvanitis (Tetraphonic)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Pann.pdf">Adapted from the anonymous old Romanian national melody transcribed by Anton Pann</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Psachos%20Acem.pdf">Adapted from Constantine Psachos (Makam Acem)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Acem.pdf">Pentaphonic / Makam Acem</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Acem%20Greek.pdf">Pentaphonic / Makam Acem (Greek)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Nikolaides.pdf">Adapted from Basil Nikolaides (Makam Acem)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Theophanes.pdf">Adapted from Father Theophanes of Vatopedi (Makam Acem)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Pringos.pdf">Adapted from Constantine Pringos (Heptaphonic / Makam Acem-Kürdî)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Keltzanides%20Acem-Kurdi.pdf">Adapted from Panagiotes Keltzanides (Pentaphonic / Makam Acem-Kürdî)</a>
-                                <li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Al-Murr%20Acem-Kurdi.pdf">Adapted from Mitri Al-Murr (Pentaphonic / Makam Acem-Kürdî)</a>
-                                <li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Keltzanides%20Hisar-Buselik.pdf">Adapted from Panagiotes Keltzanides (Tetraphonic / Makam Hisâr-Bûselik)</a>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Pringos%20Hisar-Buselik.pdf">Adapted from Constantine Pringos (Tetraphonic / Makam Hisâr-Bûselik)</a></li>
-                                <li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Al-Murr%20Hisar-Buselik.pdf">Adapted from Mitri Al-Murr (Tetraphonic / Makam Hisâr-Bûselik)</a>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Chrysopolites.pdf">Adapted from Kyriazes Chrysopolites (Makam Hüseynî-Aşîrân)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Psachos.pdf">Adapted from Constantine Psachos (Makam Hüseynî-Aşîrân)</a></li>
-                                <li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Ohridski.pdf">Adapted from Joan Harmosin-Ohridski</a>
-			</ul>
-			<h3>Plagal Second Mode</h3>
-			<ul>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Sticheraric.pdf">Sticheraric</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Phokaeus.pdf">Adapted from Theodore Phokæus</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Peter%20of%20Ephesus.pdf">Adapted from Peter of Ephesus</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Arvanitis%201.pdf">Adapted from Ioannis Arvanitis</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Arvanitis%202.pdf">Adapted from Ioannis Arvanitis</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Arvanitis%203.pdf">Adapted from Ioannis Arvanitis</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Arvanitis%204.pdf">Adapted from Ioannis Arvanitis</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Arvanitis%20Nenano.pdf">Adapted from Ioannis Arvanitis (Nenano)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Anonymous.pdf">Adapted from an anonymous composition</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Triantaphyllus%20Georgiades.pdf">Adapted from Triantaphyllus Georgiades (Heptaphonic / Makam Hicâzkâr)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou (Heptaphonic / Makam Hicâzkâr)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Al-Murr%20Hicazkar.pdf">Adapted from Mitri Al-Murr (Heptaphonic / Makam Hicâzkâr)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Dositheus.pdf">Adapted from Father Dositheus Paraskevaides of Katounakia (Heptaphonic / Makam Hicâzkâr)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Theodosopoulos Hicazkar-Kurdi.pdf">Adapted from Chrysanthus Theodosopoulos (Heptaphonic / Makam Hicâzkâr-Kürdî)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Al-Murr%20Sehnaz.pdf">Adapted from Mitri Al-Murr (Makam Şehnâz)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Sykiotes.pdf">Adapted from Meletius Sykiotes (Makam Zirgüle-Hicâz)</a></li>
-			</ul>
-			<h3>Grave Mode</h3>
-			<ul>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Diatonic%20Phokaeus.pdf">Adapted from Theodore Phokæus (Diatonic / Makam Eviç)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Enharmonic%20Phokaeus.pdf">Adapted from Theodore Phokæus (Enharmonic / Makam Acem-Aşîrân)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Protovarys.pdf">Adapted from Gregory the Protopsaltis (Protovarys / Makam Irak)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Beste-Nigar%20Gregory.pdf">Adapted from Gregory the Protopsaltis (Tetraphonic / Makam Beste-Nigâr)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Cremeens.pdf">Adapted from Gabriel Cremeens (sticheraric)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Arvanitis%20Customary.pdf">Adapted from Ioannis Arvanitis (based on the Customary Melody in Second Mode)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Arvanitis%201.pdf">Adapted from Ioannis Arvanitis</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Arvanitis%202.pdf">Adapted from Ioannis Arvanitis</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Keltzanides%20Rahatul-Ervah.pdf">Adapted from Panagiotes Keltzanides (Chromatic / Makam Rahâtül-Ervâh)</a>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Pringos.pdf">Adapted from Constantine Pringos (Diatonic / Makam Eviç)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Misaelides.pdf">Adapted from Misael Misaelides (Enharmonic / Makam Şevk-Efzâ)</a>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Ferahnak.pdf">Makam Ferâhnâk</a></li>
-			</ul>
-			<h3>Plagal Fourth Mode</h3>
-			<ul>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204.pdf">Sticheraric</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Anastasius%20from%20Parla%20of%20Pisidia.pdf">Adapted from Anastasius from Parla of Pisidia</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Gregory.pdf">Adapted from Gregory the Protopsaltis (Enharmonic)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Arvanitis%20Haplous.pdf">Adapted from Ioannis Arvanitis</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Elaborate.pdf">Sticheraric</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Elaborate%20Greek.pdf">Sticheraric (Greek)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Arvanitis.pdf">Adapted from Ioannis Arvanitis</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Arvanitis%20Mahur-Nikriz.pdf">Adapted from Ioannis Arvanitis (Heptaphonic / Makam Mâhûr-Nikrîz)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Keltzanides%20Suzinak.pdf">Adapted from Panagiotes Keltzanides (Chromatic / Makam Sûzinâk)</a>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Nectarius.pdf">Adapted from Nectarius of Prodromos (Chromatic / Makam Sûzinâk)</a>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Papanikolaou.pdf">Adapted from Charalampus Papanikolaou (Heptaphonic / Makam Mâhûr)</a>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Al-Murr%20Nisabur.pdf">Adapted from Mitri Al-Murr (Kliton / Makam Nişâbûr)</a></li>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Dositheus.pdf">Adapted from Father Dositheus Paraskevaides of Katounakia (Heptaphonic / Makam Mâhûr)</a></li>
-			</ul>
-			<h3>Other</h3>
-			<ul>
-				<li><a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Oktaechon.pdf">In the Eight Modes</a></li>
-			</ul>
-		</div>
-	</body>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Byzantine Music</title>
+  <style>
+  body {
+    margin: 0;
+  }
+  #header {
+    background-color: #ddd;
+    padding: 0.5em 3%;
+  }
+  #body {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <a href="/">Byzantine Music</a>
+  </div>
+  <div id="body">
+    <h1>Byzantine Music</h1>
+    <h2>Orthros</h2>
+    <h3>Evlogitaria</h3>
+    <ul>
+      <li>
+        <a href="tmp/Orthros/Evlogitaria%20-%20Slow%20Heirmologic.pdf">Slow Heirmologic</a>
+      </li>
+    </ul>
+    <h3>Eothinon Gospel and Psalm 50</h3>
+    <ul>
+      <li>
+        <a href="tmp/Orthros/Eothinon%20Gospel%20and%20Psalm%2050/Post-Gospel%20Troparia%208.pdf">Post-Gospel Troparia (Plagal of Fourth Mode)</a>
+      </li>
+    </ul>
+    <h2>Divine Liturgy</h2>
+    <ul>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Litany%20of%20Peace.pdf">Litany of Peace</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/First%20Antiphon.pdf">First Antiphon</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Second%20Antiphon.pdf">Second Antiphon</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Entrance%20Hymn.pdf">Entrance Hymn</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Blessed%20be%20the%20Name%20of%20the%20Lord.pdf">Blessed be the Name</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/We%20have%20seen%20the%20true%20Light.pdf">We have seen the true Light</a>
+      </li>
+    </ul>
+    <h3>Trisagia and Dynamis</h3>
+    <ul>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Trisagion%20and%20Dynamis/Trisagion%202%20Sourlantzes.pdf">Trisagion (SOurlantzes)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Trisagion%20and%20Dynamis/Trisagion%202%20Brief.pdf">Trisagion (Brief)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Trisagion%20and%20Dynamis/All%20ye%20that%20in%20Christ.pdf">All ye that in Christ</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Trisagion%20and%20Dynamis/All%20ye%20that%20in%20Christ%20-%20Dynamis%20Ancient.pdf">All yet that in Christ (Dynamis)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Trisagion%20and%20Dynamis/Thy%20Cross%20do%20we%20worship.pdf">Thy Cross</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Trisagion%20and%20Dynamis/O%20Lord%20save%20the%20pious.pdf">O Lord, save the pious</a>
+      </li>
+    </ul>
+    <h3>Leitourgika and Axion Estin</h3>
+    <h4>First Mode</h4>
+    <ul>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Leitourgika%201.pdf">Leitourgika</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Slow%20Heirmologic.pdf">Slow Heirmologic</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Sticheraric.pdf">Sticheraric</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Slow%20Pann.pdf">Adapted from Anton Pann</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou (Heptaphonic)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Arvanitis%20Isfahan.pdf">Adapted from Ioannis Arvanitis (Triphonic / Makam Isfahân)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Arvanitis%20Modern.pdf">Adapted from Ioannis Arvanitis</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Theophanes.pdf">Adapted from Father Theophanes of Vatopedi (Heptaphonic)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Nectarius.pdf">Adapted from Nectarius of Prodromos</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Al-Murr.pdf">Adapted from Mitri Al-Murr</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Dositheus%20Saba.pdf">Adapted from Father Dositheus Paraskevaides of Katounakia (Makam Sabâ)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%201%20Dositheus%20Tahir.pdf">Adapted from Father Dositheus Paraskevaides of Katounakia (Heptaphonic / Makam Tâhir)</a>
+      </li>
+    </ul>
+    <h4>Second Mode</h4>
+    <ul>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Customary.pdf">Adapted from the customary melody</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Chourmouzios.pdf">Adapted from Chourmouzios the Archivist</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Arvanitis%20Diphonic%20Customary.pdf">Adapted from Ioannis Arvanitis (Diphonic)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Arvanitis.pdf">Adapted from Ioannis Arvanitis</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Deuteroprotos%20Sourlantzes.pdf">Adapted from Demetrius Sourlantzes (Deuteroprotos / Makam Karcığar)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Deuteroprotos%20Philanthides.pdf">Adapted from Peter Philanthides (Deuteroprotos / Makam Karcığar)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%202%20Pringos.pdf">Adapted from Constantine Pringos (Deuterotetartos / Makam Hüzzâm)</a>
+      </li>
+    </ul>
+    <h4>Third Mode</h4>
+    <ul>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Peter%20Byzantius.pdf">Adapted from Peter Byzantius the Agiotaphite</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Phokaeus.pdf">Adapted from Theodore Phokæus (Enharmonic)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Arvanitis.pdf">Adapted from Ioannis Arvanitis</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Theophanes.pdf">Adapted from Father Theophanes of Vatopedi (Triphonic)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%203%20Al-Murr.pdf">Adapted from Mitri Al-Murr</a>
+      </li>
+    </ul>
+    <h4>Fourth Mode</h4>
+    <ul>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Agia%20Gregory.pdf">Adapted from Gregory the Protopsaltis (Agia)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Legetos%20Phokaeus.pdf">Adapted from Theodore Phokæus (Legetos)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Chourmouzios.pdf">Adapted from Chourmouzios the Archivist (Sticheraric)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Agia.pdf">Agia (based on the Slow Doxology by Peter the Peloponnesian)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Agia%20Arvanitis%201.pdf">Adapted from Ioannis Arvanitis (Agia)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Agia%20Arvanitis%202.pdf">Adapted from Ioannis Arvanitis (Agia)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Agia%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou (Agia)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Legetos.pdf">Legetos</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Legetos%20Greek.pdf">Legetos (Greek)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Legetos%20Arvanitis.pdf">Adapted from Ioannis Arvanitis (Legetos)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Humayun.pdf">Adapted from Eustathius Timonides and Demetrius Vasiades (Chromatic / Makam Hümâyûn)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%204%20Mavropoulos.pdf">Adapted from Demetrius Mavropoulos (Zygos / Makam Müsteâr)</a>
+      </li>
+    </ul>
+    <h4>Plagal First Mode</h4>
+    <ul>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Patriarchal.pdf">Adapted from the Patriarchal melody</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Gregory.pdf">Adapted from Gregory the Protopsaltis (Slow Heirmologic)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Sticheraric.pdf">Sticheraric</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Nectarius.pdf">Adapted from Nectarius the Monk (based on the Slow Doxology by Peter Byzantius)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Papagiannes.pdf">Adapted from Father Constantine Papagiannes (Makam Bûselik)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou (Phrygian)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Arvanitis%20Evlogitaria.pdf">Adapted from Ioannis Arvanitis (based on the Slow Evlogitaria by Peter the Peloponnesian)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Arvanitis%20Tetraphonic.pdf">Adapted from Ioannis Arvanitis (Tetraphonic)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Pann.pdf">Adapted from the anonymous old Romanian national melody transcribed by Anton Pann</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Psachos%20Acem.pdf">Adapted from Constantine Psachos (Makam Acem)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Acem.pdf">Pentaphonic / Makam Acem</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Acem%20Greek.pdf">Pentaphonic / Makam Acem (Greek)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Nikolaides.pdf">Adapted from Basil Nikolaides (Makam Acem)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Theophanes.pdf">Adapted from Father Theophanes of Vatopedi (Makam Acem)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Pringos.pdf">Adapted from Constantine Pringos (Heptaphonic / Makam Acem-Kürdî)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Keltzanides%20Acem-Kurdi.pdf">Adapted from Panagiotes Keltzanides (Pentaphonic / Makam Acem-Kürdî)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Al-Murr%20Acem-Kurdi.pdf">Adapted from Mitri Al-Murr (Pentaphonic / Makam Acem-Kürdî)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Keltzanides%20Hisar-Buselik.pdf">Adapted from Panagiotes Keltzanides (Tetraphonic / Makam Hisâr-Bûselik)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Pringos%20Hisar-Buselik.pdf">Adapted from Constantine Pringos (Tetraphonic / Makam Hisâr-Bûselik)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Al-Murr%20Hisar-Buselik.pdf">Adapted from Mitri Al-Murr (Tetraphonic / Makam Hisâr-Bûselik)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Chrysopolites.pdf">Adapted from Kyriazes Chrysopolites (Makam Hüseynî-Aşîrân)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Psachos.pdf">Adapted from Constantine Psachos (Makam Hüseynî-Aşîrân)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%201%20Ohridski.pdf">Adapted from Joan Harmosin-Ohridski</a>
+      </li>
+    </ul>
+    <h4>Plagal Second Mode</h4>
+    <ul>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Sticheraric.pdf">Sticheraric</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Phokaeus.pdf">Adapted from Theodore Phokæus</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Peter%20of%20Ephesus.pdf">Adapted from Peter of Ephesus</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Arvanitis%201.pdf">Adapted from Ioannis Arvanitis</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Arvanitis%202.pdf">Adapted from Ioannis Arvanitis</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Arvanitis%203.pdf">Adapted from Ioannis Arvanitis</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Arvanitis%204.pdf">Adapted from Ioannis Arvanitis</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Arvanitis%20Nenano.pdf">Adapted from Ioannis Arvanitis (Nenano)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Anonymous.pdf">Adapted from an anonymous composition</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Triantaphyllus%20Georgiades.pdf">Adapted from Triantaphyllus Georgiades (Heptaphonic / Makam Hicâzkâr)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou (Heptaphonic / Makam Hicâzkâr)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Al-Murr%20Hicazkar.pdf">Adapted from Mitri Al-Murr (Heptaphonic / Makam Hicâzkâr)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Dositheus.pdf">Adapted from Father Dositheus Paraskevaides of Katounakia (Heptaphonic / Makam Hicâzkâr)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Theodosopoulos%20Hicazkar-Kurdi.pdf">Adapted from Chrysanthus Theodosopoulos (Heptaphonic / Makam Hicâzkâr-Kürdî)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Al-Murr%20Sehnaz.pdf">Adapted from Mitri Al-Murr (Makam Şehnâz)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%202%20Sykiotes.pdf">Adapted from Meletius Sykiotes (Makam Zirgüle-Hicâz)</a>
+      </li>
+    </ul>
+    <h4>Grave Mode</h4>
+    <ul>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Diatonic%20Phokaeus.pdf">Adapted from Theodore Phokæus (Diatonic / Makam Eviç)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Enharmonic%20Phokaeus.pdf">Adapted from Theodore Phokæus (Enharmonic / Makam Acem-Aşîrân)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Protovarys.pdf">Adapted from Gregory the Protopsaltis (Protovarys / Makam Irak)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Beste-Nigar%20Gregory.pdf">Adapted from Gregory the Protopsaltis (Tetraphonic / Makam Beste-Nigâr)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Cremeens.pdf">Adapted from Gabriel Cremeens (sticheraric)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Arvanitis%20Customary.pdf">Adapted from Ioannis Arvanitis (based on the Customary Melody in Second Mode)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Arvanitis%201.pdf">Adapted from Ioannis Arvanitis</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Arvanitis%202.pdf">Adapted from Ioannis Arvanitis</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Keltzanides%20Rahatul-Ervah.pdf">Adapted from Panagiotes Keltzanides (Chromatic / Makam Rahâtül-Ervâh)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Pringos.pdf">Adapted from Constantine Pringos (Diatonic / Makam Eviç)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Misaelides.pdf">Adapted from Misael Misaelides (Enharmonic / Makam Şevk-Efzâ)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Grave%20Ferahnak.pdf">Makam Ferâhnâk</a>
+      </li>
+    </ul>
+    <h4>Plagal Fourth Mode</h4>
+    <ul>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Leitourgika%20Pl%204.pdf">Leitourgika</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204.pdf">Sticheraric</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Anastasius%20from%20Parla%20of%20Pisidia.pdf">Adapted from Anastasius from Parla of Pisidia</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Gregory.pdf">Adapted from Gregory the Protopsaltis (Enharmonic)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Arvanitis%20Haplous.pdf">Adapted from Ioannis Arvanitis</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Hatziathanasiou.pdf">Adapted from Michael Hatziathanasiou</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Elaborate.pdf">Sticheraric</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Elaborate%20Greek.pdf">Sticheraric (Greek)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Arvanitis.pdf">Adapted from Ioannis Arvanitis</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Arvanitis%20Mahur-Nikriz.pdf">Adapted from Ioannis Arvanitis (Heptaphonic / Makam Mâhûr-Nikrîz)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Keltzanides%20Suzinak.pdf">Adapted from Panagiotes Keltzanides (Chromatic / Makam Sûzinâk)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Nectarius.pdf">Adapted from Nectarius of Prodromos (Chromatic / Makam Sûzinâk)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Papanikolaou.pdf">Adapted from Charalampus Papanikolaou (Heptaphonic / Makam Mâhûr)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Al-Murr%20Nisabur.pdf">Adapted from Mitri Al-Murr (Kliton / Makam Nişâbûr)</a>
+      </li>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Pl%204%20Dositheus.pdf">Adapted from Father Dositheus Paraskevaides of Katounakia (Heptaphonic / Makam Mâhûr)</a>
+      </li>
+    </ul>
+    <h4>Other</h4>
+    <ul>
+      <li>
+        <a href="tmp/Divine%20Liturgy/Leitourgika%20and%20Axion%20Estin/Axion%20Estin%20Oktaechon.pdf">In the Eight Modes</a>
+      </li>
+    </ul>
+    <h2>Eortologion - Doxastarion</h2>
+    <h3>August</h3>
+    <ul>
+      <li>
+        <a href="tmp/Eortologion%20-%20Doxastarion/Menaion/August/Dismissal%20Hymn%20of%20the%20Transfiguration.pdf">Dismissal Hymn of the Transfiguration</a>
+      </li>
+    </ul>
+    <h3>Triodion</h3>
+    <ul>
+      <li>
+        <a href="tmp/Eortologion%20-%20Doxastarion/Triodion/Joy%20of%20all%20that%20sorrow.pdf">Joy of all that sorrow</a>
+      </li>
+      <li>
+        <a href="tmp/Eortologion%20-%20Doxastarion/Triodion/On%20seeing%20Thine%20unjust%20slaughter.pdf">On seeing Thine unjust slaughter</a>
+      </li>
+      <li>
+        <a href="tmp/Eortologion%20-%20Doxastarion/Triodion/Post-Gospel%20Troparia.pdf">Post-Gospel Troparia</a>
+      </li>
+    </ul>
+    <h3>Pentecostarion</h3>
+    <ul>
+      <li>
+        <a href="tmp/Eortologion%20-%20Doxastarion/Pentecostarion/Stichera%20of%20Pascha.pdf">Stichera of Pascha</a>
+      </li>
+      <li>
+        <a href="tmp/Eortologion%20-%20Doxastarion/Pentecostarion/Doxastikon%20of%20Pascha%20Muaiqel.pdf">Doxastikon of Pascha</a>
+      </li>
+      <li>
+        <a href="tmp/Eortologion%20-%20Doxastarion/Pentecostarion/Prokeimenon%20of%20Pascha.pdf">Prokeimenon of Pascha</a>
+      </li>
+    </ul>
+    <h2>Mysteries and Sacraments</h2>
+    <h3>Akathist</h3>
+    <ul>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Akathist/10%20To%20Thee%20the%20Champion%20Leader%20Classical.pdf">To thee, the Champion Leaer (Classical)</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Akathist/11%20To%20Thee%20the%20Champion%20Leader%20Popular.pdf">To thee, the Champion Leader (Popular)</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Akathist/12%20Rejoice%20Thou%20Bride%20Unwedded.pdf">Rejoice, thou bride unwedded</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Akathist/13%20Awed%20by%20the%20Beauty%20Brief.pdf">Awed by the beauty (brief)</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Akathist/14%20Awed%20by%20the%20Beauty%20Slow.pdf">Awed by the beauty (slow)</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Akathist/15%20When%20the%20Bodiless%20One.pdf">When the bodiless one</a>
+      </li>
+    </ul>
+    <h3>Paraklesis</h3>
+    <ul>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/01%20God%20is%20the%20Lord.pdf">God is the Lord</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/02%20Ode%20One%20-%20Small.pdf">Ode One - Small</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/03%20Ode%20Three%20-%20Small.pdf">Ode Three - Small</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/04%20Ode%20One%20-%20Great.pdf">Ode One - Great</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/05%20Ode%20Three%20-%20Great.pdf">Ode Three - Great</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/06%20Preserve%20and%20save%201.pdf">Preserve and save 1</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/07%20Sessional%20Hymn.pdf">Sessional Hymn</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/08%20Ode%20Four%20-%20Small.pdf">Ode Four - Small</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/09%20Ode%20Five%20-%20Small.pdf">Ode Five - Small</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/10%20Ode%20Six%20-%20Small.pdf">Ode Six - Small</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/11%20Ode%20Four%20-%20Great.pdf">Ode Four - Great</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/12%20Ode%20Five%20-%20Great.pdf">Ode Five - Great</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/13%20Ode%20Six%20-%20Great.pdf">Ode Six - Great</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/14%20Preserve%20and%20save%202.pdf">Preserve and save 2</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/15%20Kontakion.pdf">Kontakion</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/16%20Prokeimenon.pdf">Prokeimenon</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/17%20Post-Gospel%20Troparia.pdf">Post-Gospel Troparia</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/18%20Ode%20Seven%20-%20Small.pdf">Ode Seven - Small</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/19%20Ode%20Eight%20-%20Small.pdf">Ode Eight - Small</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/20%20Ode%20Nine%20-%20Small.pdf">Ode Nine - Small</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/21%20Ode%20Seven%20-%20Great.pdf">Ode Seven - Great</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/22%20Ode%20Eight%20-%20Great.pdf">Ode Eight - Great</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/23%20Ode%20Nine%20-%20Great.pdf">Ode Nine - Great</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/24%20Megalynaria.pdf">Megalynaria</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/25%20Troparia%20of%20Compunction.pdf">Troparia of Compunction</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/26%20Dismissal%20Hymns%20for%20Friday%20Evening.pdf">Dismissal Hymns for Friday Evening</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/27%20Dismissal%20Hymn%20of%20Saint%20Stephen.pdf">Dismissal Hymn of Saint Stephen</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/28%20Dismissal%20Hymn%20of%20the%20Forefeast%20of%20the%20Transfiguration.pdf">Dismissal Hymn of the Forefeast of the Transfiguration</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/29%20Dismissal%20Hymn%20of%20the%20Transfiguration.pdf">Dismissal Hymn of the Transfiguration</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/30%20Dismissal%20Hymn%20of%20the%20Forefeast%20of%20the%20Dormition.pdf">Dismissal Hymn of the Forefeast of the Dormition</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/31b%20Concluding%20Litany.pdf">Concluding Litany</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/31%20Concluding%20Troparia.pdf">Concluding Troparia</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/32%20Exapostilaria.pdf">Exaposteilaria</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/33%20Exapostilaria%20Arvanitis.pdf">Exaposteilaria (Arvanitis)</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/34%20From%20my%20youth.pdf">From my youth</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/35%20Prokeimenon%20Legetos.pdf">Prokeimenon (Legetos)</a>
+      </li>
+      <li>
+        <a href="tmp/Mysteries%20and%20Sacraments/Paraklesis/36%20Speechless%20be%20the%20lips.pdf">Speechless be the lips</a>
+      </li>
+    </ul>
+  </div>
+</body>
 </html>
