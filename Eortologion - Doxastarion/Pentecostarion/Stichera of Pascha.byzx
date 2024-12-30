@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.4.27",
+  "appVersion": "0.4.63",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -23,6 +23,7 @@
     "lyricsDefaultStrokeWidth": 0,
     "lyricsVerticalOffset": -4.800000000000001,
     "lyricsMinimumSpacing": 4.800000000000001,
+    "lyricsMelismaCutoffWidth": 6.666666666666667,
     "neumeDefaultFontFamily": "Neanes",
     "neumeDefaultFontSize": 26.666666666666668,
     "neumeDefaultColor": "#000000",
@@ -83,7 +84,9 @@
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -100,7 +103,9 @@
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -117,7 +122,9 @@
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -134,7 +141,9 @@
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     }
@@ -153,7 +162,9 @@
           "fontSize": 12,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 28
+          "height": 28,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -170,7 +181,9 @@
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -187,7 +200,9 @@
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -204,7 +219,9 @@
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     }
@@ -223,7 +240,9 @@
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
         "bold": true,
-        "height": 32
+        "height": 32,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
         "elementType": "TextBox",
@@ -236,7 +255,9 @@
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
-        "height": 10
+        "height": 10,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
         "elementType": "TextBox",
@@ -250,7 +271,9 @@
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
         "italic": true,
-        "height": 23
+        "height": 22,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
         "elementType": "TextBox",
@@ -263,7 +286,9 @@
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
-        "height": 10
+        "height": 10,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
         "elementType": "TextBox",
@@ -276,7 +301,9 @@
         "fontSize": 16,
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
-        "height": 22
+        "height": 22,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
         "elementType": "TextBox",
@@ -289,7 +316,9 @@
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
-        "height": 10
+        "height": 10,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
         "elementType": "ModeKey",
@@ -298,6 +327,7 @@
         "mode": 5,
         "scale": "Diatonic",
         "scaleNote": "Ke",
+        "tempo": "Quicker",
         "martyria": "ModeSign.Alpha",
         "note": "ModeSign.Ke",
         "quantitativeNeumeAboveNote": "ModeSign.OligonPlusHypsili",
@@ -306,18 +336,14 @@
         "strokeWidth": 0,
         "height": 49,
         "heightAdjustment": 0,
-        "bpm": 120,
+        "marginTop": 0,
+        "marginBottom": 0,
+        "bpm": 208,
         "useDefaultStyle": true,
         "ambitusLowNote": "Pa",
         "ambitusLowRootSign": "Alpha",
         "ambitusHighNote": "Pa",
         "ambitusHighRootSign": "Alpha"
-      },
-      {
-        "elementType": "Tempo",
-        "neume": "Quicker",
-        "bpm": 208,
-        "error": false
       },
       {
         "elementType": "DropCap",
@@ -510,8 +536,6 @@
         "lyrics": "face."
       },
       {
-        "lineBreak": true,
-        "lineBreakType": "Left",
         "elementType": "Martyria",
         "auto": true,
         "note": "Ke",
@@ -733,12 +757,12 @@
         "auto": true,
         "note": "Ke",
         "rootSign": "Alpha",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarShortTheseosAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "an"
       },
       {
@@ -1261,20 +1285,14 @@
         "lyrics": "ful."
       },
       {
-        "lineBreak": true,
-        "lineBreakType": "Left",
         "elementType": "Martyria",
         "auto": true,
         "note": "Ke",
         "rootSign": "Alpha",
         "scale": "Diatonic",
-        "alignRight": true
-      },
-      {
-        "elementType": "Tempo",
-        "neume": "Quicker",
-        "bpm": 208,
-        "error": false
+        "tempo": "QuickerAbove",
+        "alignRight": true,
+        "bpm": 208
       },
       {
         "elementType": "DropCap",
@@ -1341,7 +1359,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIson",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "van",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1375,7 +1393,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "ison": "Ison.Ke",
         "lyrics": "wax",
         "isMelisma": true,
@@ -1443,8 +1461,6 @@
         "measureBarRight": "MeasureBarTop"
       },
       {
-        "lineBreak": true,
-        "lineBreakType": "Left",
         "elementType": "Martyria",
         "auto": true,
         "note": "Ke",
@@ -1525,12 +1541,12 @@
         "auto": true,
         "note": "NiHigh",
         "rootSign": "Nana",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "bear",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -2035,20 +2051,14 @@
         "measureBarRight": "MeasureBarTop"
       },
       {
-        "lineBreak": true,
-        "lineBreakType": "Left",
         "elementType": "Martyria",
         "auto": true,
         "note": "Ke",
         "rootSign": "Alpha",
         "scale": "Diatonic",
-        "alignRight": true
-      },
-      {
-        "elementType": "Tempo",
-        "neume": "Quicker",
-        "bpm": 208,
-        "error": false
+        "tempo": "QuickerAbove",
+        "alignRight": true,
+        "bpm": 208
       },
       {
         "elementType": "DropCap",
@@ -2134,7 +2144,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "God,"
       },
       {
@@ -2159,6 +2169,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "ison": "Ison.Ke",
         "lyrics": "let"
       },
@@ -2171,7 +2182,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "right",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -2197,8 +2208,6 @@
         "lyrics": "glad."
       },
       {
-        "lineBreak": true,
-        "lineBreakType": "Left",
         "elementType": "Martyria",
         "auto": true,
         "note": "Ke",
@@ -2494,14 +2503,14 @@
         "auto": true,
         "note": "Ke",
         "rootSign": "Alpha",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "fthora": "DiatonicKe_Bottom",
-        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Unison",
         "lyrics": "sit",
         "isMelisma": true,
@@ -2895,12 +2904,12 @@
         "auto": true,
         "note": "Ke",
         "rootSign": "Alpha",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "Go,"
       },
       {
@@ -3008,20 +3017,14 @@
         "quantitativeNeume": "VareiaDotted"
       },
       {
-        "lineBreak": true,
-        "lineBreakType": "Left",
         "elementType": "Martyria",
         "auto": true,
         "note": "Ke",
         "rootSign": "Alpha",
         "scale": "Diatonic",
-        "alignRight": true
-      },
-      {
-        "elementType": "Tempo",
-        "neume": "Quicker",
-        "bpm": 208,
-        "error": false
+        "tempo": "QuickerAbove",
+        "alignRight": true,
+        "bpm": 208
       },
       {
         "elementType": "DropCap",
@@ -3083,7 +3086,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "made;"
       },
       {
@@ -3108,6 +3111,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "ison": "Ison.Ke",
         "lyrics": "us"
       },
@@ -3169,8 +3173,6 @@
         "lyrics": "in."
       },
       {
-        "lineBreak": true,
-        "lineBreakType": "Left",
         "elementType": "Martyria",
         "auto": true,
         "note": "Ke",
@@ -3248,13 +3250,13 @@
         "auto": true,
         "note": "ZoHigh",
         "rootSign": "Legetos",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "HeteronConnecting",
-        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Ke",
         "lyrics": "Pas",
         "isMelisma": true,
@@ -3713,13 +3715,13 @@
         "auto": true,
         "note": "NiHigh",
         "rootSign": "Nana",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarShortDoubleAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
-        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "as"
       },
       {
@@ -3772,12 +3774,12 @@
         "auto": true,
         "note": "NiHigh",
         "rootSign": "Nana",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarTop",
         "lyrics": "and"
       },
       {
@@ -3987,7 +3989,7 @@
       }
     ],
     "lyrics": {
-      "text": "Let God a-rise and let His en-e-mies be scat-tered, and let them that hate Him flee__ from be-fore_ His face.\n\nA_ sa-cred Pas-cha hath been shown forth to us to-day; a new and ho-ly Pas--cha, a mys-tic Pas----cha, an all-ven-er-a-ble Pas-cha, a Pas-cha that is Christ__ the_ Re-deem-er; a Pas-cha that is spot-less, a Pas-cha that is great,___ a Pas-cha of the faith-ful, a Pas-cha that hath o---pened to us the gates of Par-a-dise, a Pas--cha that doth hal-low all the faith----ful.\n\nAs smoke van-ish-eth, so let them van-ish; as wax_ melt--eth be-fore_ the fire. \n\nCome__ from that scene, O wom-en, bear-ers of good tid--ings, and say to Si----on: Re-ceive from us the tid-ings of joy, of the Res-ur-rec--tion_ of Christ. O Je-ru-sa-lem, ex-ult,___ dance,__ and_ be glad, for thou hast seen_ Christ the King as a bride--groom come forth__ from the sep--ul--chre. \n\nSo let sin-ners per-ish at the pres-ence of God, and let the right-eous_ be glad.\n\nThe myrrh--bear-ing wom-en at__ the__ break__ of__ dawn__ drew nigh__ to the tomb of the Giv-er_ of life; they found an An---gel sit-ting up-on the stone, and he, ad-dress-ing them,__ in_ this man-ner did say: Why seek____ ye the Liv--ing a-mong the dead? Why mourn____ ye the In-cor-rupt-i-ble a-mid cor-rup-tion? Go, pro-claim__ it un-to His dis-ci----ples. \n\nThis is the day which the Lord hath made; let us re-joice__ and be glad_ there-in.\n\nA_ Pas-cha of de-light,___ Pas--cha,_ the Pas-cha of_ the Lord, an all-ven-er-a-ble Pas--cha hath dawned for us, a Pas--cha where-on let us em-brace one an-oth-er with joy. O Pas-cha,__ ran-some from sor----row! To-day_ Christ__ hath shown forth__ from the tomb as from a bri-dal cham-ber, and hath filled the wom--en with joy,__ say--ing: Pro-claim__ it un-to the A-pos----tles."
+      "text": "Let God a-rise and let His en-e-mies be scat-tered, and let them that hate Him flee__ from be-fore His face.\n\nA_ sa-cred Pas-cha hath been shown forth to us to-day; a new and ho-ly Pas--cha, a mys-tic Pas----cha, an all-ven-er-a-ble Pas-cha, a Pas-cha that is Christ__ the Re-deem-er; a Pas-cha that is spot-less, a Pas-cha that is great,___ a Pas-cha of the faith-ful, a Pas-cha that hath o---pened to us the gates of Par-a-dise, a Pas--cha that doth hal-low all the faith----ful.\n\nAs smoke van-ish-eth, so let them van-ish; as wax melt--eth be-fore the fire. \n\nCome__ from that scene, O wom-en, bear-ers of good tid--ings, and say to Si----on: Re-ceive from us the tid-ings of joy, of the Res-ur-rec--tion of Christ. O Je-ru-sa-lem, ex-ult,___ dance,__ and be glad, for thou hast seen Christ the King as a bride--groom come forth__ from the sep--ul--chre. \n\nSo let sin-ners per-ish at the pres-ence of God, and let the right-eous be glad.\n\nThe myrrh--bear-ing wom-en at__ the__ break__ of__ dawn__ drew nigh__ to the tomb of the Giv-er of life; they found an An---gel sit-ting up-on the stone, and he, ad-dress-ing them,__ in this man-ner did say: Why seek____ ye the Liv--ing a-mong the dead? Why mourn____ ye the In-cor-rupt-i-ble a-mid cor-rup-tion? Go, pro-claim__ it un-to His dis-ci----ples. \n\nThis is the day which the Lord hath made; let us re-joice__ and be glad there-in.\n\nA_ Pas-cha of de-light,___ Pas--cha, the Pas-cha of the Lord, an all-ven-er-a-ble Pas--cha hath dawned for us, a Pas--cha where-on let us em-brace one an-oth-er with joy. O Pas-cha,__ ran-some from sor----row! To-day Christ__ hath shown forth__ from the tomb as from a bri-dal cham-ber, and hath filled the wom--en with joy,__ say--ing: Pro-claim__ it un-to the A-pos----tles."
     }
   }
 }
