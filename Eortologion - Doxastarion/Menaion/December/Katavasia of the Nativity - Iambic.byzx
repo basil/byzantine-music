@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.4.62",
+  "appVersion": "0.4.63",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -240,7 +240,7 @@
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
         "bold": true,
-        "height": 28,
+        "height": 32,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -271,7 +271,7 @@
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
         "italic": true,
-        "height": 18,
+        "height": 22,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -301,7 +301,7 @@
         "fontSize": 16,
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
-        "height": 18,
+        "height": 22,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -466,16 +466,9 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Klasma_Top",
-        "lyrics": "that"
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
         "timeNeume": "Hapli",
         "vocalExpressionNeume": "Antikenoma",
-        "measureBarLeft": "MeasureBarTop",
-        "lyrics": "hath",
+        "lyrics": "that",
         "isMelisma": true,
         "isMelismaStart": true
       },
@@ -488,7 +481,13 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "vareia": true,
+        "timeNeume": "Klasma_Top",
+        "measureBarLeft": "MeasureBarTop",
+        "lyrics": "hath"
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "de",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -496,22 +495,22 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Kentemata",
+        "gorgonNeume": "Gorgon_Bottom",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "isMelisma": true,
         "isHyphen": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "quantitativeNeume": "Apostrophos",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "liv",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -519,9 +518,27 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusElaphronPlusApostrophosPlusKentemata",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarShortTheseos",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "ered",
         "isMelisma": true,
         "isMelismaStart": true
@@ -533,87 +550,72 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "HeteronConnecting",
         "lyrics": "us",
         "isMelisma": true,
         "isMelismaStart": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarShortDouble",
-        "lyrics": "from",
-        "isMelisma": true,
-        "isMelismaStart": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "isMelisma": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "vocalExpressionNeume": "Antikenoma",
-        "isMelisma": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
         "isMelisma": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
+        "measureBarLeft": "MeasureBarTop",
+        "lyrics": "from",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
         "isMelisma": true
       },
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
-        "vareia": true,
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
         "lyrics": "the",
         "isMelisma": true,
         "isMelismaStart": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Hyporoe",
-        "gorgonNeume": "Gorgon_Top",
-        "isMelisma": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "gorgonNeume": "Gorgon_Top",
-        "vocalExpressionNeume": "Antikenoma",
-        "isMelisma": true
-      },
-      {
-        "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "isMelisma": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "timeNeume": "Dipli",
-        "measureBarLeft": "MeasureBarTop",
-        "lyrics": "curse."
+        "quantitativeNeume": "Apostrophos",
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "VareiaDotted",
-        "measureBarRight": "MeasureBarTop"
+        "quantitativeNeume": "Ison",
+        "measureBarLeft": "MeasureBarTop",
+        "vareia": true,
+        "lyrics": "curse.",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Dipli",
+        "measureBarRight": "MeasureBarTop",
+        "isMelisma": true
       },
       {
         "elementType": "Martyria",
@@ -896,22 +898,22 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusApostrophos",
+        "quantitativeNeume": "PetastiPlusApostrophos",
         "timeNeume": "Klasma_Bottom",
-        "vocalExpressionNeume": "Psifiston",
         "lyrics": "since",
         "isMelisma": true,
         "isMelismaStart": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Hyporoe",
+        "quantitativeNeume": "OligonPlusHyporoePlusKentemata",
         "gorgonNeume": "Gorgon_Top",
+        "secondaryGorgonNeume": "GorgonSecondary",
         "isMelisma": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Elaphron",
         "isMelisma": true
       },
       {
@@ -1525,7 +1527,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "strength",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1540,7 +1542,12 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "vocalExpressionNeume": "Psifiston",
-        "measureBarLeft": "MeasureBarShortTheseos",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "measureBarLeft": "MeasureBarTop",
         "isMelisma": true
       },
       {
@@ -1551,12 +1558,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "measureBarLeft": "MeasureBarShortTheseos",
         "isMelisma": true
       },
       {
@@ -1568,7 +1569,7 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Unison",
         "vareia": true,
         "isMelisma": true
@@ -1720,6 +1721,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Hapli",
+        "ison": "Ison.Ni",
         "isMelisma": true
       },
       {
@@ -1735,6 +1737,7 @@
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Dipli",
         "measureBarLeft": "MeasureBarShortDouble",
+        "ison": "Ison.Pa",
         "isMelisma": true
       },
       {
@@ -1755,7 +1758,7 @@
       }
     ],
     "lyrics": {
-      "text": "Mag-ni-fy,____ O my___ soul,__ her__ that hath__ de---liv-ered__ us__ from_____ the____ curse. \n\nBe-ing well__ con---tent,__ out__ of__ fear,___ to__ be__ si--lent would be eas--i--er,__ since___ si--lence hath__ no___ dan-----ger. O Vir---gin, it is hard____ to__ com-pose___ hymns__ with__ love___ framed__ in___ har--mo---ny, but__ we__ pray___ thee,__ O___ Moth-----er: Do______ thou______ grant us__ strength___________ as great__ as our__ vo---li-----tion.____"
+      "text": "Mag-ni-fy,____ O my___ soul,__ her__ that__ hath de--liv----ered__ us__ from___ the___ curse.__\n\nBe-ing well__ con---tent,__ out__ of__ fear,___ to__ be__ si--lent would be eas--i--er,__ since___ si--lence hath__ no___ dan-----ger. O Vir---gin, it is hard____ to__ com-pose___ hymns__ with__ love___ framed__ in___ har--mo---ny, but__ we__ pray___ thee,__ O___ Moth-----er: Do______ thou______ grant us__ strength___________ as great__ as our__ vo---li-----tion.____"
     }
   }
 }
