@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.4.53",
+  "appVersion": "0.4.79",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -61,6 +61,7 @@
     "dropCapDefaultFontStyle": "normal",
     "dropCapDefaultColor": "#C80831",
     "dropCapDefaultStrokeWidth": 0,
+    "dropCapDefaultLineSpan": 1,
     "textBoxDefaultFontFamily": "Source Serif",
     "textBoxDefaultFontSize": 26.666666666666668,
     "textBoxDefaultFontWeight": "400",
@@ -68,6 +69,7 @@
     "textBoxDefaultColor": "#000000",
     "textBoxDefaultStrokeWidth": 0,
     "hyphenSpacing": 72,
+    "martyriaVerticalOffset": 0,
     "chrysanthineAccidentals": true
   },
   "headers": {
@@ -353,7 +355,8 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
         "elementType": "Note",
@@ -681,7 +684,8 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
         "elementType": "Note",
@@ -912,7 +916,7 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Ison",
         "lyrics": "ur",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -920,8 +924,9 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "OligonPlusKentimaAbove",
         "measureBarLeft": "MeasureBarShortDouble",
+        "vareia": true,
         "lyrics": "rec",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -929,29 +934,45 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Kentemata",
+        "quantitativeNeume": "Apostrophos",
+        "gorgonNeume": "Gorgon_Top",
+        "vocalExpressionNeume": "HeteronConnecting",
         "isMelisma": true,
         "isHyphen": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "timeNeume": "Klasma_Top",
-        "lyrics": "tion"
-      },
-      {
-        "elementType": "Martyria",
-        "auto": true,
-        "note": "ZoHigh",
-        "rootSign": "SoftChromaticSquiggle",
-        "scale": "SoftChromatic",
-        "measureBarLeft": "MeasureBarTopAbove"
+        "quantitativeNeume": "OligonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true,
+        "isHyphen": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "PetastiPlusElaphron",
-        "timeNeume": "Klasma_Bottom",
-        "lyrics": "do"
+        "quantitativeNeume": "Apostrophos",
+        "vareia": true,
+        "lyrics": "tion",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "measureBarLeft": "MeasureBarTop",
+        "vareia": true,
+        "lyrics": "do",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "elementType": "Note",
@@ -968,7 +989,7 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "PetastiPlusHypsiliLeft",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "glo",
         "isMelisma": true,
@@ -977,13 +998,37 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "KentemataPlusOligon",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
         "isMelisma": true,
         "isHyphen": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
+        "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "measureBarLeft": "MeasureBarTop",
+        "vareia": true,
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "gorgonNeume": "Gorgon_Top",
+        "vocalExpressionNeume": "HeteronConnecting",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "isMelisma": true,
         "isHyphen": true
@@ -991,8 +1036,6 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTop",
         "vareia": true,
         "lyrics": "ri",
         "isMelisma": true,
@@ -1001,22 +1044,9 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Hyporoe",
-        "gorgonNeume": "Gorgon_Top",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "gorgonNeume": "Gorgon_Top",
-        "vocalExpressionNeume": "Antikenoma",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Hapli",
+        "gorgonNeume": "Gorgon_Top",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -1049,7 +1079,8 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
         "elementType": "Note",
@@ -1182,7 +1213,8 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
         "elementType": "Note",
@@ -1329,7 +1361,8 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
         "elementType": "Note",
@@ -1515,7 +1548,8 @@
         "fontWeight": "400",
         "fontStyle": "normal",
         "strokeWidth": 0,
-        "color": "#C80831"
+        "color": "#C80831",
+        "lineSpan": 1
       },
       {
         "elementType": "Note",
@@ -1600,7 +1634,8 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
         "elementType": "Note",
@@ -1949,7 +1984,7 @@
       }
     ],
     "lyrics": {
-      "text": "Thy Cross___ do__ we wor----ship, O Mas----ter, and Thy ho--ly__ Res-ur-rec-tion do we__ glo---ri----fy.\n\nThy Cross_____ 𝂴____ do we wor----ship, O Mas----ter, and Thy ho--ly__ Res-ur-rec-tion do we__ glo---ri----fy. \n\nGlo-ry to the Fa-ther, and to the Son, and to the Ho-ly Spir--it.\n\nBoth now and ev--er, and un-to the ag--es of ag--es. A-men.\n\nAnd Thy ho--ly__ Res-ur-rec-tion do we__ glo---ri----fy.\n\nΔυνααμις.____\n\nThy Cross___ do__ we wor----ship, O Mas----ter, and Thy ho--ly__ Res-ur-rec-tion do we__ glo---ri----fy.____"
+      "text": "Thy Cross___ do__ we wor----ship, O Mas----ter, and Thy ho--ly__ Res-ur-rec-tion do we__ glo---ri----fy.\n\nThy Cross_____ 𝂴____ do we wor----ship, O Mas----ter, and Thy ho--ly__ Res-ur-rec---tion__ do__ we__ glo------ri--fy. \n\nGlo-ry to the Fa-ther, and to the Son, and to the Ho-ly Spir--it.\n\nBoth now and ev--er, and un-to the ag--es of ag--es. A-men.\n\nAnd Thy ho--ly__ Res-ur-rec-tion do we__ glo---ri----fy.\n\nΔυνααμις.____\n\nThy Cross___ do__ we wor----ship, O Mas----ter, and Thy ho--ly__ Res-ur-rec-tion do we__ glo---ri----fy.____"
     }
   }
 }
