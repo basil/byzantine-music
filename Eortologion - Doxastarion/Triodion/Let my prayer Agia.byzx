@@ -544,7 +544,8 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentimaAbove",
+        "quantitativeNeume": "Oligon",
+        "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "lift",
         "isMelisma": true,
@@ -553,21 +554,8 @@
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Kentemata",
-        "gorgonNeume": "Gorgon_Bottom",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "vareia": true,
+        "quantitativeNeume": "OligonPlusElaphronPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
         "lyrics": "ing",
         "isMelisma": true,
         "isMelismaStart": true
@@ -575,29 +563,24 @@
       {
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Hapli",
-        "gorgonNeume": "Gorgon_Top",
         "isMelisma": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortTheseos",
-        "vareia": true,
         "lyrics": "up",
         "isMelisma": true,
         "isMelismaStart": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Hapli",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "Kentemata",
         "isMelisma": true
       },
       {
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
+        "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "of",
@@ -646,7 +629,9 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
-        "lyrics": "as"
+        "ison": "Ison.Unison",
+        "lyrics": "as",
+        "measureBarLeftOffsetX": -0.15
       },
       {
         "elementType": "Note",
@@ -693,8 +678,6 @@
         "isMelismaStart": true
       },
       {
-        "lineBreak": true,
-        "lineBreakType": "Justify",
         "elementType": "Martyria",
         "auto": true,
         "note": "Ni",
@@ -790,7 +773,7 @@
       }
     ],
     "lyrics": {
-      "text": "Let my prayer__ be__ set___ forth__ as in----cense be-fore___ Thee,__ the lift--ing__ up__ of__ my__ hands___ as an eve----ning sac----ri----fice."
+      "text": "Let my prayer__ be__ set___ forth__ as in----cense be-fore___ Thee,__ the lift-ing__ up of__ my__ hands___ as an eve----ning sac----ri----fice."
     }
   }
 }
