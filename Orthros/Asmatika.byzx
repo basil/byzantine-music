@@ -1689,9 +1689,16 @@
         "isMelisma": true
       },
       {
+        "id": 588,
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "gorgonNeume": "Gorgon_Bottom",
+        "isMelisma": true
+      },
+      {
         "id": 160,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "timeNeume": "Dipli",
         "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "us.",
@@ -3505,7 +3512,8 @@
         "lyrics": "Im",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true
+        "isHyphen": true,
+        "measureBarLeftOffsetX": -0.1
       },
       {
         "id": 370,
@@ -3542,20 +3550,13 @@
       {
         "id": 374,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Ni",
-        "vareia": true,
         "lyrics": "tal,",
         "isMelisma": true,
         "isMelismaStart": true
-      },
-      {
-        "id": 375,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Hapli",
-        "isMelisma": true
       },
       {
         "id": 554,
@@ -3568,15 +3569,22 @@
       {
         "id": 376,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "have"
+        "quantitativeNeume": "ElaphronPlusApostrophos",
+        "lyrics": "have",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 589,
+        "elementType": "Note",
+        "quantitativeNeume": "Kentemata",
+        "isMelisma": true
       },
       {
         "id": 377,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "timeNeume": "Hapli",
-        "vocalExpressionNeume": "Antikenoma",
+        "quantitativeNeume": "Oligon",
+        "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "mer",
         "isMelisma": true,
@@ -3586,16 +3594,16 @@
       {
         "id": 394,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
+        "vocalExpressionNeume": "Antikenoma",
         "isMelisma": true,
         "isHyphen": true
       },
       {
         "id": 395,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "Apostrophos",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -3609,9 +3617,9 @@
       {
         "id": 397,
         "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
+        "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
-        "measureBarLeft": "MeasureBarTopAbove",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "cy"
       },
       {
@@ -4786,7 +4794,7 @@
       }
     ],
     "lyrics": {
-      "text": "Ho-----ly___ God,__\n\nHo-----ly Might---y,__\n\nHo--ly Im--mor---tal, have mer---cy__ on___ us.____\n\n\n\nHo----ly___ God,__\n\nHo-ly__ Might---y,__\n\nHo--ly Im---mor---tal, have__ mer---cy__ on___ us._____\n\n\n\nHo-----ly God,__\n\nHo-----ly Might----y,__\n\nHo-ly Im-mor---tal,__ have mer----cy on__ us.________\n\n\n\nHo----ly___ God,__\n\nHo-ly__ Might---y,__\n\nHo----ly Im--mor---tal,__ have mer----cy__ on us._____ \n\n\n\nHo-----ly__ God,__\n\nHo----ly____ Might-----y,\n\nHo-ly Im--mor---tal,__ have mer----cy on__ us._____ \n\n\n\nHo----ly___ God,__\n\nHo--ly Might---y,__\n\nHo----ly Im--mor---tal, have mer---cy__ on__ us._____\n\n\n\nHo-----ly___ God,__\n\nHo----ly__ Might---y,__\n\nHo-ly Im-mor---tal,__ have mer----cy on__ us.________\n\n\n\nHo-----ly___ God,__\n\nHo-----ly Might---y,__\n\nHo--ly Im--mor---tal, have mer---cy__ on us._____\n\n\n\nHo----ly___ God,__\n\nHo-----ly Might---y,__\n\nHo----ly Im--mor-------tal,__ have mer------cy______ on us._______"
+      "text": "Ho-----ly___ God,__\n\nHo-----ly Might---y,__\n\nHo--ly Im--mor---tal, have mer---cy__ on___ us.____\n\n\n\nHo----ly___ God,__\n\nHo-ly__ Might---y,__\n\nHo--ly Im---mor---tal, have__ mer---cy__ on___ us._____\n\n\n\nHo-----ly God,__\n\nHo-----ly Might----y,__\n\nHo-ly Im-mor---tal,__ have mer----cy on___ us.________\n\n\n\nHo----ly___ God,__\n\nHo-ly__ Might---y,__\n\nHo----ly Im--mor---tal,__ have mer----cy__ on us._____ \n\n\n\nHo-----ly__ God,__\n\nHo----ly____ Might-----y,\n\nHo-ly Im--mor---tal,__ have mer----cy on__ us._____ \n\n\n\nHo----ly___ God,__\n\nHo--ly Might---y,__\n\nHo----ly Im--mor---tal, have mer---cy__ on__ us._____\n\n\n\nHo-----ly___ God,__\n\nHo----ly__ Might---y,__\n\nHo-ly Im-mor---tal, have mer----cy on__ us.________\n\n\n\nHo-----ly___ God,__\n\nHo-----ly Might---y,__\n\nHo--ly Im--mor---tal, have mer---cy__ on us._____\n\n\n\nHo----ly___ God,__\n\nHo-----ly Might---y,__\n\nHo----ly Im--mor-------tal,__ have mer------cy______ on us._______"
     }
   }
 }
