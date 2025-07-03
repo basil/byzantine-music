@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "appVersion": "0.4.8",
+  "version": "1.1",
+  "appVersion": "0.4.104",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -23,6 +23,7 @@
     "lyricsDefaultStrokeWidth": 0,
     "lyricsVerticalOffset": -4.800000000000001,
     "lyricsMinimumSpacing": 4.800000000000001,
+    "lyricsMelismaCutoffWidth": 6.666666666666667,
     "neumeDefaultFontFamily": "Neanes",
     "neumeDefaultFontSize": 26.666666666666668,
     "neumeDefaultColor": "#000000",
@@ -48,6 +49,10 @@
     "noteIndicatorDefaultStrokeWidth": 0,
     "isonDefaultColor": "#C80831",
     "isonDefaultStrokeWidth": 0,
+    "breathDefaultColor": "#000000",
+    "breathDefaultStrokeWidth": 0,
+    "crossDefaultColor": "#000000",
+    "crossDefaultStrokeWidth": 0,
     "koronisDefaultColor": "#C80831",
     "koronisDefaultStrokeWidth": 0,
     "martyriaDefaultColor": "#C80831",
@@ -60,7 +65,15 @@
     "dropCapDefaultFontStyle": "normal",
     "dropCapDefaultColor": "#C80831",
     "dropCapDefaultStrokeWidth": 0,
+    "dropCapDefaultLineSpan": 1,
+    "textBoxDefaultFontFamily": "Source Serif",
+    "textBoxDefaultFontSize": 26.666666666666668,
+    "textBoxDefaultFontWeight": "400",
+    "textBoxDefaultFontStyle": "normal",
+    "textBoxDefaultColor": "#000000",
+    "textBoxDefaultStrokeWidth": 0,
     "hyphenSpacing": 72,
+    "martyriaVerticalOffset": 0,
     "chrysanthineAccidentals": true
   },
   "headers": {
@@ -71,11 +84,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
+          "contentLeft": "",
+          "contentCenter": "",
+          "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
           "height": 19,
-          "useDefaultStyle": true
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -86,11 +104,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
+          "contentLeft": "",
+          "contentCenter": "",
+          "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
           "height": 19,
-          "useDefaultStyle": true
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -101,11 +124,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
+          "contentLeft": "",
+          "contentCenter": "",
+          "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
           "height": 19,
-          "useDefaultStyle": true
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -116,11 +144,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
+          "contentLeft": "",
+          "contentCenter": "",
+          "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
           "height": 19,
-          "useDefaultStyle": true
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     }
@@ -133,11 +166,16 @@
           "alignment": "center",
           "color": "#000000",
           "content": "Musical setting copyright © 2023 Basil Crow, under a Creative Commons BY-NC-ND 4.0 license.",
+          "contentBottom": "",
+          "contentLeft": "",
+          "contentCenter": "",
+          "contentRight": "",
           "fontSize": 12,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 14,
-          "useDefaultStyle": true
+          "height": 14.49056625366211,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -148,11 +186,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
+          "contentLeft": "",
+          "contentCenter": "",
+          "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
           "height": 19,
-          "useDefaultStyle": true
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -163,11 +206,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
+          "contentLeft": "",
+          "contentCenter": "",
+          "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
           "height": 19,
-          "useDefaultStyle": true
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -178,11 +226,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
+          "contentLeft": "",
+          "contentCenter": "",
+          "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
           "height": 19,
-          "useDefaultStyle": true
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     }
@@ -190,73 +243,110 @@
   "staff": {
     "elements": [
       {
+        "id": 1,
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#000000",
         "content": "«Άξιον εστίν…»",
+        "contentBottom": "",
+        "contentLeft": "",
+        "contentCenter": "",
+        "contentRight": "",
         "fontSize": 24,
         "fontFamily": "GFS Didot",
         "strokeWidth": 0,
         "bold": true,
         "height": 30,
-        "useDefaultStyle": true
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 2,
         "elementType": "TextBox",
         "alignment": "left",
         "color": "#000000",
         "content": "",
+        "contentBottom": "",
+        "contentLeft": "",
+        "contentCenter": "",
+        "contentRight": "",
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
         "height": 10,
-        "useDefaultStyle": true
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 3,
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#000000",
         "content": "Ήχος Πλάγιος του Τετάρτου\n",
+        "contentBottom": "",
+        "contentLeft": "",
+        "contentCenter": "",
+        "contentRight": "",
         "fontSize": 16,
         "fontFamily": "GFS Didot",
         "strokeWidth": 0,
-        "height": 19,
-        "useDefaultStyle": true
+        "height": 19.924528121948242,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 4,
         "elementType": "TextBox",
         "alignment": "left",
         "color": "#000000",
         "content": "",
+        "contentBottom": "",
+        "contentLeft": "",
+        "contentCenter": "",
+        "contentRight": "",
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
         "height": 10,
-        "useDefaultStyle": true
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 5,
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#000000",
         "content": "Βασιλείου Κρόου",
+        "contentBottom": "",
+        "contentLeft": "",
+        "contentCenter": "",
+        "contentRight": "",
         "fontSize": 16,
         "fontFamily": "GFS Didot",
         "strokeWidth": 0,
-        "height": 19,
-        "useDefaultStyle": true
+        "height": 19.924528121948242,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 6,
         "elementType": "TextBox",
         "alignment": "left",
         "color": "#000000",
         "content": "",
+        "contentBottom": "",
+        "contentLeft": "",
+        "contentCenter": "",
+        "contentRight": "",
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
         "height": 10,
-        "useDefaultStyle": true
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 7,
         "elementType": "ModeKey",
         "templateId": 800,
         "alignment": "center",
@@ -270,6 +360,8 @@
         "strokeWidth": 0,
         "height": 49,
         "heightAdjustment": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
         "bpm": 120,
         "useDefaultStyle": true,
         "ambitusLowNote": "Pa",
@@ -278,6 +370,7 @@
         "ambitusHighRootSign": "Alpha"
       },
       {
+        "id": 8,
         "elementType": "DropCap",
         "content": "Α",
         "fontFamily": "Palatino Linotype",
@@ -286,30 +379,36 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
+        "id": 9,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Ni"
       },
       {
+        "id": 10,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ξι"
       },
       {
+        "id": 11,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "ον"
       },
       {
+        "id": 12,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "ε"
       },
       {
+        "id": 13,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "vocalExpressionNeume": "Psifiston",
@@ -317,16 +416,19 @@
         "lyrics": "στιν"
       },
       {
+        "id": 14,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ω"
       },
       {
+        "id": 15,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ως"
       },
       {
+        "id": 16,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
@@ -334,35 +436,41 @@
         "lyrics": "α"
       },
       {
+        "id": 17,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "λη"
       },
       {
+        "id": 18,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "η"
       },
       {
+        "id": 19,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "η"
       },
       {
+        "id": 20,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "θω"
       },
       {
+        "id": 21,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "lyrics": "ως"
       },
       {
+        "id": 22,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -371,6 +479,7 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 23,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -378,28 +487,33 @@
         "lyrics": "μα"
       },
       {
+        "id": 24,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "κα"
       },
       {
+        "id": 25,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "α"
       },
       {
+        "id": 26,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "ρι"
       },
       {
+        "id": 27,
         "elementType": "Note",
         "quantitativeNeume": "Kentemata",
         "lyrics": "ι"
       },
       {
+        "id": 28,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -407,12 +521,14 @@
         "lyrics": "ι"
       },
       {
+        "id": 29,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ι"
       },
       {
+        "id": 30,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -421,12 +537,14 @@
         "lyrics": "ζει"
       },
       {
+        "id": 31,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ει"
       },
       {
+        "id": 32,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
@@ -434,11 +552,13 @@
         "lyrics": "ει"
       },
       {
+        "id": 33,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ειν"
       },
       {
+        "id": 34,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Dipli",
@@ -446,6 +566,7 @@
         "lyrics": "σε"
       },
       {
+        "id": 35,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -453,12 +574,14 @@
         "scale": "Diatonic"
       },
       {
+        "id": 36,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "ison": "Ison.Ni",
         "lyrics": "την"
       },
       {
+        "id": 37,
         "elementType": "Note",
         "quantitativeNeume": "PetastiWithIson",
         "timeNeume": "Klasma_Bottom",
@@ -466,12 +589,14 @@
         "lyrics": "Θε"
       },
       {
+        "id": 38,
         "elementType": "Note",
         "quantitativeNeume": "ElaphronPlusApostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "ο"
       },
       {
+        "id": 39,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaAbove",
         "timeNeume": "Klasma_Bottom",
@@ -480,12 +605,14 @@
         "lyrics": "το"
       },
       {
+        "id": 40,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "ο"
       },
       {
+        "id": 41,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarTop",
@@ -493,6 +620,7 @@
         "lyrics": "ο"
       },
       {
+        "id": 42,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
@@ -500,12 +628,14 @@
         "lyrics": "ο"
       },
       {
+        "id": 43,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 44,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Hapli",
@@ -513,12 +643,14 @@
         "lyrics": "ο"
       },
       {
+        "id": 45,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 46,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
@@ -526,22 +658,26 @@
         "lyrics": "𝂴ο"
       },
       {
+        "id": 47,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ο"
       },
       {
+        "id": 48,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ο"
       },
       {
+        "id": 49,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "accidental": "Sharp_2_Left",
         "lyrics": "ο"
       },
       {
+        "id": 50,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Dipli",
@@ -549,10 +685,12 @@
         "lyrics": "κον"
       },
       {
+        "id": 51,
         "elementType": "Note",
         "quantitativeNeume": "VareiaDotted"
       },
       {
+        "id": 52,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ni",
@@ -561,23 +699,27 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 53,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "lyrics": "την"
       },
       {
+        "id": 54,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "α"
       },
       {
+        "id": 55,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "α"
       },
       {
+        "id": 56,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -585,17 +727,20 @@
         "lyrics": "ει"
       },
       {
+        "id": 57,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "μα"
       },
       {
+        "id": 58,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "α"
       },
       {
+        "id": 59,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "vocalExpressionNeume": "Psifiston",
@@ -603,16 +748,19 @@
         "lyrics": "κα"
       },
       {
+        "id": 60,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ρι"
       },
       {
+        "id": 61,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ι"
       },
       {
+        "id": 62,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
@@ -620,17 +768,20 @@
         "lyrics": "στον"
       },
       {
+        "id": 63,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "και"
       },
       {
+        "id": 64,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "αι"
       },
       {
+        "id": 65,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -639,28 +790,33 @@
         "lyrics": "πα"
       },
       {
+        "id": 66,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "να"
       },
       {
+        "id": 67,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "α"
       },
       {
+        "id": 68,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "μω"
       },
       {
+        "id": 69,
         "elementType": "Note",
         "quantitativeNeume": "Kentemata",
         "lyrics": "ω"
       },
       {
+        "id": 70,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -668,12 +824,14 @@
         "lyrics": "ω"
       },
       {
+        "id": 71,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ω"
       },
       {
+        "id": 72,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -682,12 +840,14 @@
         "lyrics": "μη"
       },
       {
+        "id": 73,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "η"
       },
       {
+        "id": 74,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
@@ -695,11 +855,13 @@
         "lyrics": "η"
       },
       {
+        "id": 75,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "η"
       },
       {
+        "id": 76,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -707,6 +869,7 @@
         "lyrics": "τον"
       },
       {
+        "id": 77,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -715,23 +878,27 @@
         "measureBarLeft": "MeasureBarShortDoubleAbove"
       },
       {
+        "id": 78,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "lyrics": "και"
       },
       {
+        "id": 79,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "μη"
       },
       {
+        "id": 80,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "η"
       },
       {
+        "id": 81,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -739,6 +906,7 @@
         "lyrics": "τε"
       },
       {
+        "id": 82,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
@@ -746,16 +914,19 @@
         "lyrics": "ε"
       },
       {
+        "id": 83,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ε"
       },
       {
+        "id": 84,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ε"
       },
       {
+        "id": 85,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
@@ -764,6 +935,7 @@
         "lyrics": "ρα"
       },
       {
+        "id": 86,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
@@ -771,16 +943,19 @@
         "lyrics": "α"
       },
       {
+        "id": 87,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "α"
       },
       {
+        "id": 88,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "α"
       },
       {
+        "id": 89,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "vocalExpressionNeume": "HeteronConnecting",
@@ -788,33 +963,39 @@
         "lyrics": "του"
       },
       {
+        "id": 90,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ου"
       },
       {
+        "id": 91,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ου"
       },
       {
+        "id": 92,
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "lyrics": "Θε"
       },
       {
+        "id": 93,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "ου"
       },
       {
+        "id": 94,
         "elementType": "Note",
         "quantitativeNeume": "Kentemata",
         "lyrics": "ου"
       },
       {
+        "id": 95,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -822,12 +1003,14 @@
         "lyrics": "ου"
       },
       {
+        "id": 96,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ου"
       },
       {
+        "id": 97,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -836,12 +1019,14 @@
         "lyrics": "η"
       },
       {
+        "id": 98,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "η"
       },
       {
+        "id": 99,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
@@ -849,11 +1034,13 @@
         "lyrics": "η"
       },
       {
+        "id": 100,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "η"
       },
       {
+        "id": 101,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Dipli",
@@ -861,10 +1048,12 @@
         "lyrics": "μων"
       },
       {
+        "id": 102,
         "elementType": "Note",
         "quantitativeNeume": "VareiaDotted"
       },
       {
+        "id": 103,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ni",
@@ -873,23 +1062,27 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 104,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentima",
         "timeNeume": "Klasma_Top",
         "lyrics": "Την"
       },
       {
+        "id": 105,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "τι"
       },
       {
+        "id": 106,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ι"
       },
       {
+        "id": 107,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -897,23 +1090,27 @@
         "lyrics": "μι"
       },
       {
+        "id": 108,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "vareia": true,
         "lyrics": "ω"
       },
       {
+        "id": 109,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ω"
       },
       {
+        "id": 110,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "ω"
       },
       {
+        "id": 111,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -921,6 +1118,7 @@
         "lyrics": "τε"
       },
       {
+        "id": 112,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
@@ -928,16 +1126,19 @@
         "lyrics": "ε"
       },
       {
+        "id": 113,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ε"
       },
       {
+        "id": 114,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ε"
       },
       {
+        "id": 115,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "vocalExpressionNeume": "HeteronConnecting",
@@ -945,22 +1146,26 @@
         "lyrics": "ρα"
       },
       {
+        "id": 116,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "α"
       },
       {
+        "id": 117,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "αν"
       },
       {
+        "id": 118,
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "lyrics": "των"
       },
       {
+        "id": 119,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentima",
         "timeNeume": "Klasma_Top",
@@ -968,35 +1173,41 @@
         "lyrics": "Χε"
       },
       {
+        "id": 120,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ρου"
       },
       {
+        "id": 121,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ου"
       },
       {
+        "id": 122,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ου"
       },
       {
+        "id": 123,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "βι"
       },
       {
+        "id": 124,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "lyrics": "ιμ"
       },
       {
+        "id": 125,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -1005,6 +1216,7 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 126,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "HeteronConnecting",
@@ -1012,12 +1224,14 @@
         "lyrics": "και"
       },
       {
+        "id": 127,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "αι"
       },
       {
+        "id": 128,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Unison",
@@ -1025,6 +1239,7 @@
         "lyrics": "ε"
       },
       {
+        "id": 129,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Hapli",
@@ -1033,6 +1248,7 @@
         "lyrics": "εν"
       },
       {
+        "id": 130,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -1041,17 +1257,20 @@
         "lyrics": "δο"
       },
       {
+        "id": 131,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ξο"
       },
       {
+        "id": 132,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ο"
       },
       {
+        "id": 133,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Hapli",
@@ -1060,23 +1279,27 @@
         "lyrics": "τε"
       },
       {
+        "id": 134,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ε"
       },
       {
+        "id": 135,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "ε"
       },
       {
+        "id": 136,
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ε"
       },
       {
+        "id": 137,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusHyporoe",
         "timeNeume": "Klasma_Bottom",
@@ -1086,18 +1309,21 @@
         "measureBarLeftOffsetY": -0.3
       },
       {
+        "id": 138,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ε"
       },
       {
+        "id": 139,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaAbove",
         "vocalExpressionNeume": "Psifiston",
         "lyrics": "ε"
       },
       {
+        "id": 140,
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "timeNeume": "Klasma_Top",
@@ -1105,51 +1331,60 @@
         "lyrics": "ρα"
       },
       {
+        "id": 141,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "α"
       },
       {
+        "id": 142,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "α"
       },
       {
+        "id": 143,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Digorgon",
         "lyrics": "α"
       },
       {
+        "id": 144,
         "elementType": "Note",
         "quantitativeNeume": "Kentemata",
         "lyrics": "α"
       },
       {
+        "id": 145,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "α"
       },
       {
+        "id": 146,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "HomalonConnecting",
         "lyrics": "α"
       },
       {
+        "id": 147,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "α"
       },
       {
+        "id": 148,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "lyrics": "αν"
       },
       {
+        "id": 149,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -1158,23 +1393,27 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 150,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "lyrics": "α"
       },
       {
+        "id": 151,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "συ"
       },
       {
+        "id": 152,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "υγ"
       },
       {
+        "id": 153,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -1182,6 +1421,7 @@
         "lyrics": "κρι"
       },
       {
+        "id": 154,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
@@ -1189,16 +1429,19 @@
         "lyrics": "ι"
       },
       {
+        "id": 155,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ι"
       },
       {
+        "id": 156,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ι"
       },
       {
+        "id": 157,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
@@ -1207,6 +1450,7 @@
         "lyrics": "τω"
       },
       {
+        "id": 158,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
@@ -1214,16 +1458,19 @@
         "lyrics": "ω"
       },
       {
+        "id": 159,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ω"
       },
       {
+        "id": 160,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ως"
       },
       {
+        "id": 161,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "vocalExpressionNeume": "HeteronConnecting",
@@ -1231,17 +1478,20 @@
         "lyrics": "τω"
       },
       {
+        "id": 162,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ω"
       },
       {
+        "id": 163,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ω"
       },
       {
+        "id": 164,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
@@ -1249,17 +1499,20 @@
         "spaceAfter": 2.6666666666666665
       },
       {
+        "id": 165,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "Σε"
       },
       {
+        "id": 166,
         "elementType": "Note",
         "quantitativeNeume": "Kentemata",
         "lyrics": "ε"
       },
       {
+        "id": 167,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -1267,12 +1520,14 @@
         "lyrics": "ε"
       },
       {
+        "id": 168,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ε"
       },
       {
+        "id": 169,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -1281,12 +1536,14 @@
         "lyrics": "ρα"
       },
       {
+        "id": 170,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "α"
       },
       {
+        "id": 171,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
@@ -1294,11 +1551,13 @@
         "lyrics": "α"
       },
       {
+        "id": 172,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "α"
       },
       {
+        "id": 173,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -1306,6 +1565,7 @@
         "lyrics": "φιμ"
       },
       {
+        "id": 174,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ni",
@@ -1313,6 +1573,7 @@
         "scale": "Diatonic"
       },
       {
+        "id": 175,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusHypsiliRight",
         "fthora": "SoftChromaticThi_Bottom",
@@ -1321,11 +1582,13 @@
         "lyrics": "την"
       },
       {
+        "id": 176,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "α"
       },
       {
+        "id": 177,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Hapli",
@@ -1334,41 +1597,48 @@
         "lyrics": "δι"
       },
       {
+        "id": 178,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ι"
       },
       {
+        "id": 179,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "GorgonDottedRight",
         "lyrics": "ι"
       },
       {
+        "id": 180,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vareia": true,
         "lyrics": "ι"
       },
       {
+        "id": 181,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ι"
       },
       {
+        "id": 182,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "α"
       },
       {
+        "id": 183,
         "elementType": "Note",
         "quantitativeNeume": "Kentemata",
         "lyrics": "α"
       },
       {
+        "id": 184,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Hapli",
@@ -1377,12 +1647,14 @@
         "lyrics": "φθο"
       },
       {
+        "id": 185,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 186,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaBelow",
         "timeNeume": "Klasma_Top",
@@ -1390,6 +1662,7 @@
         "lyrics": "ο"
       },
       {
+        "id": 187,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
@@ -1397,17 +1670,20 @@
         "lyrics": "ο"
       },
       {
+        "id": 188,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "vareia": true,
         "lyrics": "ο"
       },
       {
+        "id": 189,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ο"
       },
       {
+        "id": 190,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -1416,12 +1692,14 @@
         "lyrics": "ρω"
       },
       {
+        "id": 191,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "ως"
       },
       {
+        "id": 192,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -1429,6 +1707,7 @@
         "scale": "SoftChromatic"
       },
       {
+        "id": 193,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "gorgonNeume": "Gorgon_Bottom",
@@ -1436,6 +1715,7 @@
         "lyrics": "Θε"
       },
       {
+        "id": 194,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Hapli",
@@ -1445,17 +1725,20 @@
         "lyrics": "ο"
       },
       {
+        "id": 195,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 196,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "lyrics": "ον"
       },
       {
+        "id": 197,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
@@ -1463,18 +1746,21 @@
         "lyrics": "Λο"
       },
       {
+        "id": 198,
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 199,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 200,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Hapli",
@@ -1483,29 +1769,34 @@
         "lyrics": "γο"
       },
       {
+        "id": 201,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ον"
       },
       {
+        "id": 202,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vareia": true,
         "lyrics": "τε"
       },
       {
+        "id": 203,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ε"
       },
       {
+        "id": 204,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "ε"
       },
       {
+        "id": 205,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
@@ -1513,17 +1804,20 @@
         "lyrics": "κου"
       },
       {
+        "id": 206,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ου"
       },
       {
+        "id": 207,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ου"
       },
       {
+        "id": 208,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
@@ -1531,11 +1825,13 @@
         "lyrics": "ου"
       },
       {
+        "id": 209,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ου"
       },
       {
+        "id": 210,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Dipli",
@@ -1543,6 +1839,7 @@
         "lyrics": "σαν"
       },
       {
+        "id": 211,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -1550,11 +1847,13 @@
         "scale": "Diatonic"
       },
       {
+        "id": 212,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "την"
       },
       {
+        "id": 213,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Hapli",
@@ -1563,29 +1862,34 @@
         "lyrics": "ο"
       },
       {
+        "id": 214,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 215,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "ο"
       },
       {
+        "id": 216,
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ον"
       },
       {
+        "id": 217,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "τω"
       },
       {
+        "id": 218,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "GorgonDottedLeft",
@@ -1593,6 +1897,7 @@
         "spaceAfter": 2.6666666666666665
       },
       {
+        "id": 219,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -1600,17 +1905,20 @@
         "lyrics": "Θε"
       },
       {
+        "id": 220,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 221,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ο"
       },
       {
+        "id": 222,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -1619,24 +1927,28 @@
         "lyrics": "το"
       },
       {
+        "id": 223,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 224,
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 225,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Bottom",
         "lyrics": "ο"
       },
       {
+        "id": 226,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarTop",
@@ -1644,6 +1956,7 @@
         "lyrics": "κο"
       },
       {
+        "id": 227,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Hapli",
@@ -1652,18 +1965,21 @@
         "lyrics": "ο"
       },
       {
+        "id": 228,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Bottom",
         "lyrics": "ο"
       },
       {
+        "id": 229,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "lyrics": "ον"
       },
       {
+        "id": 230,
         "elementType": "Martyria",
         "auto": true,
         "note": "NiHigh",
@@ -1672,30 +1988,35 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 231,
         "elementType": "Note",
         "quantitativeNeume": "ElaphronPlusApostrophos",
         "ison": "Ison.Pa",
         "lyrics": "σε"
       },
       {
+        "id": 232,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vareia": true,
         "lyrics": "ε"
       },
       {
+        "id": 233,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ε"
       },
       {
+        "id": 234,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vareia": true,
         "lyrics": "ε"
       },
       {
+        "id": 235,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Hapli",
@@ -1703,35 +2024,41 @@
         "lyrics": "ε"
       },
       {
+        "id": 236,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "με"
       },
       {
+        "id": 237,
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "gorgonNeume": "Digorgon",
         "lyrics": "ε"
       },
       {
+        "id": 238,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ε"
       },
       {
+        "id": 239,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ε"
       },
       {
+        "id": 240,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vareia": true,
         "lyrics": "γα"
       },
       {
+        "id": 241,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "timeNeume": "Hapli",
@@ -1740,6 +2067,7 @@
         "spaceAfter": 5.333333333333333
       },
       {
+        "id": 242,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
@@ -1747,11 +2075,13 @@
         "lyrics": "λυ"
       },
       {
+        "id": 243,
         "elementType": "Note",
         "quantitativeNeume": "Kentemata",
         "lyrics": "υ"
       },
       {
+        "id": 244,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -1759,12 +2089,14 @@
         "lyrics": "υ"
       },
       {
+        "id": 245,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "υ"
       },
       {
+        "id": 246,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
@@ -1772,35 +2104,41 @@
         "lyrics": "νο"
       },
       {
+        "id": 247,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ο"
       },
       {
+        "id": 248,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 249,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Digorgon",
         "lyrics": "ο"
       },
       {
+        "id": 250,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusHypsiliLeft",
         "vareia": true,
         "lyrics": "ο"
       },
       {
+        "id": 251,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ο"
       },
       {
+        "id": 252,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
@@ -1809,6 +2147,7 @@
         "lyrics": "με"
       },
       {
+        "id": 253,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "timeNeume": "Hapli",
@@ -1816,29 +2155,34 @@
         "lyrics": "ε"
       },
       {
+        "id": 254,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ε"
       },
       {
+        "id": 255,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ε"
       },
       {
+        "id": 256,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "gorgonNeume": "Gorgon_Bottom",
         "lyrics": "ε"
       },
       {
+        "id": 257,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "ε"
       },
       {
+        "id": 258,
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "gorgonNeume": "Gorgon_Top",
@@ -1846,6 +2190,7 @@
         "lyrics": "ε"
       },
       {
+        "id": 259,
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "timeNeume": "Hapli",
@@ -1854,18 +2199,21 @@
         "lyrics": "ε"
       },
       {
+        "id": 260,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "ε"
       },
       {
+        "id": 261,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "ε"
       },
       {
+        "id": 262,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Dipli",
@@ -1873,6 +2221,7 @@
         "lyrics": "εν"
       },
       {
+        "id": 263,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ni",
@@ -1883,6 +2232,9 @@
       {
         "elementType": "Empty"
       }
-    ]
+    ],
+    "lyrics": {
+      "text": "Α_ ξι ον ε στιν ω ως α λη η η θω ως μα κα α ρι ι ι ι ζει ει ει ειν σε την Θε ο το ο ο ο ο ο ο 𝂴ο ο ο ο κον την α α ει μα α κα ρι ι στον και αι πα να α μω ω ω ω μη η η η τον και μη η τε ε ε ε ρα α α α του ου ου Θε ου ου ου ου η η η η μων Την τι ι μι ω ω ω τε ε ε ε ρα α αν των Χε ρου ου ου βι ιμ και αι ε εν δο ξο ο τε ε ε ε ε ε ε ρα α α α α α α α αν α συ υγ κρι ι ι ι τω ω ω ως τω ω ω ων Σε ε ε ε ρα α α α φιμ την α δι ι ι ι ι α α φθο ο ο ο ο ο ρω ως Θε ο ο ον Λο ο ο γο ον τε ε ε κου ου ου ου ου σαν την ο ο ο ον τω ως Θε ο ο το ο ο ο κο ο ο ον σε ε ε ε ε με ε ε ε γα α λυ υ υ υ νο ο ο ο ο ο με ε ε ε ε ε ε ε ε ε εν"
+    }
   }
 }

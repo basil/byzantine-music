@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.4.48",
+  "appVersion": "0.4.104",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -23,6 +23,7 @@
     "lyricsDefaultStrokeWidth": 0,
     "lyricsVerticalOffset": -4.800000000000001,
     "lyricsMinimumSpacing": 4.800000000000001,
+    "lyricsMelismaCutoffWidth": 6.666666666666667,
     "neumeDefaultFontFamily": "Neanes",
     "neumeDefaultFontSize": 26.666666666666668,
     "neumeDefaultColor": "#000000",
@@ -48,6 +49,10 @@
     "noteIndicatorDefaultStrokeWidth": 0,
     "isonDefaultColor": "#C80831",
     "isonDefaultStrokeWidth": 0,
+    "breathDefaultColor": "#000000",
+    "breathDefaultStrokeWidth": 0,
+    "crossDefaultColor": "#000000",
+    "crossDefaultStrokeWidth": 0,
     "koronisDefaultColor": "#C80831",
     "koronisDefaultStrokeWidth": 0,
     "martyriaDefaultColor": "#C80831",
@@ -60,6 +65,7 @@
     "dropCapDefaultFontStyle": "normal",
     "dropCapDefaultColor": "#C80831",
     "dropCapDefaultStrokeWidth": 0,
+    "dropCapDefaultLineSpan": 1,
     "textBoxDefaultFontFamily": "Source Serif",
     "textBoxDefaultFontSize": 26.666666666666668,
     "textBoxDefaultFontWeight": "400",
@@ -67,6 +73,7 @@
     "textBoxDefaultColor": "#000000",
     "textBoxDefaultStrokeWidth": 0,
     "hyphenSpacing": 72,
+    "martyriaVerticalOffset": 0,
     "chrysanthineAccidentals": true
   },
   "headers": {
@@ -77,13 +84,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
           "contentLeft": "",
           "contentCenter": "",
           "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -94,13 +104,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
           "contentLeft": "",
           "contentCenter": "",
           "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -111,13 +124,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
           "contentLeft": "",
           "contentCenter": "",
           "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -128,13 +144,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
           "contentLeft": "",
           "contentCenter": "",
           "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     }
@@ -147,13 +166,16 @@
           "alignment": "center",
           "color": "#000000",
           "content": "Translation copyright © 1997 Holy Transfiguration Monastery, Brookline, MA. All rights reserved.\nMusical setting copyright © 2024 Basil Crow, under a Creative Commons BY-NC-ND 4.0 license.",
+          "contentBottom": "",
           "contentLeft": "",
           "contentCenter": "",
           "contentRight": "",
           "fontSize": 12,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 28
+          "height": 28.98113250732422,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -164,13 +186,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
           "contentLeft": "",
           "contentCenter": "",
           "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -181,13 +206,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
           "contentLeft": "",
           "contentCenter": "",
           "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     },
@@ -198,13 +226,16 @@
           "alignment": "left",
           "color": "#000000",
           "content": "",
+          "contentBottom": "",
           "contentLeft": "",
           "contentCenter": "",
           "contentRight": "",
           "fontSize": 16,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 19
+          "height": 19,
+          "marginTop": 0,
+          "marginBottom": 0
         }
       ]
     }
@@ -212,10 +243,12 @@
   "staff": {
     "elements": [
       {
+        "id": 1,
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#000000",
         "content": "Megalynaria",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
@@ -223,26 +256,34 @@
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
         "bold": true,
-        "height": 32
+        "height": 32.60377502441406,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 2,
         "elementType": "TextBox",
         "alignment": "left",
         "color": "#000000",
         "content": "",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
-        "height": 10
+        "height": 10,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 3,
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#000000",
         "content": "Plagal Fourth Mode",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
@@ -250,48 +291,63 @@
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
         "italic": true,
-        "height": 22
+        "height": 22,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 4,
         "elementType": "TextBox",
         "alignment": "left",
         "color": "#000000",
         "content": "",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
-        "height": 10
+        "height": 10,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 5,
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#000000",
         "content": "Basil Crow",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
         "fontSize": 16,
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
-        "height": 22
+        "height": 22,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 6,
         "elementType": "TextBox",
         "alignment": "left",
         "color": "#000000",
         "content": "",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
-        "height": 10
+        "height": 10,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 7,
         "elementType": "ModeKey",
         "templateId": 801,
         "alignment": "center",
@@ -307,6 +363,8 @@
         "strokeWidth": 0,
         "height": 49,
         "heightAdjustment": 0,
+        "marginTop": 0,
+        "marginBottom": 0,
         "bpm": 180,
         "useDefaultStyle": true,
         "ambitusLowNote": "Pa",
@@ -315,6 +373,7 @@
         "ambitusHighRootSign": "Alpha"
       },
       {
+        "id": 8,
         "elementType": "DropCap",
         "content": "I",
         "fontFamily": "Palatino Linotype",
@@ -323,9 +382,11 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
+        "id": 9,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
@@ -334,11 +395,13 @@
         "lyrics": "t"
       },
       {
+        "id": 10,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "is"
       },
       {
+        "id": 11,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "tru",
@@ -347,43 +410,51 @@
         "isHyphen": true
       },
       {
+        "id": 12,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "ly"
       },
       {
+        "id": 13,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "meet"
       },
       {
+        "id": 14,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "to"
       },
       {
+        "id": 15,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "call"
       },
       {
+        "id": 16,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "thee"
       },
       {
+        "id": 17,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "blest,"
       },
       {
+        "id": 18,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "the"
       },
       {
+        "id": 19,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "The",
@@ -392,6 +463,7 @@
         "isHyphen": true
       },
       {
+        "id": 20,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "o",
@@ -400,6 +472,7 @@
         "isHyphen": true
       },
       {
+        "id": 21,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
@@ -410,12 +483,14 @@
         "isHyphen": true
       },
       {
+        "id": 22,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "isMelisma": true,
         "isHyphen": true
       },
       {
+        "id": 23,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
@@ -423,6 +498,7 @@
         "lyrics": "kos,"
       },
       {
+        "id": 24,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -430,12 +506,14 @@
         "scale": "Diatonic"
       },
       {
+        "id": 25,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Ga",
         "lyrics": "the"
       },
       {
+        "id": 26,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarShortTheseos",
@@ -445,6 +523,7 @@
         "isHyphen": true
       },
       {
+        "id": 27,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "er",
@@ -453,6 +532,7 @@
         "isHyphen": true
       },
       {
+        "id": 28,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -463,16 +543,19 @@
         "isHyphen": true
       },
       {
+        "id": 29,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ed"
       },
       {
+        "id": 30,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "and"
       },
       {
+        "id": 31,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortTheseos",
@@ -482,6 +565,7 @@
         "isHyphen": true
       },
       {
+        "id": 32,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "im",
@@ -490,6 +574,7 @@
         "isHyphen": true
       },
       {
+        "id": 33,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
@@ -500,6 +585,7 @@
         "isHyphen": true
       },
       {
+        "id": 34,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "u",
@@ -508,16 +594,19 @@
         "isHyphen": true
       },
       {
+        "id": 35,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "late"
       },
       {
+        "id": 36,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "and"
       },
       {
+        "id": 37,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaBelow",
         "vocalExpressionNeume": "Psifiston",
@@ -528,22 +617,26 @@
         "isHyphen": true
       },
       {
+        "id": 38,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "er"
       },
       {
+        "id": 39,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "of"
       },
       {
+        "id": 40,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "accidental": "Sharp_2_Left",
         "lyrics": "our"
       },
       {
+        "id": 41,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Dipli",
@@ -551,6 +644,7 @@
         "lyrics": "God."
       },
       {
+        "id": 42,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -558,12 +652,14 @@
         "scale": "Diatonic"
       },
       {
+        "id": 43,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "ison": "Ison.Ni",
         "lyrics": "More"
       },
       {
+        "id": 44,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -574,6 +670,7 @@
         "isHyphen": true
       },
       {
+        "id": 45,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "’ra",
@@ -582,22 +679,26 @@
         "isHyphen": true
       },
       {
+        "id": 46,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ble"
       },
       {
+        "id": 47,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "than"
       },
       {
+        "id": 48,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "the"
       },
       {
+        "id": 49,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
@@ -608,6 +709,7 @@
         "isHyphen": true
       },
       {
+        "id": 50,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "u",
@@ -616,12 +718,14 @@
         "isHyphen": true
       },
       {
+        "id": 51,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "bim,"
       },
       {
+        "id": 52,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -630,11 +734,13 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 53,
         "elementType": "Note",
         "quantitativeNeume": "ElaphronPlusApostrophos",
         "lyrics": "and"
       },
       {
+        "id": 54,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "be",
@@ -643,11 +749,13 @@
         "isHyphen": true
       },
       {
+        "id": 55,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "yond"
       },
       {
+        "id": 56,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "com",
@@ -656,17 +764,20 @@
         "isHyphen": true
       },
       {
+        "id": 57,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "pare"
       },
       {
+        "id": 58,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "more"
       },
       {
+        "id": 59,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -677,6 +788,7 @@
         "isHyphen": true
       },
       {
+        "id": 60,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ri",
@@ -685,22 +797,26 @@
         "isHyphen": true
       },
       {
+        "id": 61,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ous"
       },
       {
+        "id": 62,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "than"
       },
       {
+        "id": 63,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "the"
       },
       {
+        "id": 64,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
@@ -712,6 +828,7 @@
         "isHyphen": true
       },
       {
+        "id": 65,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "a",
@@ -720,12 +837,14 @@
         "isHyphen": true
       },
       {
+        "id": 66,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "phim,"
       },
       {
+        "id": 67,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -734,6 +853,7 @@
         "measureBarLeft": "MeasureBarShortDoubleAbove"
       },
       {
+        "id": 68,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
@@ -743,16 +863,19 @@
         "isMelismaStart": true
       },
       {
+        "id": 69,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "isMelisma": true
       },
       {
+        "id": 70,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "who"
       },
       {
+        "id": 71,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "with",
@@ -761,12 +884,14 @@
         "isHyphen": true
       },
       {
+        "id": 72,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "out"
       },
       {
+        "id": 73,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "cor",
@@ -775,6 +900,7 @@
         "isHyphen": true
       },
       {
+        "id": 74,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarShortDouble",
@@ -784,12 +910,14 @@
         "isHyphen": true
       },
       {
+        "id": 75,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "tion"
       },
       {
+        "id": 76,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -798,6 +926,7 @@
         "measureBarLeft": "MeasureBarShortTheseosAbove"
       },
       {
+        "id": 77,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "lyrics": "gav",
@@ -806,22 +935,26 @@
         "isHyphen": true
       },
       {
+        "id": 78,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "est"
       },
       {
+        "id": 79,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "birth"
       },
       {
+        "id": 80,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "to"
       },
       {
+        "id": 81,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
@@ -830,11 +963,13 @@
         "lyrics": "God"
       },
       {
+        "id": 82,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "the"
       },
       {
+        "id": 83,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
@@ -842,6 +977,7 @@
         "lyrics": "Word,"
       },
       {
+        "id": 84,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -849,11 +985,13 @@
         "scale": "Diatonic"
       },
       {
+        "id": 85,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "the"
       },
       {
+        "id": 86,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarShortDouble",
@@ -863,11 +1001,13 @@
         "isHyphen": true
       },
       {
+        "id": 87,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "y"
       },
       {
+        "id": 88,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "The",
@@ -876,6 +1016,7 @@
         "isHyphen": true
       },
       {
+        "id": 89,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "o",
@@ -884,6 +1025,7 @@
         "isHyphen": true
       },
       {
+        "id": 90,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
@@ -893,11 +1035,13 @@
         "isHyphen": true
       },
       {
+        "id": 91,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "lyrics": "kos,"
       },
       {
+        "id": 92,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "vocalExpressionNeume": "Psifiston",
@@ -905,16 +1049,19 @@
         "lyrics": "thee"
       },
       {
+        "id": 93,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "do"
       },
       {
+        "id": 94,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "we"
       },
       {
+        "id": 95,
         "elementType": "Note",
         "quantitativeNeume": "PetastiWithIson",
         "measureBarLeft": "MeasureBarTop",
@@ -924,6 +1071,7 @@
         "isHyphen": true
       },
       {
+        "id": 96,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ni",
@@ -932,6 +1080,7 @@
         "isHyphen": true
       },
       {
+        "id": 97,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -939,6 +1088,7 @@
         "lyrics": "fy."
       },
       {
+        "id": 98,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -947,23 +1097,29 @@
         "alignRight": true
       },
       {
+        "id": 99,
         "elementType": "TextBox",
         "alignment": "left",
         "color": "#000000",
         "content": "",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
-        "height": 10
+        "height": 10,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 100,
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#C80831",
         "content": "The priest censeth the Holy Table and the people, or the house where\nthe Canon is being chanted; and we chant the following Megalynaria:",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
@@ -971,22 +1127,29 @@
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
         "italic": true,
-        "height": 44
+        "height": 43.47169876098633,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 101,
         "elementType": "TextBox",
         "alignment": "left",
         "color": "#000000",
         "content": "",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
-        "height": 10
+        "height": 10,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 102,
         "elementType": "DropCap",
         "content": "H",
         "fontFamily": "Palatino Linotype",
@@ -995,9 +1158,11 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
+        "id": 103,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
@@ -1008,21 +1173,25 @@
         "isHyphen": true
       },
       {
+        "id": 104,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "er"
       },
       {
+        "id": 105,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "than"
       },
       {
+        "id": 106,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "the"
       },
       {
+        "id": 107,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -1033,12 +1202,14 @@
         "isHyphen": true
       },
       {
+        "id": 108,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Unison",
         "lyrics": "ens"
       },
       {
+        "id": 109,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "a",
@@ -1047,17 +1218,20 @@
         "isHyphen": true
       },
       {
+        "id": 110,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "bove"
       },
       {
+        "id": 111,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "art"
       },
       {
+        "id": 112,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -1065,6 +1239,7 @@
         "lyrics": "thou,"
       },
       {
+        "id": 113,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -1073,27 +1248,32 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 114,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "ison": "Ison.Ni",
         "lyrics": "and"
       },
       {
+        "id": 115,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "thou"
       },
       {
+        "id": 116,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "art"
       },
       {
+        "id": 117,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "much"
       },
       {
+        "id": 118,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
@@ -1104,21 +1284,25 @@
         "isHyphen": true
       },
       {
+        "id": 119,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "er"
       },
       {
+        "id": 120,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "than"
       },
       {
+        "id": 121,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "the"
       },
       {
+        "id": 122,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -1129,6 +1313,7 @@
         "isHyphen": true
       },
       {
+        "id": 123,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "di",
@@ -1137,22 +1322,26 @@
         "isHyphen": true
       },
       {
+        "id": 124,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ance"
       },
       {
+        "id": 125,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "of"
       },
       {
+        "id": 126,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "the"
       },
       {
+        "id": 127,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -1161,6 +1350,7 @@
         "lyrics": "sun;"
       },
       {
+        "id": 128,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -1169,22 +1359,26 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 129,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "ison": "Ison.Ni",
         "lyrics": "for"
       },
       {
+        "id": 130,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "thou"
       },
       {
+        "id": 131,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "hast"
       },
       {
+        "id": 132,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "re",
@@ -1193,18 +1387,21 @@
         "isHyphen": true
       },
       {
+        "id": 133,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "deemed"
       },
       {
+        "id": 134,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "us"
       },
       {
+        "id": 135,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -1212,33 +1409,39 @@
         "scale": "Diatonic"
       },
       {
+        "id": 136,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "out"
       },
       {
+        "id": 137,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "of"
       },
       {
+        "id": 138,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "the"
       },
       {
+        "id": 139,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "curse"
       },
       {
+        "id": 140,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "that"
       },
       {
+        "id": 141,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
@@ -1246,12 +1449,14 @@
         "lyrics": "held"
       },
       {
+        "id": 142,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
         "lyrics": "us."
       },
       {
+        "id": 143,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -1259,11 +1464,13 @@
         "scale": "Diatonic"
       },
       {
+        "id": 144,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "O"
       },
       {
+        "id": 145,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarTop",
@@ -1273,16 +1480,19 @@
         "isHyphen": true
       },
       {
+        "id": 146,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "tress"
       },
       {
+        "id": 147,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "of"
       },
       {
+        "id": 148,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "cre",
@@ -1291,6 +1501,7 @@
         "isHyphen": true
       },
       {
+        "id": 149,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
@@ -1300,11 +1511,13 @@
         "isHyphen": true
       },
       {
+        "id": 150,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "lyrics": "tion,"
       },
       {
+        "id": 151,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "vocalExpressionNeume": "Psifiston",
@@ -1312,16 +1525,19 @@
         "lyrics": "with"
       },
       {
+        "id": 152,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "hymns"
       },
       {
+        "id": 153,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "we"
       },
       {
+        "id": 154,
         "elementType": "Note",
         "quantitativeNeume": "PetastiWithIson",
         "measureBarLeft": "MeasureBarTop",
@@ -1331,11 +1547,13 @@
         "isHyphen": true
       },
       {
+        "id": 155,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "our"
       },
       {
+        "id": 156,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -1343,6 +1561,7 @@
         "lyrics": "thee."
       },
       {
+        "id": 157,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -1351,6 +1570,7 @@
         "alignRight": true
       },
       {
+        "id": 158,
         "elementType": "DropCap",
         "content": "F",
         "fontFamily": "Palatino Linotype",
@@ -1359,9 +1579,11 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
+        "id": 159,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
@@ -1369,16 +1591,19 @@
         "lyrics": "rom"
       },
       {
+        "id": 160,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "the"
       },
       {
+        "id": 161,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "great"
       },
       {
+        "id": 162,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "a",
@@ -1387,6 +1612,7 @@
         "isHyphen": true
       },
       {
+        "id": 163,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -1397,28 +1623,33 @@
         "isHyphen": true
       },
       {
+        "id": 164,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Unison",
         "lyrics": "dance"
       },
       {
+        "id": 165,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "of"
       },
       {
+        "id": 166,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "all"
       },
       {
+        "id": 167,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "my"
       },
       {
+        "id": 168,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -1426,6 +1657,7 @@
         "lyrics": "sins,"
       },
       {
+        "id": 169,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -1434,27 +1666,32 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 170,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "ison": "Ison.Ni",
         "lyrics": "ill"
       },
       {
+        "id": 171,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "am"
       },
       {
+        "id": 172,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "I"
       },
       {
+        "id": 173,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "in"
       },
       {
+        "id": 174,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
@@ -1465,11 +1702,13 @@
         "isHyphen": true
       },
       {
+        "id": 175,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "y,"
       },
       {
+        "id": 176,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ail",
@@ -1478,11 +1717,13 @@
         "isHyphen": true
       },
       {
+        "id": 177,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "ing"
       },
       {
+        "id": 178,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -1493,27 +1734,32 @@
         "isHyphen": true
       },
       {
+        "id": 179,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "so"
       },
       {
+        "id": 180,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "am"
       },
       {
+        "id": 181,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "I"
       },
       {
+        "id": 182,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "in"
       },
       {
+        "id": 183,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -1522,6 +1768,7 @@
         "lyrics": "soul."
       },
       {
+        "id": 184,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -1530,27 +1777,32 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 185,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "ison": "Ison.Ni",
         "lyrics": "Thee"
       },
       {
+        "id": 186,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "have"
       },
       {
+        "id": 187,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "I"
       },
       {
+        "id": 188,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "as"
       },
       {
+        "id": 189,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarShortDouble",
@@ -1560,12 +1812,14 @@
         "isHyphen": true
       },
       {
+        "id": 190,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "uge;"
       },
       {
+        "id": 191,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -1574,16 +1828,19 @@
         "measureBarLeft": "MeasureBarShortTheseosAbove"
       },
       {
+        "id": 192,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "lyrics": "do"
       },
       {
+        "id": 193,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "thou,"
       },
       {
+        "id": 194,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortDouble",
@@ -1593,11 +1850,13 @@
         "isHyphen": true
       },
       {
+        "id": 195,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "fore,"
       },
       {
+        "id": 196,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
@@ -1605,12 +1864,14 @@
         "lyrics": "help"
       },
       {
+        "id": 197,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
         "lyrics": "me,"
       },
       {
+        "id": 198,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -1618,32 +1879,38 @@
         "scale": "Diatonic"
       },
       {
+        "id": 199,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "O"
       },
       {
+        "id": 200,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "hope"
       },
       {
+        "id": 201,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "of"
       },
       {
+        "id": 202,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "all"
       },
       {
+        "id": 203,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "the"
       },
       {
+        "id": 204,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
@@ -1653,11 +1920,13 @@
         "isHyphen": true
       },
       {
+        "id": 205,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "lyrics": "less,"
       },
       {
+        "id": 206,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "vocalExpressionNeume": "Psifiston",
@@ -1665,27 +1934,32 @@
         "lyrics": "for"
       },
       {
+        "id": 207,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "thou"
       },
       {
+        "id": 208,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "art"
       },
       {
+        "id": 209,
         "elementType": "Note",
         "quantitativeNeume": "PetastiWithIson",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "full"
       },
       {
+        "id": 210,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "of"
       },
       {
+        "id": 211,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -1693,6 +1967,7 @@
         "lyrics": "grace."
       },
       {
+        "id": 212,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -1701,6 +1976,7 @@
         "alignRight": true
       },
       {
+        "id": 213,
         "elementType": "DropCap",
         "content": "O",
         "fontFamily": "Palatino Linotype",
@@ -1709,15 +1985,18 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
+        "id": 214,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Ga"
       },
       {
+        "id": 215,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "La",
@@ -1726,16 +2005,19 @@
         "isHyphen": true
       },
       {
+        "id": 216,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "dy"
       },
       {
+        "id": 217,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "and"
       },
       {
+        "id": 218,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -1746,28 +2028,33 @@
         "isHyphen": true
       },
       {
+        "id": 219,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Unison",
         "lyrics": "er"
       },
       {
+        "id": 220,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "of"
       },
       {
+        "id": 221,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "Christ"
       },
       {
+        "id": 222,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "our"
       },
       {
+        "id": 223,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -1775,6 +2062,7 @@
         "lyrics": "God,"
       },
       {
+        "id": 224,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -1782,6 +2070,7 @@
         "scale": "Diatonic"
       },
       {
+        "id": 225,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "re",
@@ -1790,6 +2079,7 @@
         "isHyphen": true
       },
       {
+        "id": 226,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarTop",
@@ -1797,6 +2087,7 @@
         "lyrics": "ceive"
       },
       {
+        "id": 227,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "sup",
@@ -1805,6 +2096,7 @@
         "isHyphen": true
       },
       {
+        "id": 228,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "pli",
@@ -1813,6 +2105,7 @@
         "isHyphen": true
       },
       {
+        "id": 229,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
@@ -1823,21 +2116,25 @@
         "isHyphen": true
       },
       {
+        "id": 230,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "tion"
       },
       {
+        "id": 231,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "from"
       },
       {
+        "id": 232,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "us"
       },
       {
+        "id": 233,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -1848,27 +2145,32 @@
         "isHyphen": true
       },
       {
+        "id": 234,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "es"
       },
       {
+        "id": 235,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "who"
       },
       {
+        "id": 236,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "beg"
       },
       {
+        "id": 237,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "of"
       },
       {
+        "id": 238,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -1877,6 +2179,7 @@
         "lyrics": "thee"
       },
       {
+        "id": 239,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -1885,22 +2188,26 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 240,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "ison": "Ison.Ni",
         "lyrics": "that"
       },
       {
+        "id": 241,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "thou"
       },
       {
+        "id": 242,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "make"
       },
       {
+        "id": 243,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "en",
@@ -1909,6 +2216,7 @@
         "isHyphen": true
       },
       {
+        "id": 244,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarShortDouble",
@@ -1918,12 +2226,14 @@
         "isHyphen": true
       },
       {
+        "id": 245,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "y"
       },
       {
+        "id": 246,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -1931,6 +2241,7 @@
         "scale": "Diatonic"
       },
       {
+        "id": 247,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "un",
@@ -1939,28 +2250,33 @@
         "isHyphen": true
       },
       {
+        "id": 248,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "to"
       },
       {
+        "id": 249,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "the"
       },
       {
+        "id": 250,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "One"
       },
       {
+        "id": 251,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "born"
       },
       {
+        "id": 252,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
@@ -1968,12 +2284,14 @@
         "lyrics": "from"
       },
       {
+        "id": 253,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
         "lyrics": "thee;"
       },
       {
+        "id": 254,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -1981,11 +2299,13 @@
         "scale": "Diatonic"
       },
       {
+        "id": 255,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "O"
       },
       {
+        "id": 256,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarTop",
@@ -1995,16 +2315,19 @@
         "isHyphen": true
       },
       {
+        "id": 257,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "tress"
       },
       {
+        "id": 258,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "of"
       },
       {
+        "id": 259,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "cre",
@@ -2013,6 +2336,7 @@
         "isHyphen": true
       },
       {
+        "id": 260,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
@@ -2023,6 +2347,7 @@
         "isHyphen": true
       },
       {
+        "id": 261,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "tion,",
@@ -2030,11 +2355,13 @@
         "isMelismaStart": true
       },
       {
+        "id": 262,
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "lyrics": "do"
       },
       {
+        "id": 263,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "vocalExpressionNeume": "Psifiston",
@@ -2042,6 +2369,7 @@
         "lyrics": "thou"
       },
       {
+        "id": 264,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "in",
@@ -2050,6 +2378,7 @@
         "isHyphen": true
       },
       {
+        "id": 265,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ter",
@@ -2058,17 +2387,20 @@
         "isHyphen": true
       },
       {
+        "id": 266,
         "elementType": "Note",
         "quantitativeNeume": "PetastiWithIson",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "cede"
       },
       {
+        "id": 267,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "for"
       },
       {
+        "id": 268,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -2076,6 +2408,7 @@
         "lyrics": "us."
       },
       {
+        "id": 269,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -2084,6 +2417,7 @@
         "alignRight": true
       },
       {
+        "id": 270,
         "elementType": "DropCap",
         "content": "N",
         "fontFamily": "Palatino Linotype",
@@ -2092,9 +2426,11 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
+        "id": 271,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
@@ -2102,21 +2438,25 @@
         "lyrics": "ow"
       },
       {
+        "id": 272,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "we"
       },
       {
+        "id": 273,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "chant"
       },
       {
+        "id": 274,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "with"
       },
       {
+        "id": 275,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -2127,6 +2467,7 @@
         "isHyphen": true
       },
       {
+        "id": 276,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Unison",
@@ -2136,11 +2477,13 @@
         "isHyphen": true
       },
       {
+        "id": 277,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ness"
       },
       {
+        "id": 278,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
@@ -2150,11 +2493,13 @@
         "isHyphen": true
       },
       {
+        "id": 279,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "to"
       },
       {
+        "id": 280,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -2162,6 +2507,7 @@
         "lyrics": "thee,"
       },
       {
+        "id": 281,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -2169,28 +2515,33 @@
         "scale": "Diatonic"
       },
       {
+        "id": 282,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "ison": "Ison.Ni",
         "lyrics": "with"
       },
       {
+        "id": 283,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "this"
       },
       {
+        "id": 284,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "ode"
       },
       {
+        "id": 285,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "most"
       },
       {
+        "id": 286,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
@@ -2201,16 +2552,19 @@
         "isHyphen": true
       },
       {
+        "id": 287,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ful,"
       },
       {
+        "id": 288,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "O"
       },
       {
+        "id": 289,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "all",
@@ -2219,6 +2573,7 @@
         "isHyphen": true
       },
       {
+        "id": 290,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -2226,6 +2581,7 @@
         "lyrics": "hymned"
       },
       {
+        "id": 291,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "Moth",
@@ -2234,22 +2590,26 @@
         "isHyphen": true
       },
       {
+        "id": 292,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "er"
       },
       {
+        "id": 293,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "of"
       },
       {
+        "id": 294,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "our"
       },
       {
+        "id": 295,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -2258,6 +2618,7 @@
         "lyrics": "God;"
       },
       {
+        "id": 296,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -2265,6 +2626,7 @@
         "scale": "Diatonic"
       },
       {
+        "id": 297,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "ison": "Ison.Ni",
@@ -2274,6 +2636,7 @@
         "isHyphen": true
       },
       {
+        "id": 298,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
@@ -2283,21 +2646,25 @@
         "isHyphen": true
       },
       {
+        "id": 299,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "er"
       },
       {
+        "id": 300,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "with"
       },
       {
+        "id": 301,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "the"
       },
       {
+        "id": 302,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarShortDouble",
@@ -2307,12 +2674,14 @@
         "isHyphen": true
       },
       {
+        "id": 303,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "tist"
       },
       {
+        "id": 304,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -2320,22 +2689,26 @@
         "scale": "Diatonic"
       },
       {
+        "id": 305,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "and"
       },
       {
+        "id": 306,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "all"
       },
       {
+        "id": 307,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "the"
       },
       {
+        "id": 308,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortDouble",
@@ -2345,11 +2718,13 @@
         "isHyphen": true
       },
       {
+        "id": 309,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "ly"
       },
       {
+        "id": 310,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
@@ -2359,12 +2734,14 @@
         "isMelismaStart": true
       },
       {
+        "id": 311,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
         "isMelisma": true
       },
       {
+        "id": 312,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -2372,6 +2749,7 @@
         "scale": "Diatonic"
       },
       {
+        "id": 313,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "be",
@@ -2380,17 +2758,20 @@
         "isHyphen": true
       },
       {
+        "id": 314,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "seech,"
       },
       {
+        "id": 315,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "O"
       },
       {
+        "id": 316,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "The",
@@ -2399,6 +2780,7 @@
         "isHyphen": true
       },
       {
+        "id": 317,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "o",
@@ -2407,6 +2789,7 @@
         "isHyphen": true
       },
       {
+        "id": 318,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
@@ -2416,11 +2799,13 @@
         "isHyphen": true
       },
       {
+        "id": 319,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "lyrics": "kos,"
       },
       {
+        "id": 320,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "vocalExpressionNeume": "Psifiston",
@@ -2428,16 +2813,19 @@
         "lyrics": "that"
       },
       {
+        "id": 321,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "we"
       },
       {
+        "id": 322,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "find"
       },
       {
+        "id": 323,
         "elementType": "Note",
         "quantitativeNeume": "PetastiWithIson",
         "measureBarLeft": "MeasureBarTop",
@@ -2447,6 +2835,7 @@
         "isHyphen": true
       },
       {
+        "id": 324,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "en",
@@ -2455,6 +2844,7 @@
         "isHyphen": true
       },
       {
+        "id": 325,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
@@ -2462,6 +2852,7 @@
         "lyrics": "cy."
       },
       {
+        "id": 326,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -2470,6 +2861,7 @@
         "alignRight": true
       },
       {
+        "id": 327,
         "elementType": "DropCap",
         "content": "S",
         "fontFamily": "Palatino Linotype",
@@ -2478,9 +2870,11 @@
         "fontStyle": "normal",
         "strokeWidth": 0,
         "color": "#C80831",
-        "useDefaultStyle": true
+        "useDefaultStyle": true,
+        "lineSpan": 1
       },
       {
+        "id": 328,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
@@ -2491,21 +2885,25 @@
         "isHyphen": true
       },
       {
+        "id": 329,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "less"
       },
       {
+        "id": 330,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "be"
       },
       {
+        "id": 331,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "the"
       },
       {
+        "id": 332,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -2513,17 +2911,20 @@
         "lyrics": "lips"
       },
       {
+        "id": 333,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Unison",
         "lyrics": "of"
       },
       {
+        "id": 334,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "the"
       },
       {
+        "id": 335,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
@@ -2533,6 +2934,7 @@
         "isHyphen": true
       },
       {
+        "id": 336,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "pi",
@@ -2541,6 +2943,7 @@
         "isHyphen": true
       },
       {
+        "id": 337,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -2548,6 +2951,7 @@
         "lyrics": "ous"
       },
       {
+        "id": 338,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -2555,12 +2959,14 @@
         "scale": "Diatonic"
       },
       {
+        "id": 339,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "ison": "Ison.Ni",
         "lyrics": "who"
       },
       {
+        "id": 340,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "re",
@@ -2569,17 +2975,20 @@
         "isHyphen": true
       },
       {
+        "id": 341,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "fuse"
       },
       {
+        "id": 342,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "to"
       },
       {
+        "id": 343,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
@@ -2590,16 +2999,19 @@
         "isHyphen": true
       },
       {
+        "id": 344,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "’rence"
       },
       {
+        "id": 345,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "thy"
       },
       {
+        "id": 346,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "re",
@@ -2608,6 +3020,7 @@
         "isHyphen": true
       },
       {
+        "id": 347,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -2615,6 +3028,7 @@
         "lyrics": "vered"
       },
       {
+        "id": 348,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "i",
@@ -2623,22 +3037,26 @@
         "isHyphen": true
       },
       {
+        "id": 349,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "con"
       },
       {
+        "id": 350,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "which"
       },
       {
+        "id": 351,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "is"
       },
       {
+        "id": 352,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -2647,6 +3065,7 @@
         "lyrics": "known"
       },
       {
+        "id": 353,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -2655,22 +3074,26 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 354,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "ison": "Ison.Ni",
         "lyrics": "by"
       },
       {
+        "id": 355,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "the"
       },
       {
+        "id": 356,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "name"
       },
       {
+        "id": 357,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "Di",
@@ -2679,6 +3102,7 @@
         "isHyphen": true
       },
       {
+        "id": 358,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarShortDouble",
@@ -2688,12 +3112,14 @@
         "isHyphen": true
       },
       {
+        "id": 359,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "tress,"
       },
       {
+        "id": 360,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -2701,28 +3127,33 @@
         "scale": "Diatonic"
       },
       {
+        "id": 361,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "and"
       },
       {
+        "id": 362,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "which"
       },
       {
+        "id": 363,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "hath"
       },
       {
+        "id": 364,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "been"
       },
       {
+        "id": 365,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "de",
@@ -2731,6 +3162,7 @@
         "isHyphen": true
       },
       {
+        "id": 366,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
@@ -2741,12 +3173,14 @@
         "isHyphen": true
       },
       {
+        "id": 367,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
         "lyrics": "ed"
       },
       {
+        "id": 368,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -2754,27 +3188,32 @@
         "scale": "Diatonic"
       },
       {
+        "id": 369,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "for"
       },
       {
+        "id": 370,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "us"
       },
       {
+        "id": 371,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "by"
       },
       {
+        "id": 372,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "the"
       },
       {
+        "id": 373,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "A",
@@ -2783,6 +3222,7 @@
         "isHyphen": true
       },
       {
+        "id": 374,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
@@ -2792,11 +3232,13 @@
         "isHyphen": true
       },
       {
+        "id": 375,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "lyrics": "tle"
       },
       {
+        "id": 376,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "vocalExpressionNeume": "Psifiston",
@@ -2804,11 +3246,13 @@
         "lyrics": "Luke"
       },
       {
+        "id": 377,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "the"
       },
       {
+        "id": 378,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "E",
@@ -2817,6 +3261,7 @@
         "isHyphen": true
       },
       {
+        "id": 379,
         "elementType": "Note",
         "quantitativeNeume": "PetastiWithIson",
         "measureBarLeft": "MeasureBarTop",
@@ -2826,6 +3271,7 @@
         "isHyphen": true
       },
       {
+        "id": 380,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ge",
@@ -2834,12 +3280,14 @@
         "isHyphen": true
       },
       {
+        "id": 381,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "lyrics": "list."
       },
       {
+        "id": 382,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -2848,23 +3296,29 @@
         "alignRight": true
       },
       {
+        "id": 383,
         "elementType": "TextBox",
         "alignment": "left",
         "color": "#000000",
         "content": "",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
         "fontSize": 8,
         "fontFamily": "Omega",
         "strokeWidth": 0,
-        "height": 10
+        "height": 10,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 384,
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#C80831",
         "content": "Then the Megalynarion of the Saint to whom the temple is dedicated. Then:",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
@@ -2872,13 +3326,17 @@
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
         "italic": true,
-        "height": 22
+        "height": 22,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 385,
         "elementType": "TextBox",
         "alignment": "left",
         "color": "#000000",
         "content": "",
+        "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
         "contentRight": "",
@@ -2886,9 +3344,12 @@
         "fontFamily": "Omega",
         "strokeWidth": 0,
         "italic": true,
-        "height": 10
+        "height": 10,
+        "marginTop": 0,
+        "marginBottom": 0
       },
       {
+        "id": 386,
         "elementType": "DropCap",
         "content": "O",
         "fontFamily": "Palatino Linotype",
@@ -2896,25 +3357,30 @@
         "fontWeight": "400",
         "fontStyle": "normal",
         "strokeWidth": 0,
-        "color": "#C80831"
+        "color": "#C80831",
+        "lineSpan": 1
       },
       {
+        "id": 387,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Ga"
       },
       {
+        "id": 388,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "all"
       },
       {
+        "id": 389,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "ye"
       },
       {
+        "id": 390,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "ar",
@@ -2923,6 +3389,7 @@
         "isHyphen": true
       },
       {
+        "id": 391,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -2930,12 +3397,14 @@
         "lyrics": "rays"
       },
       {
+        "id": 392,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Unison",
         "lyrics": "of"
       },
       {
+        "id": 393,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "An",
@@ -2944,6 +3413,7 @@
         "isHyphen": true
       },
       {
+        "id": 394,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
@@ -2953,11 +3423,13 @@
         "isHyphen": true
       },
       {
+        "id": 395,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "ic"
       },
       {
+        "id": 396,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -2965,6 +3437,7 @@
         "lyrics": "Hosts,"
       },
       {
+        "id": 397,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -2973,17 +3446,20 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 398,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "ison": "Ison.Pa",
         "lyrics": "with"
       },
       {
+        "id": 399,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "the"
       },
       {
+        "id": 400,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
@@ -2993,11 +3469,13 @@
         "isHyphen": true
       },
       {
+        "id": 401,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ly"
       },
       {
+        "id": 402,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
@@ -3008,18 +3486,21 @@
         "isHyphen": true
       },
       {
+        "id": 403,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "isMelisma": true,
         "isHyphen": true
       },
       {
+        "id": 404,
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
         "timeNeume": "Klasma_Top",
         "lyrics": "tist,"
       },
       {
+        "id": 405,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortTheseos",
@@ -3027,6 +3508,7 @@
         "lyrics": "the"
       },
       {
+        "id": 406,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "A",
@@ -3035,6 +3517,7 @@
         "isHyphen": true
       },
       {
+        "id": 407,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "timeNeume": "Klasma_Bottom",
@@ -3045,11 +3528,13 @@
         "isHyphen": true
       },
       {
+        "id": 408,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "tles’"
       },
       {
+        "id": 409,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "twelve",
@@ -3058,6 +3543,7 @@
         "isHyphen": true
       },
       {
+        "id": 410,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
@@ -3067,11 +3553,13 @@
         "isHyphen": true
       },
       {
+        "id": 411,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "bered"
       },
       {
+        "id": 412,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
@@ -3080,6 +3568,7 @@
         "lyrics": "band,"
       },
       {
+        "id": 413,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -3088,22 +3577,26 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
+        "id": 414,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "ison": "Ison.Ni",
         "lyrics": "all"
       },
       {
+        "id": 415,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "the"
       },
       {
+        "id": 416,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "Saints"
       },
       {
+        "id": 417,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "to",
@@ -3112,6 +3605,7 @@
         "isHyphen": true
       },
       {
+        "id": 418,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarShortDouble",
@@ -3121,12 +3615,14 @@
         "isHyphen": true
       },
       {
+        "id": 419,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "er,"
       },
       {
+        "id": 420,
         "elementType": "Martyria",
         "auto": true,
         "note": "Thi",
@@ -3134,28 +3630,33 @@
         "scale": "Diatonic"
       },
       {
+        "id": 421,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "as"
       },
       {
+        "id": 422,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "well"
       },
       {
+        "id": 423,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "as"
       },
       {
+        "id": 424,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "God’s"
       },
       {
+        "id": 425,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "Birth",
@@ -3164,6 +3665,7 @@
         "isHyphen": true
       },
       {
+        "id": 426,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
@@ -3174,12 +3676,14 @@
         "isHyphen": true
       },
       {
+        "id": 427,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
         "lyrics": "er,"
       },
       {
+        "id": 428,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
@@ -3187,22 +3691,26 @@
         "scale": "Diatonic"
       },
       {
+        "id": 429,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "lyrics": "pray"
       },
       {
+        "id": 430,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "make"
       },
       {
+        "id": 431,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "ye"
       },
       {
+        "id": 432,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "in",
@@ -3211,6 +3719,7 @@
         "isHyphen": true
       },
       {
+        "id": 433,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "ter",
@@ -3219,6 +3728,7 @@
         "isHyphen": true
       },
       {
+        "id": 434,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "vocalExpressionNeume": "Psifiston",
@@ -3229,22 +3739,26 @@
         "isHyphen": true
       },
       {
+        "id": 435,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "sion"
       },
       {
+        "id": 436,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "for"
       },
       {
+        "id": 437,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "our"
       },
       {
+        "id": 438,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "de",
@@ -3253,6 +3767,7 @@
         "isHyphen": true
       },
       {
+        "id": 439,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaBelow",
         "vocalExpressionNeume": "Psifiston",
@@ -3264,6 +3779,7 @@
         "isHyphen": true
       },
       {
+        "id": 440,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "er",
@@ -3272,6 +3788,7 @@
         "isHyphen": true
       },
       {
+        "id": 441,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
@@ -3281,18 +3798,21 @@
         "isMelismaStart": true
       },
       {
+        "id": 442,
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
         "isMelisma": true
       },
       {
+        "id": 443,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Unison",
         "isMelisma": true
       },
       {
+        "id": 444,
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
         "gorgonNeume": "Hemiolion",
@@ -3300,11 +3820,13 @@
         "isMelisma": true
       },
       {
+        "id": 445,
         "elementType": "Note",
         "quantitativeNeume": "VareiaDotted",
         "measureBarRight": "MeasureBarTop"
       },
       {
+        "id": 446,
         "elementType": "Martyria",
         "auto": true,
         "note": "Ga",
