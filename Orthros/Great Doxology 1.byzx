@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.4.105",
+  "appVersion": "0.4.106",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -910,19 +910,12 @@
       {
         "id": 84,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "PetastiPlusApostrophos",
+        "timeNeume": "Klasma_Bottom",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "Heav",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true
-      },
-      {
-        "id": 85,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true,
         "isHyphen": true
       },
       {
@@ -1032,20 +1025,20 @@
       {
         "id": 98,
         "elementType": "Note",
-        "quantitativeNeume": "ElaphronPlusApostrophos",
+        "quantitativeNeume": "Elaphron",
         "lyrics": "O"
       },
       {
         "id": 99,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentimaAbove",
+        "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "Lord"
       },
       {
         "id": 100,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
         "lyrics": "the"
       },
       {
@@ -1662,39 +1655,21 @@
       {
         "id": 189,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarShortDouble",
-        "lyrics": "right",
-        "isMelisma": true,
-        "isMelismaStart": true
-      },
-      {
-        "id": 190,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
+        "quantitativeNeume": "Ison",
+        "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarTop",
+        "lyrics": "right"
       },
       {
         "id": 191,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarShortTheseos",
-        "lyrics": "hand",
-        "isMelisma": true,
-        "isMelismaStart": true
-      },
-      {
-        "id": 192,
-        "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
+        "lyrics": "hand"
       },
       {
         "id": 193,
         "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "of"
       },
       {
@@ -1739,15 +1714,13 @@
       {
         "id": 199,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "lyrics": "and",
-        "isMelisma": true,
-        "isMelismaStart": true
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "and"
       },
       {
         "id": 200,
         "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "have"
       },
       {
@@ -1813,21 +1786,21 @@
       {
         "id": 207,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "OligonPlusKentimaAbove",
         "ison": "Ison.Pa",
         "lyrics": "or"
       },
       {
         "id": 208,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
         "lyrics": "Thou"
       },
       {
         "id": 210,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentimaAbove",
-        "timeNeume": "Klasma_Bottom",
+        "quantitativeNeume": "OligonPlusKentimaBelow",
+        "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "on",
         "isMelisma": true,
@@ -1835,15 +1808,22 @@
         "isHyphen": true
       },
       {
+        "id": 772,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
         "id": 211,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "ly"
       },
       {
         "id": 212,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "art"
       },
       {
@@ -2698,7 +2678,7 @@
       {
         "id": 324,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "OligonPlusKentimaAbove",
         "ison": "Ison.Pa",
         "lyrics": "et"
       },
@@ -2711,7 +2691,8 @@
       {
         "id": 326,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "OligonPlusKentimaBelow",
+        "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "mer",
         "isMelisma": true,
@@ -2719,9 +2700,16 @@
         "isHyphen": true
       },
       {
+        "id": 773,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
         "id": 327,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "cy,"
       },
       {
@@ -2733,7 +2721,7 @@
       {
         "id": 329,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
+        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "Lord,",
@@ -3964,15 +3952,13 @@
       {
         "id": 464,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "lyrics": "in",
-        "isMelisma": true,
-        "isMelismaStart": true
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "in"
       },
       {
         "id": 465,
         "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "Thy"
       },
       {
@@ -5665,7 +5651,7 @@
       }
     ],
     "lyrics": {
-      "text": "Glo-ry to Thee, Who hast shown__ forth the light. Glo-ry to God__ in the high--est, and on earth__ peace, good will__ towards__ men.\n\nWe praise Thee; we bless__ Thee; we wor-ship Thee; we glo-ri-fy Thee; we give thanks to Thee for Thy great glo-ry.\n\nO_ Lord,__ Heav--en-ly King,__ God the Fa-ther Al-might-y, O Lord the On--ly-be-got-ten Son, Je-sus Christ, and the Ho-ly Spir-it.\n\nO_ Lord__ God, Lamb of God, Son__ of the Fa-ther, that tak--est a-way the sin__ of the world: have mer--cy on us, Thou that tak-est a-way the sins__ of the world.\n\nRe-ceive our prayer, Thou that sit-test at the right__ hand__ of the Fa-ther; and have mer--cy on us.\n\nFor Thou on-ly art ho-ly; Thou on--ly art Lord, Je-sus__ Christ, to the glo-ry of God the Fa--ther. A-men.\n\nEve-ry day__ will I bless Thee, and I will praise Thy Name for ev--er, yea, for ev--er and ev-er.\n\nVouch--safe, O Lord, to keep__ us this day with-out sin.\n\nBless-ed art Thou, O Lord, the God__ of our Fa-thers, and praised and glo-ri--fied is Thy Name un-to the ag--es. A-men.\n\nLet Thy mer-cy, O Lord,__ be up-on us, ac-cord-ing as we have hoped in Thee.\n\nBless--ed art Thou, O Lord,_____ teach__ me Thy stat-utes.\n\nBless--ed art Thou, O Lord,_____ teach__ me Thy stat-utes.\n\nBless--ed art Thou, O Lord,__ teach me Thy stat-utes.\n\nLord, Thou hast been our ref-uge from gen-er-a--tion to gen-er-a--tion. I said: O Lord, have mer--cy on me; heal my soul, for I have sinned a-gainst Thee.\n\nLord, un-to Thee__ have I fled for ref-uge; teach me to do Thy will, for Thou__ art my God.\n\nFor in Thee is the foun--tain of life; in Thy light__ shall we see light.\n\nO_ con-tin--ue Thy mer--cy un-to them that know Thee. Ho-ly God,__ Ho-ly Might-y, Ho--ly Im-mor--tal, have mer--cy on us.\n\nHo ly God,__ Ho-ly Might-y, Ho--ly Im-mor--tal, have mer--cy on us.\n\nHo-ly God,__ Ho-ly Might--y, Ho--ly Im-mor--tal, have mer--cy on us.\n\nGlo-ry to the Fa-ther, and to the Son, and to the Ho-ly Spir-it.\n\nBoth now and ev--er, and un-to the ag-es of ag--es. A-men.\n\nHo--ly Im-mor--tal, have mer--cy on us.\n\nHo-----ly___ God,__\n\nHo-----ly Might---y,__\n\nHo--ly Im--mor---tal, have mer---cy__ on___ us.____"
+      "text": "Glo-ry to Thee, Who hast shown__ forth the light. Glo-ry to God__ in the high--est, and on earth__ peace, good will__ towards__ men.\n\nWe praise Thee; we bless__ Thee; we wor-ship Thee; we glo-ri-fy Thee; we give thanks to Thee for Thy great glo-ry.\n\nO_ Lord,__ Heav-en-ly King,__ God the Fa-ther Al-might-y, O Lord the On--ly-be-got-ten Son, Je-sus Christ, and the Ho-ly Spir-it.\n\nO_ Lord__ God, Lamb of God, Son__ of the Fa-ther, that tak--est a-way the sin__ of the world: have mer--cy on us, Thou that tak-est a-way the sins__ of the world.\n\nRe-ceive our prayer, Thou that sit-test at the right hand of the Fa-ther; and have mer--cy on us.\n\nFor Thou on--ly art ho-ly; Thou on--ly art Lord, Je-sus__ Christ, to the glo-ry of God the Fa--ther. A-men.\n\nEve-ry day__ will I bless Thee, and I will praise Thy Name for ev--er, yea, for ev--er and ev-er.\n\nVouch--safe, O Lord, to keep__ us this day with-out sin.\n\nBless-ed art Thou, O Lord, the God__ of our Fa-thers, and praised and glo-ri--fied is Thy Name un-to the ag--es. A-men.\n\nLet Thy mer--cy, O Lord,__ be up-on us, ac-cord-ing as we have hoped in Thee.\n\nBless--ed art Thou, O Lord,_____ teach__ me Thy stat-utes.\n\nBless--ed art Thou, O Lord,_____ teach__ me Thy stat-utes.\n\nBless--ed art Thou, O Lord,__ teach me Thy stat-utes.\n\nLord, Thou hast been our ref-uge from gen-er-a--tion to gen-er-a--tion. I said: O Lord, have mer--cy on me; heal my soul, for I have sinned a-gainst Thee.\n\nLord, un-to Thee__ have I fled for ref-uge; teach me to do Thy will, for Thou__ art my God.\n\nFor in Thee is the foun--tain of life; in Thy light__ shall we see light.\n\nO_ con-tin--ue Thy mer--cy un-to them that know Thee. Ho-ly God,__ Ho-ly Might-y, Ho--ly Im-mor--tal, have mer--cy on us.\n\nHo ly God,__ Ho-ly Might-y, Ho--ly Im-mor--tal, have mer--cy on us.\n\nHo-ly God,__ Ho-ly Might--y, Ho--ly Im-mor--tal, have mer--cy on us.\n\nGlo-ry to the Fa-ther, and to the Son, and to the Ho-ly Spir-it.\n\nBoth now and ev--er, and un-to the ag-es of ag--es. A-men.\n\nHo--ly Im-mor--tal, have mer--cy on us.\n\nHo-----ly___ God,__\n\nHo-----ly Might---y,__\n\nHo--ly Im--mor---tal, have mer---cy__ on___ us.____"
     }
   }
 }
