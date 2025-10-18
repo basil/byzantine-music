@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.4.104",
+  "appVersion": "0.5.3",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -29,6 +29,8 @@
     "neumeDefaultColor": "#000000",
     "neumeDefaultSpacing": 2.88,
     "neumeDefaultStrokeWidth": 0,
+    "alternateLineDefaultFontSize": 16,
+    "alternateLineDefaultColor": "#ED0000",
     "modeKeyDefaultColor": "#C80831",
     "modeKeyDefaultStrokeWidth": 0,
     "modeKeyDefaultFontSize": 26.666666666666668,
@@ -74,7 +76,8 @@
     "textBoxDefaultStrokeWidth": 0,
     "hyphenSpacing": 72,
     "martyriaVerticalOffset": 0,
-    "chrysanthineAccidentals": true
+    "chrysanthineAccidentals": true,
+    "alignIsonIndicators": true
   },
   "headers": {
     "default": {
@@ -173,7 +176,7 @@
           "fontSize": 12,
           "fontFamily": "Omega",
           "strokeWidth": 0,
-          "height": 28.98113250732422,
+          "height": 29.090909957885742,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -256,7 +259,7 @@
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
         "bold": true,
-        "height": 32.60377502441406,
+        "height": 32.727272033691406,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -291,7 +294,7 @@
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
         "italic": true,
-        "height": 22,
+        "height": 21.998106002807617,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -325,7 +328,7 @@
         "fontSize": 16,
         "fontFamily": "Palatino Linotype",
         "strokeWidth": 0,
-        "height": 22,
+        "height": 21.998106002807617,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -780,20 +783,21 @@
       {
         "id": 60,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "deem"
       },
       {
         "id": 61,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarTop",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "them"
       },
       {
         "id": 62,
         "elementType": "Note",
-        "quantitativeNeume": "Elaphron",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "all"
       },
       {
@@ -2416,7 +2420,6 @@
         "id": 270,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "Light;"
       },
       {
@@ -2430,22 +2433,20 @@
       {
         "id": 272,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "thou"
       },
       {
         "id": 273,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
-        "measureBarLeft": "MeasureBarShortDouble",
-        "ison": "Ison.Pa",
+        "quantitativeNeume": "Apostrophos",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "didst"
       },
       {
         "id": 274,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Oligon",
         "lyrics": "dis",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -2454,13 +2455,14 @@
       {
         "id": 275,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Oligon",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "pel"
       },
       {
         "id": 276,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Elaphron",
         "lyrics": "the"
       },
       {
@@ -2470,6 +2472,7 @@
         "timeNeume": "Klasma_Bottom",
         "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarTop",
+        "ison": "Ison.Pa",
         "lyrics": "gloom"
       },
       {
@@ -2493,7 +2496,7 @@
         "id": 280,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "timeNeume": "Dipli",
+        "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "night,"
       },
@@ -2508,24 +2511,31 @@
       {
         "id": 282,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
+        "ison": "Ison.Vou",
         "lyrics": "and"
       },
       {
         "id": 283,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarTop",
-        "ison": "Ison.Vou",
         "lyrics": "didst"
       },
       {
         "id": 284,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Petasti",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "whol",
         "isMelisma": true,
         "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "id": 382,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
         "isHyphen": true
       },
       {
@@ -3287,7 +3297,7 @@
       }
     ],
     "lyrics": {
-      "text": "Make stead--fast, O ho-ly The-o-to--kos, thou liv--ing and nev-er-fail-ing spring, all them that form a com-pa--ny and gath-er for to praise thy__ name; and by thy grace di-vine, O Maid, deem them all wor-thy of glo-ry’s crowns.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nRe-joice,__ O thou un-tilled land that blos--somed the Ear__ of Wheat sa-cred and di-vine; a liv-ing ta-ble art thou,__ Maid, that held the ver-y Bread of__ Life; re-joice, un-fail-ing well-spring of the liv-ing Wa-ter, O Queen of all.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nO_ heif--er that bare the blame-less Calf__ for the faith--ful, to thee we cry: Re-joice! Re-joice, most gra-cious mer-cy--seat and throne of Christ, the King of__ all; re-joice, thou ewe that bare the Lamb of God that tak-eth a-way men’s sins.\n\nGlo-ry to the Fa-ther, and to the Son, and to the Ho-ly Spir--it.\n\nRe-joice,__ ra-diant morn that hast dawned, bring--ing forth Christ__ God, the spir-it-u-al Sun; re-joice, O dwell-ing of the__ Light; thou didst dis-pel the gloom of__ night, and didst whol-ly an-ni-hi-late the dark-some ranks of the de-mons’ hosts.\n\nBoth now and ev--er, and un-to the ag--es of ag-es. A-men.\n\nRe-joice,__ for thou art a-lone the gate--way and por--tal which God the Word trav-ersed. O La-dy, thou didst crush the__ bars and gates of Hades by thy child--birth; re-joice, O ho-ly en-try of the saved, O praised and all-laud-ed one."
+      "text": "Make stead--fast, O ho-ly The-o-to--kos, thou liv--ing and nev-er-fail-ing spring, all them that form a com-pa--ny and gath-er for to praise thy__ name; and by thy grace di-vine, O Maid, deem them all wor-thy of glo-ry’s crowns.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nRe-joice,__ O thou un-tilled land that blos--somed the Ear__ of Wheat sa-cred and di-vine; a liv-ing ta-ble art thou,__ Maid, that held the ver-y Bread of__ Life; re-joice, un-fail-ing well-spring of the liv-ing Wa-ter, O Queen of all.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nO_ heif--er that bare the blame-less Calf__ for the faith--ful, to thee we cry: Re-joice! Re-joice, most gra-cious mer-cy--seat and throne of Christ, the King of__ all; re-joice, thou ewe that bare the Lamb of God that tak-eth a-way men’s sins.\n\nGlo-ry to the Fa-ther, and to the Son, and to the Ho-ly Spir--it.\n\nRe-joice,__ ra-diant morn that hast dawned, bring--ing forth Christ__ God, the spir-it-u-al Sun; re-joice, O dwell-ing of the__ Light; thou didst dis-pel the gloom of__ night, and didst whol--ly an-ni-hi-late the dark-some ranks of the de-mons’ hosts.\n\nBoth now and ev--er, and un-to the ag--es of ag-es. A-men.\n\nRe-joice,__ for thou art a-lone the gate--way and por--tal which God the Word trav-ersed. O La-dy, thou didst crush the__ bars and gates of Hades by thy child--birth; re-joice, O ho-ly en-try of the saved, O praised and all-laud-ed one."
     }
   }
 }
