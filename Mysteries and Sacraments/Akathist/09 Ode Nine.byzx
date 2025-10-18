@@ -766,7 +766,6 @@
         "id": 56,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "ison": "Ison.Thi",
         "lyrics": "’s"
       },
       {
@@ -783,6 +782,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
+        "ison": "Ison.Thi",
         "lyrics": "lime"
       },
       {
@@ -910,6 +910,7 @@
         "id": 77,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
+        "ison": "Ison.Vou",
         "lyrics": "Re",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -921,7 +922,6 @@
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarShortDouble",
-        "ison": "Ison.Vou",
         "lyrics": "joice,"
       },
       {
@@ -1709,7 +1709,7 @@
       {
         "id": 182,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "par",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1718,8 +1718,7 @@
       {
         "id": 183,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
+        "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "tak",
         "isMelisma": true,
@@ -1727,31 +1726,37 @@
         "isHyphen": true
       },
       {
-        "id": 184,
+        "id": 627,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "id": 184,
+        "elementType": "Note",
+        "quantitativeNeume": "RunningElaphron",
         "lyrics": "ers"
       },
       {
-        "id": 185,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Klasma_Top",
-        "lyrics": "of"
-      },
-      {
-        "id": 186,
+        "id": 630,
         "elementType": "Martyria",
         "auto": true,
         "note": "Vou",
         "rootSign": "Legetos",
-        "scale": "Diatonic",
-        "measureBarLeft": "MeasureBarShortTheseosAbove"
+        "scale": "Diatonic"
+      },
+      {
+        "id": 185,
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "of"
       },
       {
         "id": 187,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentima",
+        "quantitativeNeume": "Oligon",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "joy"
       },
       {
@@ -2465,6 +2470,7 @@
         "id": 281,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
+        "ison": "Ison.Vou",
         "lyrics": "Re",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -2476,7 +2482,6 @@
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarShortDouble",
-        "ison": "Ison.Vou",
         "lyrics": "joice,"
       },
       {
@@ -2497,14 +2502,13 @@
       {
         "id": 285,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "y"
       },
       {
         "id": 286,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
+        "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "pil",
         "isMelisma": true,
@@ -2512,20 +2516,21 @@
         "isHyphen": true
       },
       {
-        "id": 287,
+        "id": 628,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "id": 287,
+        "elementType": "Note",
+        "quantitativeNeume": "RunningElaphron",
+        "timeNeume": "Klasma_Top",
         "lyrics": "lar"
       },
       {
-        "id": 288,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Klasma_Top",
-        "lyrics": "that"
-      },
-      {
-        "id": 289,
+        "id": 629,
         "elementType": "Martyria",
         "auto": true,
         "note": "Vou",
@@ -2534,23 +2539,29 @@
         "measureBarLeft": "MeasureBarShortTheseosAbove"
       },
       {
-        "id": 290,
+        "id": 288,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentima",
+        "lyrics": "that"
+      },
+      {
+        "id": 290,
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
         "lyrics": "dost"
       },
       {
         "id": 291,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "lead"
       },
       {
         "id": 292,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "all"
       },
       {
@@ -2565,7 +2576,7 @@
       {
         "id": 294,
         "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "tal"
       },
       {
@@ -3248,6 +3259,7 @@
         "id": 385,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
+        "ison": "Ison.Vou",
         "lyrics": "Re",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -3259,7 +3271,6 @@
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarShortDouble",
-        "ison": "Ison.Vou",
         "lyrics": "joice,"
       },
       {
@@ -4106,15 +4117,14 @@
       {
         "id": 497,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentimaBelow",
-        "vocalExpressionNeume": "Psifiston",
+        "quantitativeNeume": "Oligon",
         "ison": "Ison.Vou",
         "lyrics": "of"
       },
       {
         "id": 498,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "all"
       },
       {
@@ -5095,7 +5105,7 @@
       }
     ],
     "lyrics": {
-      "text": "Let eve-ry earth-born man up-leap in the spir-it, and now hold his torch on high; and let all the bod-i--less, no-et-ic hosts__ now cel-e-brate joy-ous-ly the The-o-to-kos-’s sub-lime and sa-cred fes-ti--val, as they cry____ out: Re-joice, O thou all-bless-ed one, ev-er-vir-gin and pure Moth-er of our God.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nRes-cue us, O Maid, from hea-then as-saults, temp-ta-tions, and from eve-ry ill that, for the great mul-ti--tude of sins, have come__ up-on sin-ful mor-tal men; that, thus de-liv-ered, we thy flock may cry, Re-joice, to__ thee; for the faith----ful all be-come par-tak-ers of joy un-end-ing through thee,__ O all-blame-less one.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nThou hast proved to be our light and our stead-fast-ness; where-fore, we cry to thee: Re-joice, O ev-er shin-ing__ star, thou who didst bring__ the great Sun in-to the world. Re-joice, for thou didst o-pen E-den, which was closed to__ us, O pure Maid----en. Re-joice, O fier-y pil-lar that dost lead all mor-tal men__ to the life on high.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nIn the House of God, let all stand with rev-er-ence, and let us all cry out: Re-joice, au-gust Queen of the__ world! Re-joice, O Mar--y, sov-’reign La-dy of us all! Re-joice, for thou a-lone, O Maid, art good and free of__ stain a-mong wom----en. Re-joice, O ves-sel that re-ceived the un-fail-ing, pure Myrrh__ that was poured on thee.\n\nGlo-ry to the Fa-ther, and to the Son, and to the Ho-ly Spir--it.\n\nO_ ev-er-vir-gin Maid, re-joice, dove that brought-est forth Him Who is mer-ci-ful. Re-joice, thou boast of all the__ Saints, and crown of all__ them that strove in mar-tyr-dom. Re-joice, most sa-cred or-na-ment of all the right-eous__ ones, and a-dorn----ment of all them that cry: Re-joice, the sal-va-tion of all__ us, thy faith-ful flock.\n\nBoth now and ev--er, and un-to the ag--es of ag-es. A-men.\n\nSpare, O might-y God; for-give Thine in-her-it-ance, and o-ver-look our sins. To this end, Thou hast, O__ Lord, the one that bare__ Thee seed-less-ly here on earth, and now en-treat-eth Thee Who hast, for Thy great mer-cy’s__ sake and com-pas----sion, willed now to be-come a man and be clothed with a form__ that was not Thine own."
+      "text": "Let eve-ry earth-born man up-leap in the spir-it, and now hold his torch on high; and let all the bod-i--less, no-et-ic hosts__ now cel-e-brate joy-ous-ly the The-o-to-kos-’s sub-lime and sa-cred fes-ti--val, as they cry____ out: Re-joice, O thou all-bless-ed one, ev-er-vir-gin and pure Moth-er of our God.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nRes-cue us, O Maid, from hea-then as-saults, temp-ta-tions, and from eve-ry ill that, for the great mul-ti--tude of sins, have come__ up-on sin-ful mor-tal men; that, thus de-liv-ered, we thy flock may cry, Re-joice, to__ thee; for the faith----ful all be-come par-tak--ers of joy un-end-ing through thee,__ O all-blame-less one.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nThou hast proved to be our light and our stead-fast-ness; where-fore, we cry to thee: Re-joice, O ev-er shin-ing__ star, thou who didst bring__ the great Sun in-to the world. Re-joice, for thou didst o-pen E-den, which was closed to__ us, O pure Maid----en. Re-joice, O fier-y pil--lar that dost lead all mor-tal men__ to the life on high.\n\nMost Ho-ly Moth-er of God, save__ us.\n\nIn the House of God, let all stand with rev-er-ence, and let us all cry out: Re-joice, au-gust Queen of the__ world! Re-joice, O Mar--y, sov-’reign La-dy of us all! Re-joice, for thou a-lone, O Maid, art good and free of__ stain a-mong wom----en. Re-joice, O ves-sel that re-ceived the un-fail-ing, pure Myrrh__ that was poured on thee.\n\nGlo-ry to the Fa-ther, and to the Son, and to the Ho-ly Spir--it.\n\nO_ ev-er-vir-gin Maid, re-joice, dove that brought-est forth Him Who is mer-ci-ful. Re-joice, thou boast of all the__ Saints, and crown of all__ them that strove in mar-tyr-dom. Re-joice, most sa-cred or-na-ment of all the right-eous__ ones, and a-dorn----ment of all them that cry: Re-joice, the sal-va-tion of all__ us, thy faith-ful flock.\n\nBoth now and ev--er, and un-to the ag--es of ag-es. A-men.\n\nSpare, O might-y God; for-give Thine in-her-it-ance, and o-ver-look our sins. To this end, Thou hast, O__ Lord, the one that bare__ Thee seed-less-ly here on earth, and now en-treat-eth Thee Who hast, for Thy great mer-cy’s__ sake and com-pas----sion, willed now to be-come a man and be clothed with a form__ that was not Thine own."
     }
   }
 }
