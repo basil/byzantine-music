@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.4.104",
+  "appVersion": "0.5.4",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -29,6 +29,8 @@
     "neumeDefaultColor": "#000000",
     "neumeDefaultSpacing": 2.88,
     "neumeDefaultStrokeWidth": 0,
+    "alternateLineDefaultFontSize": 16,
+    "alternateLineDefaultColor": "#ED0000",
     "modeKeyDefaultColor": "#C80831",
     "modeKeyDefaultStrokeWidth": 0,
     "modeKeyDefaultFontSize": 26.666666666666668,
@@ -173,7 +175,7 @@
           "fontSize": 12,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
-          "height": 28.98113250732422,
+          "height": 29.090909957885742,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -256,7 +258,7 @@
         "fontFamily": "Valkyrie A",
         "strokeWidth": 0,
         "bold": true,
-        "height": 32.60377502441406,
+        "height": 30.30303192138672,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -273,7 +275,7 @@
         "fontSize": 8,
         "fontFamily": "Valkyrie A",
         "strokeWidth": 0,
-        "height": 10,
+        "height": 10.303030967712402,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -291,7 +293,7 @@
         "fontFamily": "Valkyrie A",
         "strokeWidth": 0,
         "italic": true,
-        "height": 22,
+        "height": 20,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -308,7 +310,7 @@
         "fontSize": 8,
         "fontFamily": "Valkyrie A",
         "strokeWidth": 0,
-        "height": 10,
+        "height": 10.303030967712402,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -325,7 +327,7 @@
         "fontSize": 16,
         "fontFamily": "Valkyrie A",
         "strokeWidth": 0,
-        "height": 22,
+        "height": 20,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -342,7 +344,7 @@
         "fontSize": 8,
         "fontFamily": "Valkyrie A",
         "strokeWidth": 0,
-        "height": 10,
+        "height": 10.303030967712402,
         "marginTop": 0,
         "marginBottom": 0
       },
@@ -2601,46 +2603,61 @@
         "measureBarLeft": "MeasureBarTopAbove"
       },
       {
-        "id": 297,
-        "elementType": "TextBox",
-        "alignment": "left",
-        "color": "#C80831",
-        "content": "✱ ",
-        "contentLeft": "",
-        "contentCenter": "",
-        "contentRight": "",
-        "fontSize": 16,
-        "fontFamily": "Valkyrie A",
-        "strokeWidth": 0,
-        "inline": true,
-        "height": 49,
-        "marginTop": 0,
-        "marginBottom": 0
-      },
-      {
         "id": 298,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Ga",
-        "lyrics": "are"
+        "lyrics": "are",
+        "lyricsColor": "#000000",
+        "lyricsFontFamily": "Valkyrie A",
+        "lyricsFontSize": 16,
+        "lyricsStrokeWidth": 0,
+        "lyricsFontStyle": "italic",
+        "lyricsFontWeight": "400",
+        "lyricsTextDecoration": "none",
+        "lyricsUseDefaultStyle": false
       },
       {
         "id": 299,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "we"
+        "lyrics": "we",
+        "lyricsColor": "#000000",
+        "lyricsFontFamily": "Valkyrie A",
+        "lyricsFontSize": 16,
+        "lyricsStrokeWidth": 0,
+        "lyricsFontStyle": "italic",
+        "lyricsFontWeight": "400",
+        "lyricsTextDecoration": "none",
+        "lyricsUseDefaultStyle": false
       },
       {
         "id": 300,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "then"
+        "lyrics": "then",
+        "lyricsColor": "#000000",
+        "lyricsFontFamily": "Valkyrie A",
+        "lyricsFontSize": 16,
+        "lyricsStrokeWidth": 0,
+        "lyricsFontStyle": "italic",
+        "lyricsFontWeight": "400",
+        "lyricsTextDecoration": "none",
+        "lyricsUseDefaultStyle": false
       },
       {
         "id": 301,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "lyrics": "re",
+        "lyricsColor": "#000000",
+        "lyricsFontFamily": "Valkyrie A",
+        "lyricsFontSize": 16,
+        "lyricsStrokeWidth": 0,
+        "lyricsFontStyle": "italic",
+        "lyricsFontWeight": "400",
+        "lyricsTextDecoration": "none",
+        "lyricsUseDefaultStyle": false,
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
@@ -2650,25 +2667,57 @@
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
         "measureBarLeft": "MeasureBarTop",
-        "lyrics": "deemed,"
+        "lyrics": "deemed,",
+        "lyricsColor": "#000000",
+        "lyricsFontFamily": "Valkyrie A",
+        "lyricsFontSize": 16,
+        "lyricsStrokeWidth": 0,
+        "lyricsFontStyle": "italic",
+        "lyricsFontWeight": "400",
+        "lyricsTextDecoration": "none",
+        "lyricsUseDefaultStyle": false
       },
       {
         "id": 303,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "O"
+        "lyrics": "O",
+        "lyricsColor": "#000000",
+        "lyricsFontFamily": "Valkyrie A",
+        "lyricsFontSize": 16,
+        "lyricsStrokeWidth": 0,
+        "lyricsFontStyle": "italic",
+        "lyricsFontWeight": "400",
+        "lyricsTextDecoration": "none",
+        "lyricsUseDefaultStyle": false
       },
       {
         "id": 304,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "thou"
+        "lyrics": "thou",
+        "lyricsColor": "#000000",
+        "lyricsFontFamily": "Valkyrie A",
+        "lyricsFontSize": 16,
+        "lyricsStrokeWidth": 0,
+        "lyricsFontStyle": "italic",
+        "lyricsFontWeight": "400",
+        "lyricsTextDecoration": "none",
+        "lyricsUseDefaultStyle": false
       },
       {
         "id": 305,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "lyrics": "all",
+        "lyricsColor": "#000000",
+        "lyricsFontFamily": "Valkyrie A",
+        "lyricsFontSize": 16,
+        "lyricsStrokeWidth": 0,
+        "lyricsFontStyle": "italic",
+        "lyricsFontWeight": "400",
+        "lyricsTextDecoration": "none",
+        "lyricsUseDefaultStyle": false,
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
@@ -2679,6 +2728,14 @@
         "quantitativeNeume": "PetastiWithIson",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "laud",
+        "lyricsColor": "#000000",
+        "lyricsFontFamily": "Valkyrie A",
+        "lyricsFontSize": 16,
+        "lyricsStrokeWidth": 0,
+        "lyricsFontStyle": "italic",
+        "lyricsFontWeight": "400",
+        "lyricsTextDecoration": "none",
+        "lyricsUseDefaultStyle": false,
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
@@ -2687,7 +2744,15 @@
         "id": 307,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "ed"
+        "lyrics": "ed",
+        "lyricsColor": "#000000",
+        "lyricsFontFamily": "Valkyrie A",
+        "lyricsFontSize": 16,
+        "lyricsStrokeWidth": 0,
+        "lyricsFontStyle": "italic",
+        "lyricsFontWeight": "400",
+        "lyricsTextDecoration": "none",
+        "lyricsUseDefaultStyle": false
       },
       {
         "id": 308,
@@ -2695,7 +2760,15 @@
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "measureBarRight": "MeasureBarTop",
-        "lyrics": "one."
+        "lyrics": "one.",
+        "lyricsColor": "#000000",
+        "lyricsFontFamily": "Valkyrie A",
+        "lyricsFontSize": 16,
+        "lyricsStrokeWidth": 0,
+        "lyricsFontStyle": "italic",
+        "lyricsFontWeight": "400",
+        "lyricsTextDecoration": "none",
+        "lyricsUseDefaultStyle": false
       },
       {
         "id": 309,
