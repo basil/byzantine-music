@@ -1,0 +1,63 @@
+---
+name: Build PDFs
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DISPLAY: ':99.0'
+      APPIMAGE_EXTRACT_AND_RUN: 1
+    steps:
+      - name: Check out
+        uses: actions/checkout@v6
+
+      - name: Start Xvfb
+        run: Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+
+      - name: Get the latest AppImage
+        run: gh release download --repo neanes/neanes --pattern '*AppImage*' --output neanes-cli
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Make AppImage Executable
+        run: chmod +x neanes-cli
+
+      - name: Download fonts
+        run: curl --fail --silent --show-error -H "X-Font-Token: ${FONT_TOKEN}" -o fonts.zip "${FONT_URL}"
+        env:
+          FONT_URL: ${{ secrets.FONT_URL }}
+          FONT_TOKEN: ${{ secrets.FONT_TOKEN }}
+
+      - name: Install fonts
+        run: |
+          mkdir -p ~/.local/share/fonts
+          unzip -o fonts.zip -d ~/.local/share/fonts
+          fc-cache -f
+          fc-list
+
+      - name: Generate PDFs
+        run: find . -type f -name '*.byzx' -print0 | xargs -0 ./neanes-cli --no-sandbox --silent-pdf
+
+      - name: Move PDFs to target directory
+        run: |
+          while IFS= read -r -d '' FILE; do
+            TARGET_DIR="target/$(dirname "${FILE}")"
+            mkdir -p "${TARGET_DIR}"
+            mv "${FILE}" "${TARGET_DIR}"
+          done < <(find . -type f -name '*.pdf' -print0)
+
+      - name: List compiled PDFs
+        run: find target -type f -name '*.pdf'
