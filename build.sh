@@ -31,20 +31,17 @@ function do_configure() {
 function do_compile() {
 	find . -type f -name '*.byzx' -print0 | xargs -0 "${NEANES_BIN}" --silent-pdf
 	while IFS= read -r -d '' FILE; do
-		TARGET_DIR="target/pdf/$(dirname "${FILE}")"
+		TARGET_DIR="target/$(dirname "${FILE}")"
 		mkdir -p "${TARGET_DIR}"
 		mv "${FILE}" "${TARGET_DIR}"
 	done < <(find . -type f -name '*.pdf' -print0)
 }
 
-function do_dist() {
-	rm -rf target/site
-	mkdir -p target/site/tmp
-	rsync -av target/pdf/ target/site/tmp
-	rsync -av site/ target/site
-}
-
 function main() {
+	if [[ $# -eq 0 ]]; then
+		set -- configure compile
+	fi
+
 	for TARGET in "$@"; do
 		if declare -f "do_${TARGET}" >/dev/null; then
 			"do_${TARGET}"
