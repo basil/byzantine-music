@@ -36,7 +36,8 @@ jobs:
         run: chmod +x neanes-cli
 
       - name: Download fonts
-        run: curl --fail --silent --show-error -H "X-Font-Token: ${FONT_TOKEN}" -o fonts.zip "${FONT_URL}"
+        run: |
+          curl --fail --silent --show-error -H "X-Font-Token: ${FONT_TOKEN}" -o fonts.zip "${FONT_URL}"
         env:
           FONT_URL: ${{ secrets.FONT_URL }}
           FONT_TOKEN: ${{ secrets.FONT_TOKEN }}
