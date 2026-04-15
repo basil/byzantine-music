@@ -60,5 +60,21 @@ jobs:
             mv "${FILE}" "${TARGET_DIR}"
           done < <(find . -type f -name '*.pdf' -print0)
 
-      - name: List compiled PDFs
-        run: find target -type f -name '*.pdf'
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "${{ secrets.SSH_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Deploy with rsync
+        run: |
+          rsync -avz \
+            -e "ssh -o StrictHostKeyChecking=yes" \
+            target/ \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/byzantinemusic.org/tmp/
+
+      - name: Smoke test
+        run: curl -sf https://byzantinemusic.org/ > /dev/null
