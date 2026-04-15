@@ -74,7 +74,7 @@ jobs:
           rsync -avz \
             -e "ssh -o StrictHostKeyChecking=yes" \
             target/ \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:byzantinemusic.org/tmp/
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:byzantinemusic.org/pdf/
 
       - name: Smoke test
         run: curl -sf https://byzantinemusic.org/ > /dev/null
