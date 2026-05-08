@@ -285,7 +285,7 @@
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#000000",
-        "content": "Fourth Mode",
+        "content": "Fourth Mode (Modified)",
         "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
@@ -320,7 +320,7 @@
         "elementType": "TextBox",
         "alignment": "center",
         "color": "#000000",
-        "content": "Basil Crow",
+        "content": "Adapted from Father Constantine Papagiannes by Basil Crow",
         "contentBottom": "",
         "contentLeft": "",
         "contentCenter": "",
@@ -352,13 +352,13 @@
       {
         "id": 7,
         "elementType": "ModeKey",
-        "templateId": 400,
+        "templateId": 402,
         "alignment": "center",
         "mode": 4,
         "scale": "Diatonic",
-        "scaleNote": "Thi",
+        "scaleNote": "Pa",
         "martyria": "ModeSign.DeltaWithDeltaHat",
-        "note": "ModeSign.Thi",
+        "note": "ModeSign.Pa",
         "color": "#C80831",
         "fontSize": 26.666666666666668,
         "strokeWidth": 0,
@@ -389,30 +389,20 @@
       {
         "id": 8,
         "elementType": "Note",
-        "quantitativeNeume": "Elaphron",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "n"
       },
       {
         "id": 9,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
         "lyrics": "this"
       },
       {
         "id": 10,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "vocalExpressionNeume": "HeteronConnecting",
-        "lyrics": "day",
-        "isMelisma": true,
-        "isMelismaStart": true
-      },
-      {
-        "id": 11,
-        "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
-        "isMelisma": true
+        "lyrics": "day"
       },
       {
         "id": 12,
@@ -423,9 +413,17 @@
       {
         "id": 13,
         "elementType": "Note",
-        "quantitativeNeume": "PetastiPlusKentimaAbove",
-        "timeNeume": "Klasma_Bottom",
-        "lyrics": "hast"
+        "quantitativeNeume": "OligonPlusKentimaAbove",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "hast",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 70,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 14,
@@ -439,9 +437,17 @@
       {
         "id": 15,
         "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
+        "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "peared"
+      },
+      {
+        "id": 75,
+        "elementType": "Martyria",
+        "auto": true,
+        "note": "Ni",
+        "rootSign": "Delta",
+        "scale": "Diatonic"
       },
       {
         "id": 16,
@@ -482,28 +488,13 @@
       {
         "id": 21,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
-        "isMelisma": true
-      },
-      {
-        "id": 22,
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "vareia": true,
-        "isMelisma": true
-      },
-      {
-        "id": 23,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "OligonPlusKentemata",
         "isMelisma": true
       },
       {
         "id": 24,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
         "lyrics": "world,"
       },
@@ -511,20 +502,20 @@
         "id": 25,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Vou",
-        "rootSign": "Legetos",
+        "note": "Pa",
+        "rootSign": "Alpha",
         "scale": "Diatonic"
       },
       {
         "id": 26,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "and"
       },
       {
         "id": 27,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
         "lyrics": "Thy"
       },
       {
@@ -542,25 +533,30 @@
       {
         "id": 30,
         "elementType": "Note",
-        "quantitativeNeume": "PetastiPlusKentimaAbove",
-        "timeNeume": "Klasma_Bottom",
+        "quantitativeNeume": "OligonPlusKentimaAbove",
+        "vocalExpressionNeume": "Psifiston",
         "lyrics": "Sov",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
+        "id": 72,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
         "id": 31,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "’reign",
-        "isMelisma": true,
-        "isMelismaStart": true
+        "lyrics": "’reign"
       },
       {
         "id": 32,
         "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
+        "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "Lord,"
       },
@@ -568,8 +564,8 @@
         "id": 33,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Pa",
-        "rootSign": "Alpha",
+        "note": "Ni",
+        "rootSign": "Delta",
         "scale": "Diatonic"
       },
       {
@@ -593,7 +589,7 @@
       {
         "id": 37,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "OligonPlusKentimaBelow",
         "vocalExpressionNeume": "Psifiston",
         "lyrics": "us"
       },
@@ -607,12 +603,14 @@
         "id": 39,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "sing"
+        "lyrics": "sing",
+        "isMelisma": true,
+        "isMelismaStart": true
       },
       {
         "id": 40,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "RunningElaphron",
         "lyrics": "Thy"
       },
       {
@@ -626,14 +624,14 @@
         "id": 42,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Thi",
-        "rootSign": "DeltaDotted",
+        "note": "Pa",
+        "rootSign": "Alpha",
         "scale": "Diatonic"
       },
       {
         "id": 43,
         "elementType": "Note",
-        "quantitativeNeume": "ElaphronPlusApostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "and"
       },
       {
@@ -700,7 +698,7 @@
       {
         "id": 53,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentima",
+        "quantitativeNeume": "PetastiPlusKentimaAbove",
         "lyrics": "Thou"
       },
       {
@@ -721,13 +719,21 @@
       {
         "id": 56,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "lyrics": "peared,"
+        "quantitativeNeume": "Ison",
+        "lyrics": "peared,",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 74,
+        "elementType": "Note",
+        "quantitativeNeume": "Kentemata",
+        "isMelisma": true
       },
       {
         "id": 57,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "O"
       },
       {
@@ -816,8 +822,8 @@
         "id": 67,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Ni",
-        "rootSign": "Delta",
+        "note": "Pa",
+        "rootSign": "Alpha",
         "scale": "Diatonic",
         "alignRight": true
       },
@@ -826,7 +832,7 @@
       }
     ],
     "lyrics": {
-      "text": "On this day__ Thou hast ap-peared un-to the whole_____ world, and Thy light, O Sov-’reign Lord, is signed on us who sing Thy praise and chant with knowl-edge: Thou hast now come, Thou hast ap-peared, O Thou Light__ un-ap-proach--a--ble."
+      "text": "On this day Thou hast__ ap-peared un-to the whole___ world, and Thy light, O Sov--’reign Lord, is signed on us who sing Thy praise and chant with knowl-edge: Thou hast now come, Thou hast ap-peared, O Thou Light__ un-ap-proach--a--ble."
     }
   }
 }
