@@ -389,13 +389,15 @@
       {
         "id": 9,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
         "lyrics": "hile"
       },
       {
         "id": 10,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "Psifiston",
+        "accidental": "Flat_2_Right",
         "lyrics": "stand",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -404,7 +406,7 @@
       {
         "id": 11,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "ing"
       },
       {
@@ -486,6 +488,14 @@
         "isMelisma": true
       },
       {
+        "id": 129,
+        "elementType": "Martyria",
+        "auto": true,
+        "note": "Pa",
+        "rootSign": "Alpha",
+        "scale": "Diatonic"
+      },
+      {
         "id": 22,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
@@ -503,19 +513,28 @@
       {
         "id": 24,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "PetastiPlusKentimaAbove",
         "lyrics": "come"
       },
       {
         "id": 25,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "lyrics": "in"
+        "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "lyrics": "in",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 122,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 26,
         "elementType": "Note",
-        "quantitativeNeume": "Elaphron",
+        "quantitativeNeume": "RunningElaphron",
         "lyrics": "the"
       },
       {
@@ -583,19 +602,20 @@
       {
         "id": 35,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Ison",
         "lyrics": "to"
       },
       {
         "id": 36,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
+        "accidental": "Sharp_2_Left",
         "lyrics": "his"
       },
       {
         "id": 37,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Oligon",
         "timeNeume": "Dipli",
         "lyrics": "arms",
         "isMelisma": true,
@@ -641,6 +661,14 @@
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "isMelisma": true
+      },
+      {
+        "id": 130,
+        "elementType": "Martyria",
+        "auto": true,
+        "note": "Pa",
+        "rootSign": "Alpha",
+        "scale": "Diatonic"
       },
       {
         "id": 43,
@@ -727,51 +755,53 @@
       {
         "id": 55,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "lyrics": "now"
+        "quantitativeNeume": "OligonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "lyrics": "now",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 123,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 56,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "RunningElaphron",
         "lyrics": "de",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
-        "id": 57,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
         "id": 58,
-        "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
-        "lyrics": "part"
-      },
-      {
-        "id": 59,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "lyrics": "in",
+        "lyrics": "part",
         "isMelisma": true,
         "isMelismaStart": true
       },
       {
-        "id": 60,
+        "id": 124,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "isMelisma": true
       },
       {
+        "id": 59,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "lyrics": "in",
+        "alternateLines": []
+      },
+      {
         "id": 61,
         "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
+        "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
         "lyrics": "peace"
       },
@@ -858,10 +888,23 @@
         "scale": "Diatonic"
       },
       {
+        "id": 125,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "accidental": "Sharp_2_Left",
+        "lyrics": "as"
+      },
+      {
+        "id": 126,
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "lyrics": "Thou"
+      },
+      {
         "id": 73,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "as"
+        "lyrics": "hast"
       },
       {
         "id": 74,
@@ -869,36 +912,24 @@
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
         "accidental": "Flat_2_Right",
-        "lyrics": "Thou"
+        "lyrics": "said;"
       },
       {
         "id": 75,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "hast"
+        "lyrics": "for"
       },
       {
         "id": 76,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "said;"
-      },
-      {
-        "id": 77,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "for"
+        "lyrics": "mine"
       },
       {
         "id": 78,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "mine"
-      },
-      {
-        "id": 79,
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
         "lyrics": "eyes",
         "isMelisma": true,
         "isMelismaStart": true
@@ -913,14 +944,14 @@
         "id": 81,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "have"
+        "isMelisma": true
       },
       {
         "id": 82,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
-        "lyrics": "seen",
+        "lyrics": "have",
         "isMelisma": true,
         "isMelismaStart": true
       },
@@ -977,18 +1008,24 @@
         "id": 90,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "the"
+        "lyrics": "seen"
       },
       {
         "id": 91,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "lyrics": "full"
+        "lyrics": "the"
       },
       {
         "id": 92,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
+        "quantitativeNeume": "PetastiPlusKentimaAbove",
+        "lyrics": "full"
+      },
+      {
+        "id": 93,
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
         "lyrics": "rev",
         "isMelisma": true,
@@ -996,49 +1033,34 @@
         "isHyphen": true
       },
       {
-        "id": 93,
+        "id": 94,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "isMelisma": true,
         "isHyphen": true
       },
       {
-        "id": 94,
+        "id": 95,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "RunningElaphron",
         "lyrics": "e",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
-        "id": 95,
+        "id": 97,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusElaphronPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "OligonPlusKentemata",
         "lyrics": "la",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
-        "id": 96,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
-        "id": 97,
-        "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
         "id": 98,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Elaphron",
         "timeNeume": "Klasma_Top",
         "lyrics": "tion"
       },
@@ -1067,46 +1089,53 @@
         "id": 102,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "timeNeume": "Klasma_Top",
         "lyrics": "light",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
+        "id": 127,
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "lyrics": "en",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 128,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
+      },
+      {
         "id": 103,
         "elementType": "Note",
-        "quantitativeNeume": "Elaphron",
-        "lyrics": "en"
+        "quantitativeNeume": "RunningElaphron",
+        "lyrics": "the"
       },
       {
         "id": 104,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "lyrics": "the",
-        "isMelisma": true,
-        "isMelismaStart": true
-      },
-      {
-        "id": 105,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
-      },
-      {
-        "id": 106,
-        "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
         "lyrics": "na",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
-        "id": 107,
+        "id": 105,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
+        "id": 106,
+        "elementType": "Note",
+        "quantitativeNeume": "RunningElaphron",
         "timeNeume": "Klasma_Top",
         "lyrics": "tions,"
       },
@@ -1146,19 +1175,28 @@
       {
         "id": 112,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "PetastiPlusKentimaAbove",
         "lyrics": "el’s"
       },
       {
         "id": 113,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "lyrics": "own"
+        "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "lyrics": "own",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 131,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 114,
         "elementType": "Note",
-        "quantitativeNeume": "Elaphron",
+        "quantitativeNeume": "RunningElaphron",
         "lyrics": "sal",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1194,7 +1232,7 @@
       }
     ],
     "lyrics": {
-      "text": "While stand-ing in the Tem-ple’s Courts,_______ hav-ing come in the Spir-it, the El-der took in-to his arms_______ the Law’s Mas-ter,__ and cried out: Lord, let me now de--part in__ peace from the shack-les of__ the__ flesh as Thou hast said; for mine eyes__ have seen_______ the full rev--e-la---tion that shall light-en the__ na-tions, and Is-ra-el’s own sal-va-tion."
+      "text": "While stand-ing in the Tem-ple’s Courts,_______ hav-ing come in__ the Spir-it, the El-der took in-to his arms_______ the Law’s Mas-ter,__ and cried out: Lord, let me now__ de-part__ in peace from the shack-les of__ the__ flesh as Thou hast said; for mine eyes___ have_______ seen the full rev--e-la-tion that shall light-en__ the na--tions, and Is-ra-el’s own__ sal-va-tion."
     }
   }
 }
