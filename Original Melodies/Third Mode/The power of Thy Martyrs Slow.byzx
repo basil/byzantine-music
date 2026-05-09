@@ -345,14 +345,14 @@
       {
         "id": 8,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
+        "ison": "Ison.Ni",
         "lyrics": "he"
       },
       {
         "id": 9,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentimaAbove",
-        "timeNeume": "Klasma_Bottom",
+        "quantitativeNeume": "OligonPlusKentimaBelow",
         "vocalExpressionNeume": "Psifiston",
         "fthora": "Enharmonic_Top",
         "lyrics": "pow",
@@ -437,6 +437,7 @@
         "id": 20,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "accidental": "Sharp_2_Left",
         "isMelisma": true
       },
       {
@@ -444,6 +445,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
+        "ison": "Ison.Ga",
         "lyrics": "is"
       },
       {
@@ -606,10 +608,18 @@
       {
         "id": 42,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "timeNeume": "Klasma_Top",
-        "vocalExpressionNeume": "Psifiston",
-        "lyrics": "though"
+        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "ison": "Ison.Pa",
+        "lyrics": "though",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 120,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 43,
@@ -897,6 +907,7 @@
         "id": 80,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaAbove",
+        "ison": "Ison.Ni",
         "lyrics": "the"
       },
       {
@@ -939,6 +950,7 @@
         "id": 85,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "accidental": "Sharp_2_Left",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -947,6 +959,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
+        "ison": "Ison.Ga",
         "lyrics": "y’s"
       },
       {
@@ -1200,7 +1213,7 @@
       }
     ],
     "lyrics": {
-      "text": "The pow-er of Thy Mar--tyrs, O my__ Christ,__ is ver---y great, who drive off e---vil spir---its al-though they lie__ in sep--ul----chres;__ by the__ faith of__ God the Trin-i-ty,____ they__ van---quished__ the ad-ver--sar--y’s pow---er__ when__ they con--tend------ed for the sake of true___ re-li-gion.__"
+      "text": "The pow-er of Thy Mar--tyrs, O my__ Christ,__ is ver---y great, who drive off e---vil spir---its al-though__ they lie__ in sep--ul----chres;__ by the__ faith of__ God the Trin-i-ty,____ they__ van---quished__ the ad-ver--sar--y’s pow---er__ when__ they con--tend------ed for the sake of true___ re-li-gion.__"
     }
   }
 }

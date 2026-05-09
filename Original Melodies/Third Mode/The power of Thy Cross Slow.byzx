@@ -345,14 +345,14 @@
       {
         "id": 8,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
+        "ison": "Ison.Ni",
         "lyrics": "he"
       },
       {
         "id": 9,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentimaAbove",
-        "timeNeume": "Klasma_Bottom",
+        "quantitativeNeume": "OligonPlusKentimaBelow",
         "vocalExpressionNeume": "Psifiston",
         "fthora": "Enharmonic_Top",
         "lyrics": "pow",
@@ -435,6 +435,7 @@
         "id": 23,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "accidental": "Sharp_2_Left",
         "isMelisma": true
       },
       {
@@ -442,6 +443,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
+        "ison": "Ison.Ga",
         "lyrics": "is"
       },
       {
@@ -595,10 +597,18 @@
       {
         "id": 45,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "timeNeume": "Klasma_Top",
-        "vocalExpressionNeume": "Psifiston",
-        "lyrics": "doth"
+        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "ison": "Ison.Pa",
+        "lyrics": "doth",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 128,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 46,
@@ -888,6 +898,7 @@
         "id": 84,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaAbove",
+        "ison": "Ison.Ni",
         "lyrics": "and"
       },
       {
@@ -925,6 +936,7 @@
         "id": 89,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "accidental": "Sharp_2_Left",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -933,6 +945,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
+        "ison": "Ison.Ga",
         "lyrics": "tions,"
       },
       {
@@ -1190,7 +1203,7 @@
       }
     ],
     "lyrics": {
-      "text": "The pow-er of Thy Cross,__ O Lord, in__ truth__ is ver---y great: for it was fixed___ in one___ place, yet doth a-vail__ through-out__ the____ world;__ and of__ fish-er--men it made di-vine____ A--pos---tles,__ and of the__ na--tions, Mar---tyrs,__ that__ they might__ ev------er in-ter-cede for our___ sal-va-tion.__"
+      "text": "The pow-er of Thy Cross,__ O Lord, in__ truth__ is ver---y great: for it was fixed___ in one___ place, yet doth__ a-vail__ through-out__ the____ world;__ and of__ fish-er--men it made di-vine____ A--pos---tles,__ and of the__ na--tions, Mar---tyrs,__ that__ they might__ ev------er in-ter-cede for our___ sal-va-tion.__"
     }
   }
 }
