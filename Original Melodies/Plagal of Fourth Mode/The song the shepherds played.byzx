@@ -293,7 +293,7 @@
       {
         "id": 5,
         "elementType": "RichTextBox",
-        "content": "<p style=\"text-align:center;\"><span style=\"color:rgb(0,0,0);font-size:15.3333px;\"><span style=\"-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);display:inline !important;float:none;font-family:&quot;Valkyrie A&quot;, &quot;Source Serif&quot;;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:center;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:break-spaces;widows:2;word-spacing:0px;\">Adapted from John the Protopsaltis by Basil Crow</span></span></p>",
+        "content": "<p style=\"text-align:center;\"><span style=\"color:rgb(0,0,0);font-size:15.3333px;\"><span style=\"-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);display:inline !important;float:none;font-family:&quot;Valkyrie A&quot;, &quot;Source Serif&quot;;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:center;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:break-spaces;widows:2;word-spacing:0px;\">Adapted from Peter the Peloponnesian by Basil Crow</span></span></p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -408,12 +408,18 @@
       {
         "id": 78,
         "elementType": "Note",
-        "quantitativeNeume": "PetastiPlusApostrophos",
-        "timeNeume": "Klasma_Bottom",
+        "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
         "ison": "Ison.Unison",
         "lyrics": "pipes",
         "isMelisma": true,
         "isMelismaStart": true
+      },
+      {
+        "id": 120,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 79,
@@ -455,13 +461,13 @@
       {
         "id": 21,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Oligon",
         "lyrics": "a"
       },
       {
         "id": 22,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentimaAbove",
+        "quantitativeNeume": "Oligon",
         "ison": "Ison.Ni",
         "lyrics": "great"
       },
@@ -493,14 +499,12 @@
         "id": 24,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "timeNeume": "Klasma_Top",
-        "vocalExpressionNeume": "Homalon",
         "lyrics": "host,"
       },
       {
         "id": 82,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "which"
       },
       {
@@ -1002,7 +1006,7 @@
       }
     ],
     "lyrics": {
-      "text": "The song the shep-herds played on their reed-pipes was stayed by a great an-gel-ic host, which called out to them, say-ing: Tar-ry not in the field now, O ye that shep-herd the nurs-lings of the__ flocks; cry a-loud sing-ing prais-es, that Christ the Lord hath been born in Beth-le--hem, He that in truth hath been well pleased, as God, to save the race of man-kind."
+      "text": "The song the shep-herds played on their reed-pipes__ was stayed by a great an-gel-ic host, which called out to them, say-ing: Tar-ry not in the field now, O ye that shep-herd the nurs-lings of the__ flocks; cry a-loud sing-ing prais-es, that Christ the Lord hath been born in Beth-le--hem, He that in truth hath been well pleased, as God, to save the race of man-kind."
     }
   }
 }
