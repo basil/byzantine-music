@@ -293,7 +293,7 @@
       {
         "id": 5,
         "elementType": "RichTextBox",
-        "content": "<p style=\"text-align:center;\"><span style=\"color:rgb(0,0,0);font-size:15.3333px;\"><span style=\"-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);display:inline !important;float:none;font-family:&quot;Valkyrie A&quot;, &quot;Source Serif&quot;;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:center;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:break-spaces;widows:2;word-spacing:0px;\">Basil Crow</span></span></p>",
+        "content": "<p style=\"text-align:center;\"><span style=\"color:rgb(0,0,0);font-size:15.3333px;\"><span style=\"-webkit-text-stroke-width:0px;background-color:rgb(255, 255, 255);display:inline !important;float:none;font-family:&quot;Valkyrie A&quot;, &quot;Source Serif&quot;;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:center;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:break-spaces;widows:2;word-spacing:0px;\">Adapted from Father Constantine Papagiannes by Basil Crow</span></span></p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -346,14 +346,14 @@
       {
         "id": 8,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Thi",
         "lyrics": "hou"
       },
       {
         "id": 9,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Petasti",
         "lyrics": "sought",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -377,14 +377,6 @@
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
         "lyrics": "heights,"
-      },
-      {
-        "id": 84,
-        "elementType": "Martyria",
-        "auto": true,
-        "note": "Thi",
-        "rootSign": "SoftChromaticSquiggle",
-        "scale": "SoftChromatic"
       },
       {
         "id": 13,
@@ -422,9 +414,17 @@
       {
         "id": 18,
         "elementType": "Note",
-        "quantitativeNeume": "PetastiPlusOligon",
-        "timeNeume": "Klasma_Bottom",
-        "lyrics": "things"
+        "quantitativeNeume": "OligonPlusKentimaBelow",
+        "vocalExpressionNeume": "Psifiston",
+        "lyrics": "things",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 87,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 20,
@@ -438,7 +438,7 @@
       {
         "id": 21,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "lyrics": "low;"
       },
@@ -496,7 +496,7 @@
       {
         "id": 29,
         "elementType": "Note",
-        "quantitativeNeume": "PetastiPlusOligon",
+        "quantitativeNeume": "OligonPlusKentima",
         "lyrics": "char",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -505,7 +505,7 @@
       {
         "id": 30,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "i",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -526,7 +526,7 @@
       {
         "id": 33,
         "elementType": "Note",
-        "quantitativeNeume": "Petasti",
+        "quantitativeNeume": "PetastiWithIson",
         "timeNeume": "Klasma_Bottom",
         "lyrics": "fire"
       },
@@ -861,7 +861,7 @@
       }
     ],
     "lyrics": {
-      "text": "Thou sought-est the heights, though part-ed not from things be-low; thy pil-lar be-came a char-i-ot of fire for thee. Thou be-cam-est there-by a true com-pan-ion of the an-gel--ic host; and to-geth-er with them, O Saint, thou cease-less-ly pray-est Christ God for___ us all."
+      "text": "Thou sought-est the heights, though part-ed not from things__ be-low; thy pil-lar be-came a char-i-ot of fire for thee. Thou be-cam-est there-by a true com-pan-ion of the an-gel--ic host; and to-geth-er with them, O Saint, thou cease-less-ly pray-est Christ God for___ us all."
     }
   }
 }

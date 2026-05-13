@@ -505,26 +505,33 @@
         "id": 30,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
         "lyrics": "all"
       },
       {
         "id": 31,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "of"
       },
       {
         "id": 32,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Elaphron",
         "lyrics": "the"
       },
       {
         "id": 33,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "lyrics": "world"
+        "quantitativeNeume": "Ison",
+        "lyrics": "world",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 180,
+        "elementType": "Note",
+        "quantitativeNeume": "Kentemata",
+        "isMelisma": true
       },
       {
         "id": 34,
@@ -553,11 +560,18 @@
       {
         "id": 38,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentimaBelow",
-        "vocalExpressionNeume": "Psifiston",
+        "quantitativeNeume": "Ison",
         "lyrics": "doc",
         "isMelisma": true,
         "isMelismaStart": true,
+        "isHyphen": true
+      },
+      {
+        "id": 182,
+        "elementType": "Note",
+        "quantitativeNeume": "KentemataPlusOligon",
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true,
         "isHyphen": true
       },
       {
@@ -679,17 +693,10 @@
       {
         "id": 55,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "OligonPlusKentemata",
         "lyrics": "wis",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true
-      },
-      {
-        "id": 56,
-        "elementType": "Note",
-        "quantitativeNeume": "Kentemata",
-        "isMelisma": true,
         "isHyphen": true
       },
       {
@@ -746,6 +753,13 @@
         "isHyphen": true
       },
       {
+        "id": 179,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true,
+        "isHyphen": true
+      },
+      {
         "id": 64,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
@@ -754,7 +768,7 @@
       {
         "id": 65,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "have"
       },
       {
@@ -1440,8 +1454,13 @@
         "id": 159,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "timeNeume": "Klasma_Top",
+        "timeNeume": "Dipli",
         "lyrics": "ty."
+      },
+      {
+        "id": 181,
+        "elementType": "Note",
+        "quantitativeNeume": "VareiaDotted"
       },
       {
         "id": 160,
@@ -1457,7 +1476,7 @@
       }
     ],
     "lyrics": {
-      "text": "The three most great lu-mi-nar-ies of the Three-Sun Di-vin-i-ty have il-lu-mined all of the world with the rays of doc-trines di-vine and true; they are the sweet-ly-flow-ing riv-ers of wis-dom, who with god-ly knowl-edge have wa-tered all cre-a--tion in clear and might-y streams: The great and sa-cred Bas-il, and the The-o-lo-gian, wise Greg-o-ry, to-geth-er with the re-nowned John the famed Chrys-os-tom of gold-en speech. Let us all who love their di-vine-ly-wise words come to-geth-er, hon--our-ing them with hymns; for cease-less-ly they of-fer en-treat-y for us to the Trin--i--ty."
+      "text": "The three most great lu-mi-nar-ies of the Three-Sun Di-vin-i-ty have il-lu-mined all of the world with the rays of doc--trines di-vine and true; they are the sweet-ly-flow-ing riv-ers of wis-dom, who with god-ly knowl--edge have wa-tered all cre-a--tion in clear and might-y streams: The great and sa-cred Bas-il, and the The-o-lo-gian, wise Greg-o-ry, to-geth-er with the re-nowned John the famed Chrys-os-tom of gold-en speech. Let us all who love their di-vine-ly-wise words come to-geth-er, hon--our-ing them with hymns; for cease-less-ly they of-fer en-treat-y for us to the Trin--i--ty."
     }
   }
 }
