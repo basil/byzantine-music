@@ -529,7 +529,7 @@
         "id": 35,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "gorgonNeume": "GorgonDottedRight",
         "isMelisma": true
       },
       {
@@ -556,7 +556,7 @@
         "id": 39,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "gorgonNeume": "GorgonDottedRight",
         "lyrics": "one",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1026,17 +1026,9 @@
       {
         "id": 101,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
-        "lyrics": "might",
-        "isMelisma": true,
-        "isMelismaStart": true
-      },
-      {
-        "id": 102,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
+        "quantitativeNeume": "Oligon",
+        "timeNeume": "Klasma_Top",
+        "lyrics": "might"
       },
       {
         "id": 104,
@@ -1066,7 +1058,7 @@
         "id": 107,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "gorgonNeume": "GorgonDottedRight",
         "isMelisma": true,
         "isHyphen": true
       },
@@ -1104,7 +1096,7 @@
       {
         "id": 113,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "in",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1122,10 +1114,17 @@
       {
         "id": 116,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "timeNeume": "Klasma_Top",
-        "vocalExpressionNeume": "Psifiston",
-        "lyrics": "cede"
+        "quantitativeNeume": "OligonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "lyrics": "cede",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 129,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 117,
@@ -1137,7 +1136,7 @@
       {
         "id": 118,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
+        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
         "vocalExpressionNeume": "Psifiston",
         "lyrics": "our",
         "isMelisma": true,
@@ -1204,7 +1203,7 @@
       }
     ],
     "lyrics": {
-      "text": "The pow-er of Thy Cross,__ O Lord, in__ truth__ is ver---y great: for it was fixed___ in one___ place, yet doth__ a-vail__ through-out__ the____ world;__ and of__ fish-er--men it made di-vine____ A--pos---tles,__ and of the__ na--tions, Mar---tyrs,__ that__ they might__ ev------er in-ter-cede for our___ sal-va-tion.__"
+      "text": "The pow-er of Thy Cross,__ O Lord, in__ truth__ is ver---y great: for it was fixed___ in one___ place, yet doth__ a-vail__ through-out__ the____ world;__ and of__ fish-er--men it made di-vine____ A--pos---tles,__ and of the__ na--tions, Mar---tyrs,__ that__ they might ev------er in-ter-cede__ for our___ sal-va-tion.__"
     }
   }
 }
