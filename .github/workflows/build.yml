@@ -27,10 +27,15 @@ jobs:
       - name: Start Xvfb
         run: Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 
-      - name: Get the latest AppImage
-        run: gh release download --repo neanes/neanes --pattern '*AppImage*' --output neanes-cli
-        env:
-          GH_TOKEN: ${{ github.token }}
+      # TEMPORARY: using a custom AppImage build instead of the latest release.
+      # Restore the commented-out step below once
+      # https://github.com/neanes/neanes/pull/2070 is merged and released.
+      - name: Get the AppImage
+        run: curl --fail --silent --show-error -L -o neanes-cli https://byzantinemusic.org/tmp/Neanes-0.5.8.AppImage
+      # - name: Get the latest AppImage
+      #   run: gh release download --repo neanes/neanes --pattern '*AppImage*' --output neanes-cli
+      #   env:
+      #     GH_TOKEN: ${{ github.token }}
 
       - name: Make AppImage Executable
         run: chmod +x neanes-cli
