@@ -1166,9 +1166,9 @@
       {
         "id": 118,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusHypsiliRight",
+        "quantitativeNeume": "OligonPlusHypsiliLeft",
         "timeNeume": "Klasma_Top",
-        "ison": "Ison.Thi",
+        "vocalExpressionNeume": "Homalon",
         "lyrics": "oth",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1184,29 +1184,48 @@
       {
         "id": 120,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "timeNeume": "Klasma_Top",
-        "lyrics": "brought"
-      },
-      {
-        "id": 121,
-        "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
-        "lyrics": "back",
+        "quantitativeNeume": "Ison",
+        "vocalExpressionNeume": "HeteronConnecting",
+        "lyrics": "brought",
         "isMelisma": true,
         "isMelismaStart": true
       },
       {
-        "id": 122,
+        "id": 239,
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusIsonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true
+      },
+      {
+        "id": 240,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "vareia": true,
         "isMelisma": true
+      },
+      {
+        "id": 241,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Hapli",
+        "gorgonNeume": "Gorgon_Top",
+        "accidental": "Sharp_2_Left",
+        "isMelisma": true
+      },
+      {
+        "id": 121,
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "timeNeume": "Klasma_Top",
+        "ison": "Ison.Thi",
+        "lyrics": "back"
       },
       {
         "id": 232,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "OligonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
         "lyrics": "to",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1214,7 +1233,7 @@
       {
         "id": 233,
         "elementType": "Note",
-        "quantitativeNeume": "Kentemata",
+        "quantitativeNeume": "Apostrophos",
         "isMelisma": true
       },
       {
@@ -1243,31 +1262,39 @@
       {
         "id": 126,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Klasma_Top",
-        "lyrics": "gain"
-      },
-      {
-        "id": 127,
-        "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "Ison",
         "ison": "Ison.Ni",
-        "lyrics": "the",
+        "vareia": true,
+        "lyrics": "gain",
         "isMelisma": true,
         "isMelismaStart": true
       },
       {
-        "id": 128,
+        "id": 242,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Hapli",
         "isMelisma": true
+      },
+      {
+        "id": 243,
+        "elementType": "Martyria",
+        "auto": true,
+        "note": "Thi",
+        "rootSign": "DeltaDotted",
+        "scale": "Diatonic"
+      },
+      {
+        "id": 127,
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "lyrics": "the"
       },
       {
         "id": 129,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "timeNeume": "Klasma_Top",
+        "quantitativeNeume": "PetastiWithIson",
+        "timeNeume": "Klasma_Bottom",
         "lyrics": "thief,"
       },
       {
@@ -2034,7 +2061,7 @@
       }
     ],
     "lyrics": {
-      "text": "The Par-a-dise of E-den__ long a--go__ once brought___ forth the__ beau-ti--ful Tree of Knowl-edge in the__ midst of__ all the plants.__ Thy Church, O Christ, hath__ blos-somed__ forth with Thy ho---ly and__ pre-cious__ Cross, which hath rich--ly welled__ forth life un-to the world.__ But while the for----mer caused__ Ad-am’s__ death, when__ he did eat___ the food there--of, the oth-er brought back__ to life a--gain the__ thief, when__ he was saved by faith.__ Make___ us__ par-tak-ers__ of__ the for-give-ness__ grant---ed un--to him, O__ Christ, Who hast quelled by_____ Thy Pas---sion__ the fren-zy of the foe a--gainst us__ all. And ac-count us__ wor--thy____ of__ Thy Heav’n-ly King--dom, O Al-might----y____ God."
+      "text": "The Par-a-dise of E-den__ long a--go__ once brought___ forth the__ beau-ti--ful Tree of Knowl-edge in the__ midst of__ all the plants.__ Thy Church, O Christ, hath__ blos-somed__ forth with Thy ho---ly and__ pre-cious__ Cross, which hath rich--ly welled__ forth life un-to the world.__ But while the for----mer caused__ Ad-am’s__ death, when__ he did eat___ the food there--of, the oth-er brought____ back to__ life a--gain__ the thief, when__ he was saved by faith.__ Make___ us__ par-tak-ers__ of__ the for-give-ness__ grant---ed un--to him, O__ Christ, Who hast quelled by_____ Thy Pas---sion__ the fren-zy of the foe a--gainst us__ all. And ac-count us__ wor--thy____ of__ Thy Heav’n-ly King--dom, O Al-might----y____ God."
     }
   }
 }
