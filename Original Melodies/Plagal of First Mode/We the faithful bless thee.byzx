@@ -360,6 +360,7 @@
         "id": 10,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "faith",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -375,6 +376,7 @@
         "id": 12,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "bless"
       },
       {
@@ -402,6 +404,7 @@
         "id": 15,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "Vir",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -435,6 +438,7 @@
         "id": 19,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "to",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -460,7 +464,8 @@
         "auto": true,
         "note": "Pa",
         "rootSign": "Alpha",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarShortTheseosAbove"
       },
       {
         "id": 23,
@@ -478,6 +483,7 @@
         "id": 25,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusIsonPlusKentemata",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "glo",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -496,6 +502,7 @@
         "id": 27,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "fy"
       },
       {
@@ -511,7 +518,8 @@
         "auto": true,
         "note": "Ke",
         "rootSign": "AlphaDotted",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "id": 30,
@@ -541,6 +549,7 @@
         "id": 34,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "prop",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -566,7 +575,8 @@
         "auto": true,
         "note": "Pa",
         "rootSign": "Alpha",
-        "scale": "Diatonic"
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarTopAbove"
       },
       {
         "id": 38,
@@ -605,6 +615,7 @@
         "id": 42,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "cit",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -631,6 +642,7 @@
         "id": 45,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "measureBarLeft": "MeasureBarTop",
         "vareia": true,
         "lyrics": "preg",
         "isMelisma": true,
@@ -664,6 +676,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "bat",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -683,6 +696,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "ment,"
       },
       {
@@ -707,6 +721,7 @@
         "id": 54,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "vin",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -740,6 +755,7 @@
         "id": 58,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "tec",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -757,6 +773,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Klasma_Top",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "tion,"
       },
       {
@@ -779,6 +796,7 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaBelow",
         "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "shel",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -811,6 +829,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Unison",
         "lyrics": "ref",
         "acceptsLyrics": "No",
@@ -845,8 +864,15 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Dipli",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "souls.",
         "acceptsLyrics": "No"
+      },
+      {
+        "id": 94,
+        "elementType": "Note",
+        "quantitativeNeume": "VareiaDotted",
+        "measureBarRight": "MeasureBarTop"
       },
       {
         "id": 73,
@@ -870,6 +896,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Unison",
         "lyrics": "ref",
         "acceptsLyrics": "No",
@@ -903,6 +930,7 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusHypsiliRight",
         "timeNeume": "Dipli",
+        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Ke",
         "lyrics": "souls.",
         "isMelisma": true,
@@ -913,7 +941,9 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
-        "isMelisma": true
+        "measureBarLeft": "MeasureBarShortTheseosAbove",
+        "isMelisma": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "id": 89,
@@ -935,7 +965,15 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Dipli",
+        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Ke",
+        "isMelisma": true
+      },
+      {
+        "id": 95,
+        "elementType": "Note",
+        "quantitativeNeume": "VareiaDotted",
+        "measureBarRight": "MeasureBarTop",
         "isMelisma": true
       },
       {
@@ -952,7 +990,7 @@
       }
     ],
     "lyrics": {
-      "text": "We the faith-ful bless thee, O Vir-gin The-o-to--kos, and we glo-ri-fy thee, as is meet and prop--er: O un-sha-ken cit-y, im-preg--na-ble bat-tle-ment, in-vin-ci-ble pro-tec--tion, and shel--ter-ing ref-uge of our souls.\n\nref-uge of our souls._____"
+      "text": "We the faith-ful bless thee, O Vir-gin The-o-to--kos, and we glo-ri-fy thee, as is meet and prop--er: O un-sha-ken cit-y, im-preg--na-ble bat-tle-ment, in-vin-ci-ble pro-tec--tion, and shel--ter-ing ref-uge of our souls. \n\nref-uge of our souls.______"
     }
   }
 }
