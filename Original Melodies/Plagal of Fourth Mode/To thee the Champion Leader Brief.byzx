@@ -1120,6 +1120,7 @@
         "id": 137,
         "elementType": "Note",
         "quantitativeNeume": "Petasti",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "joice,"
       },
       {
@@ -1133,6 +1134,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "pure",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1163,6 +1165,7 @@
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentimaBelow",
         "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "wed",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -1179,6 +1182,7 @@
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "timeNeume": "Dipli",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "ison": "Ison.ThiLow",
         "lyrics": "Bride.",
         "isMelisma": true,
@@ -1189,7 +1193,9 @@
         "elementType": "Note",
         "quantitativeNeume": "Hyporoe",
         "gorgonNeume": "Gorgon_Top",
-        "isMelisma": true
+        "measureBarLeft": "MeasureBarShortTheseosAbove",
+        "isMelisma": true,
+        "measureBarLeftOffsetY": -0.3
       },
       {
         "id": 147,
@@ -1202,8 +1208,15 @@
         "id": 148,
         "elementType": "Note",
         "quantitativeNeume": "KentemataPlusOligon",
-        "gorgonNeume": "Argon",
+        "gorgonNeume": "Hemiolion",
+        "measureBarLeft": "MeasureBarShortDoubleAbove",
         "isMelisma": true
+      },
+      {
+        "id": 150,
+        "elementType": "Note",
+        "quantitativeNeume": "VareiaDotted",
+        "measureBarRight": "MeasureBarTop"
       },
       {
         "id": 149,
