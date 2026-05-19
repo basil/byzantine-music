@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.5.7",
+  "appVersion": "0.5.13",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -175,7 +175,7 @@
           "fontSize": 10.666666666666666,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
-          "height": 46,
+          "height": 26.467421438049794,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -255,7 +255,7 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 28.666667938232422,
+        "height": 31.33333396911621,
         "marginTop": 0,
         "marginBottom": 8
       },
@@ -270,7 +270,7 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 20,
+        "height": 18.666667938232422,
         "marginTop": 0,
         "marginBottom": 8
       },
@@ -285,22 +285,24 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 20,
+        "height": 18.666667938232422,
         "marginTop": 0,
         "marginBottom": 8
       },
       {
         "id": 7,
         "elementType": "ModeKey",
-        "templateId": 501,
+        "templateId": 506,
         "alignment": "center",
         "mode": 5,
         "scale": "Diatonic",
         "scaleNote": "Ke",
+        "fthora": "DiatonicPa_Top",
         "tempo": "Quicker",
         "martyria": "ModeSign.Alpha",
-        "note": "ModeSign.Ke",
-        "quantitativeNeumeAboveNote": "ModeSign.OligonPlusHypsili",
+        "note": "ModeSign.Pa",
+        "fthoraAboveQuantitativeNeumeRight": "DiatonicPa_Top",
+        "quantitativeNeumeRight": "OligonPlusHypsiliRight",
         "color": "#C80831",
         "fontSize": 26.666666666666668,
         "strokeWidth": 0,
@@ -355,7 +357,6 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
-        "fthora": "DiatonicPa_Bottom",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Ke",
         "lyrics": "rise"
@@ -1405,7 +1406,7 @@
         "note": "Ke",
         "rootSign": "Alpha",
         "scale": "Diatonic",
-        "tempo": "QuickerAbove",
+        "tempoLeft": "Quicker",
         "alignRight": true,
         "bpm": 208
       },
@@ -2286,7 +2287,7 @@
         "note": "Ke",
         "rootSign": "Alpha",
         "scale": "Diatonic",
-        "tempo": "QuickerAbove",
+        "tempoLeft": "Quicker",
         "alignRight": true,
         "bpm": 208
       },
@@ -2559,20 +2560,11 @@
         "id": 297,
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
-        "vocalExpressionNeume": "HomalonConnecting",
-        "fthora": "DiatonicKe_Top",
+        "timeNeume": "Klasma_Top",
+        "fthora": "DiatonicKe_Bottom",
         "ison": "Ison.Pa",
-        "vareia": true,
         "lyrics": "at",
-        "isMelisma": true,
-        "isMelismaStart": true,
         "isonOffsetY": -0.2
-      },
-      {
-        "id": 298,
-        "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "isMelisma": true
       },
       {
         "id": 299,
@@ -2585,15 +2577,13 @@
       {
         "id": 300,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentimaBelow",
-        "vocalExpressionNeume": "Antikenoma",
-        "accidental": "Flat_2_Right",
+        "quantitativeNeume": "Kentemata",
         "isMelisma": true
       },
       {
         "id": 301,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusApostrophos",
+        "quantitativeNeume": "Ison",
         "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "break",
@@ -3393,7 +3383,7 @@
         "note": "Ke",
         "rootSign": "Alpha",
         "scale": "Diatonic",
-        "tempo": "QuickerAbove",
+        "tempoLeft": "Quicker",
         "alignRight": true,
         "bpm": 208
       },
@@ -4502,7 +4492,7 @@
       }
     ],
     "lyrics": {
-      "text": "Let God a-rise and let His en-e-mies be scat-tered, and let them that hate Him flee__ from be-fore His face.\n\nA_ sa-cred Pas-cha hath been shown forth to us to-day; a new and ho-ly Pas--cha, a mys-tic Pas----cha, an all-ven-er-a-ble Pas-cha, a Pas-cha that is Christ__ the Re-deem-er; a Pas-cha that is spot-less, a Pas-cha that is great,___ a Pas-cha of the faith-ful, a Pas-cha that hath o---pened to us the gates of Par-a-dise, a Pas--cha that doth hal-low all the faith----ful.\n\nAs smoke van-ish-eth, so let them van-ish; as wax melt--eth be-fore the fire. \n\nCome__ from that scene, O wom-en, bear-ers of good tid--ings, and say to Si----on: Re-ceive from us the tid-ings of joy, of the Res-ur-rec--tion of Christ. O Je-ru-sa-lem, ex-ult,___ dance,__ and be glad, for thou hast seen Christ the King as a bride--groom come forth__ from the sep--ul--chre. \n\nSo let sin-ners per-ish at the pres-ence of God, and let the right-eous be glad.\n\nThe myrrh--bear-ing wom-en at__ the__ break__ of__ dawn__ drew nigh__ to the tomb of the Giv-er of life; they found an An---gel sit-ting up-on the stone, and he, ad-dress-ing them,__ in this man-ner did say: Why seek____ ye the Liv--ing a-mong the dead? Why mourn____ ye the In-cor-rupt-i-ble a-mid cor-rup-tion? Go, pro-claim__ it un-to His dis-ci----ples. \n\nThis is the day which the Lord hath made; let us re-joice__ and be glad there-in.\n\nA_ Pas-cha of de-light,___ Pas--cha, the Pas-cha of the Lord, an all-ven-er-a-ble Pas--cha hath dawned for us, a Pas--cha where-on let us em-brace one an-oth-er with joy. O Pas-cha,__ ran-some from sor----row! To-day Christ__ hath shown forth__ from the tomb as from a bri-dal cham-ber, and hath filled the wom--en with joy,__ say--ing: Pro-claim__ it un-to the A-pos----tles."
+      "text": "Let God a-rise and let His en-e-mies be scat-tered, and let them that hate Him flee__ from be-fore His face.\n\nA_ sa-cred Pas-cha hath been shown forth to us to-day; a new and ho-ly Pas--cha, a mys-tic Pas----cha, an all-ven-er-a-ble Pas-cha, a Pas-cha that is Christ__ the Re-deem-er; a Pas-cha that is spot-less, a Pas-cha that is great,___ a Pas-cha of the faith-ful, a Pas-cha that hath o---pened to us the gates of Par-a-dise, a Pas--cha that doth hal-low all the faith----ful.\n\nAs smoke van-ish-eth, so let them van-ish; as wax melt--eth be-fore the fire. \n\nCome__ from that scene, O wom-en, bear-ers of good tid--ings, and say to Si----on: Re-ceive from us the tid-ings of joy, of the Res-ur-rec--tion of Christ. O Je-ru-sa-lem, ex-ult,___ dance,__ and be glad, for thou hast seen Christ the King as a bride--groom come forth__ from the sep--ul--chre. \n\nSo let sin-ners per-ish at the pres-ence of God, and let the right-eous be glad.\n\nThe myrrh--bear-ing wom-en at the break__ of__ dawn__ drew nigh__ to the tomb of the Giv-er of life; they found an An---gel sit-ting up-on the stone, and he, ad-dress-ing them,__ in this man-ner did say: Why seek____ ye the Liv--ing a-mong the dead? Why mourn____ ye the In-cor-rupt-i-ble a-mid cor-rup-tion? Go, pro-claim__ it un-to His dis-ci----ples. \n\nThis is the day which the Lord hath made; let us re-joice__ and be glad there-in.\n\nA_ Pas-cha of de-light,___ Pas--cha, the Pas-cha of the Lord, an all-ven-er-a-ble Pas--cha hath dawned for us, a Pas--cha where-on let us em-brace one an-oth-er with joy. O Pas-cha,__ ran-some from sor----row! To-day Christ__ hath shown forth__ from the tomb as from a bri-dal cham-ber, and hath filled the wom--en with joy,__ say--ing: Pro-claim__ it un-to the A-pos----tles."
     }
   }
 }
