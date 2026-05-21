@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.5.7",
+  "appVersion": "0.5.14",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -177,7 +177,7 @@
           "fontSize": 10.666666666666666,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
-          "height": 30.666667938232422,
+          "height": 26.666667938232422,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -257,7 +257,7 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 28.666667938232422,
+        "height": 31.33333396911621,
         "marginTop": 0,
         "marginBottom": 8
       },
@@ -272,7 +272,7 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 38.66666793823242,
+        "height": 37.333335876464844,
         "marginTop": 0,
         "marginBottom": 8
       },
@@ -287,22 +287,23 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 20,
+        "height": 18.666667938232422,
         "marginTop": 0,
         "marginBottom": 8
       },
       {
         "id": 7,
         "elementType": "ModeKey",
-        "templateId": 702,
+        "templateId": 703,
         "alignment": "center",
         "mode": 7,
         "scale": "Diatonic",
-        "scaleNote": "Zo",
-        "fthora": "Enharmonic_Top",
+        "scaleNote": "Thi",
+        "fthora": "DiatonicNiLow_Top",
         "martyria": "ModeSign.VarysZo",
         "note": "ModeSign.Zo",
-        "fthoraAboveNote": "Enharmonic_Top",
+        "fthoraAboveQuantitativeNeumeRight": "DiatonicNiLow_Top",
+        "quantitativeNeumeRight": "OligonPlusHypsiliLeft",
         "color": "#C80831",
         "fontSize": 26.666666666666668,
         "strokeWidth": 0,
@@ -333,8 +334,7 @@
       {
         "id": 9,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusHypsiliPlusKentimaVertical",
-        "fthora": "Enharmonic_Top",
+        "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Zo",
         "lyrics": "t",
@@ -438,9 +438,9 @@
         "id": 22,
         "elementType": "Martyria",
         "auto": true,
-        "note": "ZoHigh",
-        "rootSign": "Nana",
-        "scale": "EnharmonicZoHigh"
+        "note": "Thi",
+        "rootSign": "Delta",
+        "scale": "Diatonic"
       },
       {
         "id": 23,
@@ -519,9 +519,9 @@
         "id": 32,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Thi",
-        "rootSign": "DeltaDotted",
-        "scale": "EnharmonicZoHigh"
+        "note": "Vou",
+        "rootSign": "Alpha",
+        "scale": "Diatonic"
       },
       {
         "id": 33,
@@ -545,14 +545,11 @@
         "id": 35,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusRunningElaphronPlusKentemata",
-        "fthora": "Enharmonic_Top",
         "chromaticFthoraNote": "Ga",
         "lyrics": "o",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true,
-        "fthoraOffsetX": -1.25,
-        "fthoraOffsetY": -0.15
+        "isHyphen": true
       },
       {
         "id": 36,
@@ -603,9 +600,9 @@
         "id": 41,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Zo",
-        "rootSign": "Nana",
-        "scale": "EnharmonicVou"
+        "note": "ThiLow",
+        "rootSign": "DeltaLow",
+        "scale": "Diatonic"
       },
       {
         "id": 42,
@@ -809,7 +806,7 @@
         "id": 65,
         "elementType": "Martyria",
         "auto": true,
-        "note": "ZoHigh",
+        "note": "Thi",
         "rootSign": "Nana",
         "scale": "EnharmonicZoHigh"
       },
@@ -875,7 +872,7 @@
         "id": 73,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Thi",
+        "note": "Vou",
         "rootSign": "DeltaDotted",
         "scale": "EnharmonicZoHigh",
         "measureBarLeft": "MeasureBarShortDoubleAbove"
@@ -945,8 +942,8 @@
         "id": 81,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Zo",
-        "rootSign": "Nana",
+        "note": "ThiLow",
+        "rootSign": "NanaLow",
         "scale": "EnharmonicVou"
       },
       {
@@ -1103,7 +1100,7 @@
         "id": 100,
         "elementType": "Martyria",
         "auto": true,
-        "note": "ZoHigh",
+        "note": "Thi",
         "rootSign": "Nana",
         "scale": "EnharmonicZoHigh",
         "measureBarLeft": "MeasureBarTopAbove"
@@ -1240,7 +1237,7 @@
         "id": 116,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Thi",
+        "note": "Vou",
         "rootSign": "DeltaDotted",
         "scale": "EnharmonicZoHigh",
         "measureBarLeft": "MeasureBarShortDoubleAbove"
@@ -1317,8 +1314,8 @@
         "id": 125,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Zo",
-        "rootSign": "Nana",
+        "note": "ThiLow",
+        "rootSign": "NanaLow",
         "scale": "EnharmonicVou",
         "measureBarLeft": "MeasureBarTopAbove"
       },
@@ -1534,7 +1531,7 @@
         "id": 151,
         "elementType": "Martyria",
         "auto": true,
-        "note": "ZoHigh",
+        "note": "Thi",
         "rootSign": "Nana",
         "scale": "EnharmonicZoHigh"
       },
@@ -1644,7 +1641,7 @@
         "id": 163,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Thi",
+        "note": "Vou",
         "rootSign": "DeltaDotted",
         "scale": "EnharmonicZoHigh"
       },
@@ -1801,8 +1798,8 @@
         "id": 182,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Zo",
-        "rootSign": "Nana",
+        "note": "ThiLow",
+        "rootSign": "NanaLow",
         "scale": "Diatonic",
         "alignRight": true
       },

@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.5.8",
+  "appVersion": "0.5.14",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -177,7 +177,7 @@
           "fontSize": 10.666666666666666,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
-          "height": 13.233710719024897,
+          "height": 13.333333969116211,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -257,7 +257,7 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 30.012165139179245,
+        "height": 30.666667938232422,
         "marginTop": 0,
         "marginBottom": 8
       },
@@ -272,7 +272,7 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 38.75586536715695,
+        "height": 42.66666793823242,
         "marginTop": 0,
         "marginBottom": 8
       },
@@ -287,7 +287,7 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 19.377932683578475,
+        "height": 21.33333396911621,
         "marginTop": 0,
         "marginBottom": 8
       },
@@ -444,7 +444,6 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
-        "vocalExpressionNeume": "Homalon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "μα"
       },
@@ -478,6 +477,7 @@
         "id": 30,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "vareia": true,
         "lyrics": "ζει"
       },
       {
@@ -710,7 +710,6 @@
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "timeNeume": "Klasma_Top",
-        "vocalExpressionNeume": "Homalon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "πα"
       },
@@ -744,6 +743,7 @@
         "id": 68,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "vareia": true,
         "lyrics": "μη"
       },
       {
@@ -832,14 +832,8 @@
       {
         "id": 81,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "OligonPlusKentemata",
         "lyrics": "Θε"
-      },
-      {
-        "id": 82,
-        "elementType": "Note",
-        "quantitativeNeume": "Kentemata",
-        "lyrics": "ε"
       },
       {
         "id": 83,
@@ -1005,7 +999,6 @@
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
-        "vocalExpressionNeume": "Homalon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "ραν"
       },
@@ -1039,6 +1032,7 @@
         "id": 110,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
+        "vareia": true,
         "lyrics": "ρου"
       },
       {
@@ -2051,7 +2045,7 @@
       }
     ],
     "lyrics": {
-      "text": "Α_ ξι ον ε στι ιν ω ως α α λη η θω ω ω ως μα κα α ρι ι ζει ειν σε τη ην Θε ε ο ο το ο ο ο ο ο ο ο ο κον την α ει ει μα α κα ρι ι στον και αι πα να α μω ω μη η το ον και μη τε ε ρα α του ου Θε ε ου ου ου ου ου ου ου η η μων Την τι μι ι ω ω τε ε ε ε ραν τω ων Χε ε ρου ου βι ιμ και αι ε εν δο ξο ο τε ε ε ε ε ε ε ραν α συγ κρι ι ι ι ι ι ι ι τως τω ων Σε ε ε ε ε ε ρα α φιμ την α δι α α φθο ο ο ο ρω ως Θε ο ο ο ον Λο ο ο ο ο ο ο ο γον τε ε κου ου ου ου ου ου ου ου σαν την ο ο ο ον τω ω ω ως Θε ο το ο ο ο κο ον σε ε ε ε ε ε ε ε με ε ε ε ε ε γα α λυ υ υ υ υ νο ο ο ο με ε ε ε ε ε ε ε ε εν_"
+      "text": "Α_ ξι ον ε στι ιν ω ως α α λη η θω ω ω ως μα κα α ρι ι ζει ειν σε τη ην Θε ε ο ο το ο ο ο ο ο ο ο ο κον την α ει ει μα α κα ρι ι στον και αι πα να α μω ω μη η το ον και μη τε ε ρα α του ου Θε ου ου ου ου ου ου ου η η μων Την τι μι ι ω ω τε ε ε ε ραν τω ων Χε ε ρου ου βι ιμ και αι ε εν δο ξο ο τε ε ε ε ε ε ε ραν α συγ κρι ι ι ι ι ι ι ι τως τω ων Σε ε ε ε ε ε ρα α φιμ την α δι α α φθο ο ο ο ρω ως Θε ο ο ο ον Λο ο ο ο ο ο ο ο γον τε ε κου ου ου ου ου ου ου ου σαν την ο ο ο ον τω ω ω ως Θε ο το ο ο ο κο ον σε ε ε ε ε ε ε ε με ε ε ε ε ε γα α λυ υ υ υ υ νο ο ο ο με ε ε ε ε ε ε ε ε εν_"
     }
   }
 }
