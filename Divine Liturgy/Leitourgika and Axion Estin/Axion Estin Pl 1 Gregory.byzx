@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.5.7",
+  "appVersion": "0.5.16",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -177,7 +177,7 @@
           "fontSize": 10.666666666666666,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
-          "height": 30.666667938232422,
+          "height": 26.666667938232422,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -257,7 +257,7 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 28.666667938232422,
+        "height": 31.33333396911621,
         "marginTop": 0,
         "marginBottom": 8
       },
@@ -272,7 +272,7 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 20,
+        "height": 18.666667938232422,
         "marginTop": 0,
         "marginBottom": 8
       },
@@ -287,21 +287,23 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 20,
+        "height": 18.666667938232422,
         "marginTop": 0,
         "marginBottom": 8
       },
       {
         "id": 7,
         "elementType": "ModeKey",
-        "templateId": 501,
+        "templateId": 506,
         "alignment": "center",
         "mode": 5,
         "scale": "Diatonic",
         "scaleNote": "Ke",
+        "fthora": "DiatonicPa_Top",
         "martyria": "ModeSign.Alpha",
-        "note": "ModeSign.Ke",
-        "quantitativeNeumeAboveNote": "ModeSign.OligonPlusHypsili",
+        "note": "ModeSign.Pa",
+        "fthoraAboveQuantitativeNeumeRight": "DiatonicPa_Top",
+        "quantitativeNeumeRight": "OligonPlusHypsiliRight",
         "color": "#C80831",
         "fontSize": 26.666666666666668,
         "strokeWidth": 0,
@@ -333,19 +335,16 @@
         "id": 9,
         "elementType": "Note",
         "quantitativeNeume": "PetastiWithIson",
-        "fthora": "DiatonicPa_Top",
         "measureBarLeft": "MeasureBarTop",
         "ison": "Ison.Ke",
-        "lyrics": "t",
-        "isonOffsetY": -0.25
+        "lyrics": "t"
       },
       {
         "id": 10,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
         "ison": "Ison.Thi",
-        "lyrics": "is",
-        "isonOffsetY": -0.4
+        "lyrics": "is"
       },
       {
         "id": 11,
@@ -355,8 +354,7 @@
         "lyrics": "tru",
         "isMelisma": true,
         "isMelismaStart": true,
-        "isHyphen": true,
-        "isonOffsetY": -0.4
+        "isHyphen": true
       },
       {
         "id": 12,
