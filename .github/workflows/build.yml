@@ -28,7 +28,7 @@ jobs:
         run: Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 
       - name: Get the latest AppImage
-        run: gh release download --repo neanes/neanes --pattern '*AppImage*' --output neanes-cli
+        run: gh release download --repo neanes/neanes --pattern '*[0-9].AppImage' --output neanes-cli
         env:
           GH_TOKEN: ${{ github.token }}
 
