@@ -28,7 +28,10 @@ jobs:
         run: Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
 
       - name: Get the latest AppImage
-        run: gh release download --repo neanes/neanes --pattern '*[0-9].AppImage' --output neanes-cli
+        run: |
+          asset=$(gh release view --repo neanes/neanes --json assets \
+            --jq '.assets[].name | select(endswith(".AppImage")) | select(contains("arm64") | not)')
+          gh release download --repo neanes/neanes --pattern "$asset" --output neanes-cli
         env:
           GH_TOKEN: ${{ github.token }}
 
