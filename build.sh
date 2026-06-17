@@ -20,7 +20,7 @@ function do_configure() {
 
 	if [[ -z ${NEANES_BIN} ]]; then
 		# shellcheck disable=SC2086
-		NEANES_BIN=$(echo $HOME/src/neanes/neanes/dist/Neanes-*.AppImage) || die "failed to expand glob"
+		NEANES_BIN=$(echo $HOME/src/neanes/neanes/release/Neanes-*.AppImage) || die "failed to expand glob"
 	fi
 
 	if [[ ! -x ${NEANES_BIN} ]]; then
