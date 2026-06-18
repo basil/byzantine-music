@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.5.7",
+  "appVersion": "0.5.31",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -17,8 +17,7 @@
     "lineHeight": 72.96000000000001,
     "lyricsDefaultFontFamily": "Valkyrie A",
     "lyricsDefaultFontSize": 15.333333333333334,
-    "lyricsDefaultFontWeight": "400",
-    "lyricsDefaultFontStyle": "normal",
+    "lyricsDefaultFontSubfamily": "Regular",
     "lyricsDefaultColor": "#000000",
     "lyricsDefaultStrokeWidth": 0,
     "lyricsVerticalOffset": -4.800000000000001,
@@ -61,17 +60,15 @@
     "martyriaDefaultStrokeWidth": 0,
     "tempoDefaultColor": "#C80831",
     "tempoDefaultStrokeWidth": 0,
-    "dropCapDefaultFontFamily": "Zapf Renaissance Antiqua Bk",
+    "dropCapDefaultFontFamily": "Zapf Renaissance Antiqua",
     "dropCapDefaultFontSize": 64,
-    "dropCapDefaultFontWeight": "400",
-    "dropCapDefaultFontStyle": "normal",
+    "dropCapDefaultFontSubfamily": "Bk",
     "dropCapDefaultColor": "#C80831",
     "dropCapDefaultStrokeWidth": 0,
     "dropCapDefaultLineSpan": 1,
     "textBoxDefaultFontFamily": "Valkyrie A",
     "textBoxDefaultFontSize": 15.333333333333334,
-    "textBoxDefaultFontWeight": "400",
-    "textBoxDefaultFontStyle": "normal",
+    "textBoxDefaultFontSubfamily": "Regular",
     "textBoxDefaultColor": "#000000",
     "textBoxDefaultStrokeWidth": 0,
     "hyphenSpacing": 49.632000000000005,
@@ -96,6 +93,7 @@
           "fontSize": 15.333333333333334,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
+          "fontSubfamily": "Regular",
           "height": 19,
           "marginTop": 0,
           "marginBottom": 0
@@ -116,6 +114,7 @@
           "fontSize": 15.333333333333334,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
+          "fontSubfamily": "Regular",
           "height": 19,
           "marginTop": 0,
           "marginBottom": 0
@@ -136,6 +135,7 @@
           "fontSize": 15.333333333333334,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
+          "fontSubfamily": "Regular",
           "height": 19,
           "marginTop": 0,
           "marginBottom": 0
@@ -156,6 +156,7 @@
           "fontSize": 15.333333333333334,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
+          "fontSubfamily": "Regular",
           "height": 19,
           "marginTop": 0,
           "marginBottom": 0
@@ -178,6 +179,7 @@
           "fontSize": 10.666666666666666,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
+          "fontSubfamily": "Regular",
           "height": 30.666667938232422,
           "marginTop": 0,
           "marginBottom": 0
@@ -198,6 +200,7 @@
           "fontSize": 15.333333333333334,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
+          "fontSubfamily": "Regular",
           "height": 19,
           "marginTop": 0,
           "marginBottom": 0
@@ -218,6 +221,7 @@
           "fontSize": 15.333333333333334,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
+          "fontSubfamily": "Regular",
           "height": 19,
           "marginTop": 0,
           "marginBottom": 0
@@ -238,6 +242,7 @@
           "fontSize": 15.333333333333334,
           "fontFamily": "Valkyrie A",
           "strokeWidth": 0,
+          "fontSubfamily": "Regular",
           "height": 19,
           "marginTop": 0,
           "marginBottom": 0
@@ -250,7 +255,7 @@
       {
         "id": 1,
         "elementType": "RichTextBox",
-        "content": "<p style=\"text-align:center;\"><span style=\"font-size:24px;\"><span style=\"font-family:&quot;Trump Mediaeval LT Pro&quot;, &quot;Source Serif&quot;;\"><strong>Entrance Hymn</strong></span></span></p>",
+        "content": "<p style=\"text-align:center;\"><span style=\"font-family:&quot;Trump Mediaeval LT Pro&quot;, &quot;Source Serif&quot;;font-size:24px;\"><strong>Entrance Hymn</strong></span></p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -273,7 +278,7 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 20,
+        "height": 18.666667938232422,
         "marginTop": 0,
         "marginBottom": 8
       },
@@ -288,7 +293,7 @@
         "modeChangePhysicalNote": "Pa",
         "modeChangeScale": "Diatonic",
         "modeChangeBpm": 120,
-        "height": 20,
+        "height": 18.666667938232422,
         "marginTop": 0,
         "marginBottom": 8
       },
@@ -323,8 +328,7 @@
         "content": "C",
         "fontFamily": "Valkyrie A",
         "fontSize": 80,
-        "fontWeight": "400",
-        "fontStyle": "normal",
+        "fontSubfamily": "Regular",
         "strokeWidth": 0,
         "color": "#C80831",
         "useDefaultStyle": true,
