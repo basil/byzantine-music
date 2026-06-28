@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.5.31",
+  "appVersion": "0.5.38",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -12,10 +12,12 @@
     "rightMargin": 120,
     "headerMargin": 48,
     "footerMargin": 48,
+    "headerFooterDifferentChapterOpening": false,
     "showFooter": true,
+    "richHeaderFooter": true,
     "firstPageNumber": 1,
     "lineHeight": 72.96000000000001,
-    "lyricsDefaultFontFamily": "Valkyrie A",
+    "lyricsDefaultFontFamily": "Valkyrie OT",
     "lyricsDefaultFontSize": 15.333333333333334,
     "lyricsDefaultFontSubfamily": "Regular",
     "lyricsDefaultColor": "#000000",
@@ -66,7 +68,7 @@
     "dropCapDefaultColor": "#C80831",
     "dropCapDefaultStrokeWidth": 0,
     "dropCapDefaultLineSpan": 1,
-    "textBoxDefaultFontFamily": "Valkyrie A",
+    "textBoxDefaultFontFamily": "Valkyrie OT",
     "textBoxDefaultFontSize": 15.333333333333334,
     "textBoxDefaultFontSubfamily": "Regular",
     "textBoxDefaultColor": "#000000",
@@ -82,19 +84,17 @@
     "default": {
       "elements": [
         {
-          "elementType": "TextBox",
-          "alignment": "left",
-          "color": "#000000",
+          "elementType": "RichTextBox",
           "content": "",
           "contentBottom": "",
           "contentLeft": "",
-          "contentCenter": "",
-          "contentRight": "",
-          "fontSize": 15.333333333333334,
-          "fontFamily": "Valkyrie A",
-          "strokeWidth": 0,
-          "fontSubfamily": "Regular",
-          "height": 19,
+          "contentRight": "<p style=\"text-align:right;\"></p>",
+          "contentCenter": "<p style=\"text-align:center;\"></p>",
+          "multipanel": true,
+          "modeChangePhysicalNote": "Pa",
+          "modeChangeScale": "Diatonic",
+          "modeChangeBpm": 120,
+          "height": 20,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -103,19 +103,17 @@
     "odd": {
       "elements": [
         {
-          "elementType": "TextBox",
-          "alignment": "left",
-          "color": "#000000",
+          "elementType": "RichTextBox",
           "content": "",
           "contentBottom": "",
           "contentLeft": "",
-          "contentCenter": "",
-          "contentRight": "",
-          "fontSize": 15.333333333333334,
-          "fontFamily": "Valkyrie A",
-          "strokeWidth": 0,
-          "fontSubfamily": "Regular",
-          "height": 19,
+          "contentRight": "<p style=\"text-align:right;\"></p>",
+          "contentCenter": "<p style=\"text-align:center;\"></p>",
+          "multipanel": true,
+          "modeChangePhysicalNote": "Pa",
+          "modeChangeScale": "Diatonic",
+          "modeChangeBpm": 120,
+          "height": 20,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -124,19 +122,17 @@
     "even": {
       "elements": [
         {
-          "elementType": "TextBox",
-          "alignment": "left",
-          "color": "#000000",
+          "elementType": "RichTextBox",
           "content": "",
           "contentBottom": "",
           "contentLeft": "",
-          "contentCenter": "",
-          "contentRight": "",
-          "fontSize": 15.333333333333334,
-          "fontFamily": "Valkyrie A",
-          "strokeWidth": 0,
-          "fontSubfamily": "Regular",
-          "height": 19,
+          "contentRight": "<p style=\"text-align:right;\"></p>",
+          "contentCenter": "<p style=\"text-align:center;\"></p>",
+          "multipanel": true,
+          "modeChangePhysicalNote": "Pa",
+          "modeChangeScale": "Diatonic",
+          "modeChangeBpm": 120,
+          "height": 20,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -145,19 +141,36 @@
     "firstPage": {
       "elements": [
         {
-          "elementType": "TextBox",
-          "alignment": "left",
-          "color": "#000000",
+          "elementType": "RichTextBox",
           "content": "",
           "contentBottom": "",
           "contentLeft": "",
-          "contentCenter": "",
-          "contentRight": "",
-          "fontSize": 15.333333333333334,
-          "fontFamily": "Valkyrie A",
-          "strokeWidth": 0,
-          "fontSubfamily": "Regular",
-          "height": 19,
+          "contentRight": "<p style=\"text-align:right;\"></p>",
+          "contentCenter": "<p style=\"text-align:center;\"></p>",
+          "multipanel": true,
+          "modeChangePhysicalNote": "Pa",
+          "modeChangeScale": "Diatonic",
+          "modeChangeBpm": 120,
+          "height": 20,
+          "marginTop": 0,
+          "marginBottom": 0
+        }
+      ]
+    },
+    "chapterOpening": {
+      "elements": [
+        {
+          "elementType": "RichTextBox",
+          "content": "",
+          "contentBottom": "",
+          "contentLeft": "",
+          "contentRight": "<p style=\"text-align:right;\"></p>",
+          "contentCenter": "<p style=\"text-align:center;\"></p>",
+          "multipanel": true,
+          "modeChangePhysicalNote": "Pa",
+          "modeChangeScale": "Diatonic",
+          "modeChangeBpm": 120,
+          "height": 20,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -168,19 +181,17 @@
     "default": {
       "elements": [
         {
-          "elementType": "TextBox",
-          "alignment": "center",
-          "color": "#000000",
-          "content": "Translation copyright © 1997 Holy Transfiguration Monastery, Brookline, MA, used by permission. All rights reserved.\nMusical setting copyright © 2024 Basil Crow, under a Creative Commons BY-NC-ND 4.0 license.",
+          "elementType": "RichTextBox",
+          "content": "",
           "contentBottom": "",
           "contentLeft": "",
-          "contentCenter": "",
           "contentRight": "",
-          "fontSize": 10.666666666666666,
-          "fontFamily": "Valkyrie A",
-          "strokeWidth": 0,
-          "fontSubfamily": "Regular",
-          "height": 26.666667938232422,
+          "contentCenter": "<p style=\"text-align:center;\"><span style=\"font-family:Valkyrie OT,Neanes;font-size:8pt;font-variant-numeric:oldstyle-nums proportional-nums;\">Translation copyright © 1997 Holy Transfiguration Monastery, Brookline, MA, used by permission. All rights reserved.<br>Musical setting copyright © 2024 Basil Crow, under a Creative Commons </span><span style=\"font-family:Valkyrie OT,Neanes;font-size:8pt;font-variant-caps:all-small-caps;font-variant-numeric:oldstyle-nums proportional-nums;\">BY-NC-ND</span><span style=\"font-family:Valkyrie OT,Neanes;font-size:8pt;font-variant-numeric:oldstyle-nums proportional-nums;\"> 4.0 license.</span></p>",
+          "multipanel": true,
+          "modeChangePhysicalNote": "Pa",
+          "modeChangeScale": "Diatonic",
+          "modeChangeBpm": 120,
+          "height": 13.333333969116211,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -189,19 +200,17 @@
     "odd": {
       "elements": [
         {
-          "elementType": "TextBox",
-          "alignment": "left",
-          "color": "#000000",
+          "elementType": "RichTextBox",
           "content": "",
           "contentBottom": "",
           "contentLeft": "",
-          "contentCenter": "",
-          "contentRight": "",
-          "fontSize": 15.333333333333334,
-          "fontFamily": "Valkyrie A",
-          "strokeWidth": 0,
-          "fontSubfamily": "Regular",
-          "height": 19,
+          "contentRight": "<p style=\"text-align:right;\"></p>",
+          "contentCenter": "<p style=\"text-align:center;\">$p</p>",
+          "multipanel": true,
+          "modeChangePhysicalNote": "Pa",
+          "modeChangeScale": "Diatonic",
+          "modeChangeBpm": 120,
+          "height": 20,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -210,19 +219,17 @@
     "even": {
       "elements": [
         {
-          "elementType": "TextBox",
-          "alignment": "left",
-          "color": "#000000",
+          "elementType": "RichTextBox",
           "content": "",
           "contentBottom": "",
           "contentLeft": "",
-          "contentCenter": "",
-          "contentRight": "",
-          "fontSize": 15.333333333333334,
-          "fontFamily": "Valkyrie A",
-          "strokeWidth": 0,
-          "fontSubfamily": "Regular",
-          "height": 19,
+          "contentRight": "<p style=\"text-align:right;\"></p>",
+          "contentCenter": "<p style=\"text-align:center;\">$p</p>",
+          "multipanel": true,
+          "modeChangePhysicalNote": "Pa",
+          "modeChangeScale": "Diatonic",
+          "modeChangeBpm": 120,
+          "height": 20,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -231,19 +238,36 @@
     "firstPage": {
       "elements": [
         {
-          "elementType": "TextBox",
-          "alignment": "left",
-          "color": "#000000",
+          "elementType": "RichTextBox",
           "content": "",
           "contentBottom": "",
           "contentLeft": "",
-          "contentCenter": "",
-          "contentRight": "",
-          "fontSize": 15.333333333333334,
-          "fontFamily": "Valkyrie A",
-          "strokeWidth": 0,
-          "fontSubfamily": "Regular",
-          "height": 19,
+          "contentRight": "<p style=\"text-align:right;\"></p>",
+          "contentCenter": "<p style=\"text-align:center;\">$p</p>",
+          "multipanel": true,
+          "modeChangePhysicalNote": "Pa",
+          "modeChangeScale": "Diatonic",
+          "modeChangeBpm": 120,
+          "height": 20,
+          "marginTop": 0,
+          "marginBottom": 0
+        }
+      ]
+    },
+    "chapterOpening": {
+      "elements": [
+        {
+          "elementType": "RichTextBox",
+          "content": "",
+          "contentBottom": "",
+          "contentLeft": "",
+          "contentRight": "<p style=\"text-align:right;\"></p>",
+          "contentCenter": "<p style=\"text-align:center;\">$p</p>",
+          "multipanel": true,
+          "modeChangePhysicalNote": "Pa",
+          "modeChangeScale": "Diatonic",
+          "modeChangeBpm": 120,
+          "height": 20,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -325,7 +349,7 @@
         "id": 16,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie A",
+        "fontFamily": "Valkyrie OT",
         "fontSize": 64,
         "fontSubfamily": "Regular",
         "strokeWidth": 0,
@@ -424,7 +448,7 @@
         "id": 25,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie A",
+        "fontFamily": "Valkyrie OT",
         "fontSize": 64,
         "fontSubfamily": "Regular",
         "strokeWidth": 0,
