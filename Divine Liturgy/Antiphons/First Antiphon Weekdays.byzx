@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.5.39",
+  "appVersion": "0.5.40",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -17,11 +17,6 @@
     "richHeaderFooter": true,
     "firstPageNumber": 1,
     "lineHeight": 72.96000000000001,
-    "lyricsDefaultFontFamily": "Valkyrie OT",
-    "lyricsDefaultFontSize": 15.333333333333334,
-    "lyricsDefaultFontSubfamily": "Regular",
-    "lyricsDefaultColor": "#000000",
-    "lyricsDefaultStrokeWidth": 0,
     "lyricsVerticalOffset": -4.800000000000001,
     "lyricsMinimumSpacing": 4.800000000000001,
     "lyricsMelismaCutoffWidth": 6.666666666666667,
@@ -62,17 +57,7 @@
     "martyriaDefaultStrokeWidth": 0,
     "tempoDefaultColor": "#C80831",
     "tempoDefaultStrokeWidth": 0,
-    "dropCapDefaultFontFamily": "Zapf Renaissance Antiqua",
-    "dropCapDefaultFontSize": 64,
-    "dropCapDefaultFontSubfamily": "Bk",
-    "dropCapDefaultColor": "#C80831",
-    "dropCapDefaultStrokeWidth": 0,
     "dropCapDefaultLineSpan": 1,
-    "textBoxDefaultFontFamily": "Valkyrie OT",
-    "textBoxDefaultFontSize": 15.333333333333334,
-    "textBoxDefaultFontSubfamily": "Regular",
-    "textBoxDefaultColor": "#000000",
-    "textBoxDefaultStrokeWidth": 0,
     "hyphenSpacing": 49.60629921259843,
     "minimumSyllableToHyphenClearance": 13.228346456692915,
     "martyriaVerticalOffset": 0,
@@ -80,6 +65,75 @@
     "alignIsonIndicators": true,
     "ignorePunctuationWhenPositioningLyrics": true
   },
+  "paragraphStyles": [
+    {
+      "id": "default-text",
+      "displayName": "Default Text",
+      "fontFamily": "Valkyrie OT",
+      "fontSize": 15.333333333333334
+    },
+    {
+      "id": "annotation",
+      "displayName": "Annotation",
+      "parentStyleId": "default-text"
+    },
+    {
+      "id": "title",
+      "displayName": "Title",
+      "parentStyleId": "default-text",
+      "alignment": "center",
+      "fontSize": 37.333333333333336
+    },
+    {
+      "id": "subtitle",
+      "displayName": "Subtitle",
+      "parentStyleId": "default-text",
+      "alignment": "center",
+      "fontSize": 29.333333333333332
+    },
+    {
+      "id": "chapter",
+      "displayName": "Chapter",
+      "parentStyleId": "default-text",
+      "alignment": "center",
+      "fontFamily": "Trump Mediaeval LT Pro",
+      "fontSize": 24,
+      "fontSubfamily": "Bold"
+    },
+    {
+      "id": "section",
+      "displayName": "Section",
+      "parentStyleId": "default-text",
+      "fontSize": 26.666666666666668
+    },
+    {
+      "id": "header",
+      "displayName": "Header",
+      "parentStyleId": "default-text",
+      "alignment": "center",
+      "fontSize": 10.666666666666666
+    },
+    {
+      "id": "footer",
+      "displayName": "Footer",
+      "parentStyleId": "default-text",
+      "alignment": "center",
+      "fontSize": 10.666666666666666
+    },
+    {
+      "id": "lyrics",
+      "displayName": "Lyrics",
+      "parentStyleId": "default-text"
+    },
+    {
+      "id": "drop-cap",
+      "displayName": "Drop Cap",
+      "parentStyleId": "default-text",
+      "fontFamily": "Zapf Renaissance Antiqua",
+      "fontSize": 64,
+      "color": "#C80831"
+    }
+  ],
   "headers": {
     "default": {
       "elements": [
@@ -186,12 +240,12 @@
           "contentBottom": "",
           "contentLeft": "",
           "contentRight": "",
-          "contentCenter": "<p style=\"text-align:center;\"><span style=\"font-family:Valkyrie OT,Neanes;font-size:8pt;font-variant-numeric:oldstyle-nums proportional-nums;\">Translation copyright © 1997 Holy Transfiguration Monastery, Brookline, MA, used by permission. All rights reserved.<br>Musical setting copyright © 2024 Basil Crow, under a Creative Commons </span><span style=\"font-family:Valkyrie OT,Neanes;font-size:8pt;font-variant-caps:all-small-caps;font-variant-numeric:oldstyle-nums proportional-nums;\">BY-NC-ND</span><span style=\"font-family:Valkyrie OT,Neanes;font-size:8pt;font-variant-numeric:oldstyle-nums proportional-nums;\"> 4.0 license.</span></p>",
+          "contentCenter": "<p class=\"neanes-paragraph-style-footer\"><span style=\"font-variant-numeric:oldstyle-nums proportional-nums;\">Translation copyright © 1997 Holy Transfiguration Monastery, Brookline, MA, used by permission. All rights reserved.<br>Musical setting copyright © 2024 Basil Crow, under a Creative Commons BY-NC-ND 4.0 license.</span></p>",
           "multipanel": true,
           "modeChangePhysicalNote": "Pa",
           "modeChangeScale": "Diatonic",
           "modeChangeBpm": 120,
-          "height": 13.333333969116211,
+          "height": 13.333302404988123,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -279,7 +333,7 @@
       {
         "id": 1,
         "elementType": "RichTextBox",
-        "content": "<p style=\"text-align:center;\"><span style=\"font-family:&quot;Trump Mediaeval LT Pro&quot;, &quot;Source Serif&quot;;font-size:24px;\"><strong>First Antiphon</strong></span></p>",
+        "content": "<p class=\"neanes-paragraph-style-chapter\">First Antiphon</p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -294,7 +348,7 @@
       {
         "id": 3,
         "elementType": "RichTextBox",
-        "content": "<p style=\"text-align:center;\"><i>Second Mode</i></p>",
+        "content": "<p class=\"neanes-paragraph-style-default-text\" style=\"text-align:center;\"><span style=\"font-style:italic;font-weight:400;\">Second Mode</span></p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -309,7 +363,7 @@
       {
         "id": 5,
         "elementType": "RichTextBox",
-        "content": "<p style=\"text-align:center;\">Basil Crow</p>",
+        "content": "<p class=\"neanes-paragraph-style-default-text\" style=\"text-align:center;\">Basil Crow</p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -349,7 +403,7 @@
       {
         "id": 60,
         "elementType": "RichTextBox",
-        "content": "<p><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;\"><i>Verse:</i></span> It is good to give praise unto the Lord, and to chant unto Thy Name, O Most High. <span style=\"color:#C80831;\">(</span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;\"><i>Psalm </i></span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-variant-numeric:oldstyle-nums proportional-nums;\"><i>91:1</i></span><span style=\"color:#C80831;\">)</span></p>",
+        "content": "<p class=\"neanes-paragraph-style-default-text\"><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-weight:400;\">Verse:</span> It is good to give praise unto the Lord, and to chant unto Thy Name, O Most High. <span style=\"color:#C80831;\">(</span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-weight:400;\">Psalm </span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-variant-numeric:oldstyle-nums proportional-nums;font-weight:400;\">91:1</span><span style=\"color:#C80831;\">)</span></p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -365,12 +419,6 @@
         "id": 8,
         "elementType": "DropCap",
         "content": "B",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -551,7 +599,7 @@
       {
         "id": 58,
         "elementType": "RichTextBox",
-        "content": "<p><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;\"><i>Verse:</i></span> To proclaim in the morning Thy mercy, and Thy truth by night. <span style=\"color:#C80831;\">(</span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;\"><i>Psalm </i></span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-variant-numeric:oldstyle-nums proportional-nums;\"><i>91:2a</i></span><span style=\"color:#C80831;\">)</span></p>",
+        "content": "<p class=\"neanes-paragraph-style-default-text\"><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-weight:400;\">Verse:</span> To proclaim in the morning Thy mercy, and Thy truth by night. <span style=\"color:#C80831;\">(</span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-weight:400;\">Psalm </span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-variant-numeric:oldstyle-nums proportional-nums;font-weight:400;\">91:2a</span><span style=\"color:#C80831;\">)</span></p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -567,12 +615,6 @@
         "id": 61,
         "elementType": "DropCap",
         "content": "B",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -753,7 +795,7 @@
       {
         "id": 171,
         "elementType": "RichTextBox",
-        "content": "<p><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;\"><i>Verse:</i></span> For Thou hast gladdened me, O Lord, by Thy deeds, and in the works of Thy hands will I rejoice. <span style=\"color:#C80831;\">(</span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;\"><i>Psalm </i></span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-variant-numeric:oldstyle-nums proportional-nums;\"><i>91:3</i></span><span style=\"color:#C80831;\">)</span></p>",
+        "content": "<p class=\"neanes-paragraph-style-default-text\"><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-weight:400;\">Verse:</span> For Thou hast gladdened me, O Lord, by Thy deeds, and in the works of Thy hands will I rejoice. <span style=\"color:#C80831;\">(</span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-weight:400;\">Psalm </span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-variant-numeric:oldstyle-nums proportional-nums;font-weight:400;\">91:3</span><span style=\"color:#C80831;\">)</span></p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -769,12 +811,6 @@
         "id": 172,
         "elementType": "DropCap",
         "content": "B",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -955,7 +991,7 @@
       {
         "id": 84,
         "elementType": "RichTextBox",
-        "content": "<p><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;\"><i>Verse:</i></span> Upright is the Lord our God, and there is no unrighteousness in Him.<br><span style=\"color:#C80831;\">(</span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;\"><i>Psalm 91</i></span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-variant-numeric:oldstyle-nums proportional-nums;\"><i>:13b</i></span><span style=\"color:#C80831;\">)</span></p>",
+        "content": "<p class=\"neanes-paragraph-style-default-text\"><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-weight:400;\">Verse:</span> Upright is the Lord our God, and there is no unrighteousness in Him.<br><span style=\"color:#C80831;\">(</span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-weight:400;\">Psalm 91</span><span style=\"color:#C80831;font-family:Valkyrie OT,Neanes;font-style:italic;font-variant-numeric:oldstyle-nums proportional-nums;font-weight:400;\">:13b</span><span style=\"color:#C80831;\">)</span></p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -971,12 +1007,6 @@
         "id": 85,
         "elementType": "DropCap",
         "content": "B",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -1173,12 +1203,6 @@
         "id": 31,
         "elementType": "DropCap",
         "content": "B",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {

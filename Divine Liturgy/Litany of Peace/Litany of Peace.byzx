@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.5.38",
+  "appVersion": "0.5.40",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -17,11 +17,6 @@
     "richHeaderFooter": true,
     "firstPageNumber": 1,
     "lineHeight": 72.96000000000001,
-    "lyricsDefaultFontFamily": "Valkyrie OT",
-    "lyricsDefaultFontSize": 15.333333333333334,
-    "lyricsDefaultFontSubfamily": "Regular",
-    "lyricsDefaultColor": "#000000",
-    "lyricsDefaultStrokeWidth": 0,
     "lyricsVerticalOffset": -4.800000000000001,
     "lyricsMinimumSpacing": 4.800000000000001,
     "lyricsMelismaCutoffWidth": 6.666666666666667,
@@ -62,17 +57,7 @@
     "martyriaDefaultStrokeWidth": 0,
     "tempoDefaultColor": "#C80831",
     "tempoDefaultStrokeWidth": 0,
-    "dropCapDefaultFontFamily": "Zapf Renaissance Antiqua",
-    "dropCapDefaultFontSize": 64,
-    "dropCapDefaultFontSubfamily": "Bk",
-    "dropCapDefaultColor": "#C80831",
-    "dropCapDefaultStrokeWidth": 0,
     "dropCapDefaultLineSpan": 1,
-    "textBoxDefaultFontFamily": "Valkyrie OT",
-    "textBoxDefaultFontSize": 15.333333333333334,
-    "textBoxDefaultFontSubfamily": "Regular",
-    "textBoxDefaultColor": "#000000",
-    "textBoxDefaultStrokeWidth": 0,
     "hyphenSpacing": 49.60629921259843,
     "minimumSyllableToHyphenClearance": 13.228346456692915,
     "martyriaVerticalOffset": 0,
@@ -80,6 +65,75 @@
     "alignIsonIndicators": true,
     "ignorePunctuationWhenPositioningLyrics": true
   },
+  "paragraphStyles": [
+    {
+      "id": "default-text",
+      "displayName": "Default Text",
+      "fontFamily": "Valkyrie OT",
+      "fontSize": 15.333333333333334
+    },
+    {
+      "id": "annotation",
+      "displayName": "Annotation",
+      "parentStyleId": "default-text"
+    },
+    {
+      "id": "title",
+      "displayName": "Title",
+      "parentStyleId": "default-text",
+      "alignment": "center",
+      "fontSize": 37.333333333333336
+    },
+    {
+      "id": "subtitle",
+      "displayName": "Subtitle",
+      "parentStyleId": "default-text",
+      "alignment": "center",
+      "fontSize": 29.333333333333332
+    },
+    {
+      "id": "chapter",
+      "displayName": "Chapter",
+      "parentStyleId": "default-text",
+      "alignment": "center",
+      "fontFamily": "Trump Mediaeval LT Pro",
+      "fontSize": 24,
+      "fontSubfamily": "Bold"
+    },
+    {
+      "id": "section",
+      "displayName": "Section",
+      "parentStyleId": "default-text",
+      "fontSize": 26.666666666666668
+    },
+    {
+      "id": "header",
+      "displayName": "Header",
+      "parentStyleId": "default-text",
+      "alignment": "center",
+      "fontSize": 10.666666666666666
+    },
+    {
+      "id": "footer",
+      "displayName": "Footer",
+      "parentStyleId": "default-text",
+      "alignment": "center",
+      "fontSize": 10.666666666666666
+    },
+    {
+      "id": "lyrics",
+      "displayName": "Lyrics",
+      "parentStyleId": "default-text"
+    },
+    {
+      "id": "drop-cap",
+      "displayName": "Drop Cap",
+      "parentStyleId": "default-text",
+      "fontFamily": "Zapf Renaissance Antiqua",
+      "fontSize": 64,
+      "color": "#C80831"
+    }
+  ],
   "headers": {
     "default": {
       "elements": [
@@ -186,7 +240,7 @@
           "contentBottom": "",
           "contentLeft": "",
           "contentRight": "",
-          "contentCenter": "<p style=\"text-align:center;\"><span style=\"font-family:Valkyrie OT,Neanes;font-size:8pt;font-variant-numeric:oldstyle-nums proportional-nums;\">Translation copyright © 1997 Holy Transfiguration Monastery, Brookline, MA, used by permission. All rights reserved.<br>Musical setting copyright © 2024 Basil Crow, under a Creative Commons </span><span style=\"font-family:Valkyrie OT,Neanes;font-size:8pt;font-variant-caps:all-small-caps;font-variant-numeric:oldstyle-nums proportional-nums;\">BY-NC-ND</span><span style=\"font-family:Valkyrie OT,Neanes;font-size:8pt;font-variant-numeric:oldstyle-nums proportional-nums;\"> 4.0 license.</span></p>",
+          "contentCenter": "<p class=\"neanes-paragraph-style-footer\"><span style=\"font-variant-numeric:oldstyle-nums proportional-nums;\">Translation copyright © 1997 Holy Transfiguration Monastery, Brookline, MA, used by permission. All rights reserved.<br>Musical setting copyright © 2024 Basil Crow, under a Creative Commons BY-NC-ND 4.0 license.</span></p>",
           "multipanel": true,
           "modeChangePhysicalNote": "Pa",
           "modeChangeScale": "Diatonic",
@@ -279,7 +333,7 @@
       {
         "id": 1,
         "elementType": "RichTextBox",
-        "content": "<p style=\"text-align:center;\"><span style=\"font-family:&quot;Trump Mediaeval LT Pro&quot;, &quot;Source Serif&quot;;font-size:24px;\"><strong>The Litany of Peace</strong></span></p>",
+        "content": "<p class=\"neanes-paragraph-style-chapter\">The Litany of Peace</p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -294,7 +348,7 @@
       {
         "id": 3,
         "elementType": "RichTextBox",
-        "content": "<p style=\"text-align:center;\"><i>Plagal of Fourth Mode</i></p>",
+        "content": "<p class=\"neanes-paragraph-style-default-text\" style=\"text-align:center;\"><span style=\"font-style:italic;font-weight:400;\">Plagal of Fourth Mode</span></p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -309,7 +363,7 @@
       {
         "id": 5,
         "elementType": "RichTextBox",
-        "content": "<p style=\"text-align:center;\">Basil Crow</p>",
+        "content": "<p class=\"neanes-paragraph-style-default-text\" style=\"text-align:center;\">Basil Crow</p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -349,12 +403,6 @@
         "id": 8,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -426,12 +474,6 @@
         "id": 17,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -497,12 +539,6 @@
         "id": 25,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -571,12 +607,6 @@
         "id": 33,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -644,12 +674,6 @@
         "id": 41,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -724,12 +748,6 @@
         "id": 50,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -817,12 +835,6 @@
         "id": 61,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -879,12 +891,6 @@
         "id": 68,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -951,12 +957,6 @@
         "id": 76,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -1013,12 +1013,6 @@
         "id": 83,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -1068,12 +1062,6 @@
         "id": 89,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -1130,12 +1118,6 @@
         "id": 96,
         "elementType": "DropCap",
         "content": "L",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
@@ -1200,12 +1182,6 @@
         "id": 104,
         "elementType": "DropCap",
         "content": "T",
-        "fontFamily": "Valkyrie OT",
-        "fontSize": 80,
-        "fontSubfamily": "Regular",
-        "strokeWidth": 0,
-        "color": "#C80831",
-        "useDefaultStyle": true,
         "lineSpan": 1
       },
       {
