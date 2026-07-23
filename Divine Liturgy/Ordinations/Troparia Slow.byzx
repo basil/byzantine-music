@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.5.40",
+  "appVersion": "0.5.45",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -245,7 +245,7 @@
           "modeChangePhysicalNote": "Pa",
           "modeChangeScale": "Diatonic",
           "modeChangeBpm": 120,
-          "height": 18.66664333518492,
+          "height": 18.666667938232422,
           "marginTop": 0,
           "marginBottom": 0
         }
@@ -1388,15 +1388,15 @@
       {
         "id": 82,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Ison",
         "gorgonNeume": "Gorgon_Bottom",
         "lyrics": "the"
       },
       {
         "id": 89,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
+        "quantitativeNeume": "PetastiPlusKentimaAbove",
+        "timeNeume": "Klasma_Bottom",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "Vir",
         "isMelisma": true,
@@ -1404,27 +1404,10 @@
         "isHyphen": true
       },
       {
-        "id": 246,
-        "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
-        "id": 247,
-        "elementType": "Note",
-        "quantitativeNeume": "Hyporoe",
-        "timeNeume": "Hapli",
-        "gorgonNeume": "Gorgon_Top",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
         "id": 90,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarTop",
+        "quantitativeNeume": "Apostrophos",
+        "vareia": true,
         "lyrics": "gin",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1433,20 +1416,15 @@
         "id": 238,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "isMelisma": true
-      },
-      {
-        "id": 239,
-        "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
+        "accidental": "Sharp_2_Left",
         "isMelisma": true
       },
       {
         "id": 91,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
+        "quantitativeNeume": "OligonPlusKentemata",
         "gorgonNeume": "Gorgon_Top",
-        "measureBarLeft": "MeasureBarShortDouble",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "hath",
         "isMelisma": true,
         "isMelismaStart": true
@@ -1461,34 +1439,86 @@
         "id": 92,
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
+        "timeNeume": "Klasma_Top",
         "lyrics": "con",
         "isMelisma": true,
         "isMelismaStart": true,
         "isHyphen": true
       },
       {
-        "id": 240,
+        "id": 93,
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "measureBarLeft": "MeasureBarTop",
+        "lyrics": "ceived",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 254,
+        "elementType": "Note",
+        "quantitativeNeume": "KentemataPlusOligon",
+        "isMelisma": true
+      },
+      {
+        "id": 255,
+        "elementType": "Note",
+        "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "HomalonConnecting",
+        "isMelisma": true
+      },
+      {
+        "id": 264,
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "gorgonNeume": "Gorgon_Top",
+        "isMelisma": true
+      },
+      {
+        "id": 256,
+        "elementType": "Note",
+        "quantitativeNeume": "OligonPlusApostrophosPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
+        "measureBarLeft": "MeasureBarShortDouble",
+        "lyrics": "in",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 257,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
+      },
+      {
+        "id": 258,
+        "elementType": "Note",
+        "quantitativeNeume": "RunningElaphron",
+        "lyrics": "her",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 261,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
         "gorgonNeume": "Gorgon_Top",
         "vocalExpressionNeume": "Antikenoma",
-        "isMelisma": true,
-        "isHyphen": true
+        "isMelisma": true
       },
       {
-        "id": 249,
+        "id": 262,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "isMelisma": true,
-        "isHyphen": true
+        "isMelisma": true
       },
       {
-        "id": 93,
+        "id": 263,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
         "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarShortTheseos",
-        "lyrics": "ceived"
+        "lyrics": "womb"
       },
       {
         "id": 135,
@@ -2046,7 +2076,7 @@
       }
     ],
     "lyrics": {
-      "text": "O_ ho-ly Mar----tyrs, who have con-test--ed well and have been crowned:__ In-ter-cede__ ye with the___ Lord__ that He__ have mer-cy on__ our__ souls. \n\nGlo-ry to Thee, O Christ___ God, the__ boast of the__ A-pos---tles,__ the joy__ of the Mar----tyrs,__ who pro-claimed__ the con--sub-stan-tial Trin--i--ty. \n\n\n\nDance,___ O____ E-sai---as; the Vir---gin___ hath__ con---ceived and hath__ giv--en birth to a Son, Em-ma-nu--el,__ Who___ is__ both God__ and___ man; O----ri-ent__ is His__ Name. In mag--ni-fy-ing__ Him, we__ call__ the Vir---gin____ blest."
+      "text": "O_ ho-ly Mar----tyrs, who have con-test--ed well and have been crowned:__ In-ter-cede__ ye with the___ Lord__ that He__ have mer-cy on__ our__ souls. \n\nGlo-ry to Thee, O Christ___ God, the__ boast of the__ A-pos---tles,__ the joy__ of the Mar----tyrs,__ who pro-claimed__ the con--sub-stan-tial Trin--i--ty. \n\n\n\nDance,___ O____ E-sai---as; the Vir-gin__ hath__ con-ceived____ in__ her___ womb and hath__ giv--en birth to a Son, Em-ma-nu--el,__ Who___ is__ both God__ and___ man; O----ri-ent__ is His__ Name. In mag--ni-fy-ing__ Him, we__ call__ the Vir---gin____ blest."
     }
   }
 }
