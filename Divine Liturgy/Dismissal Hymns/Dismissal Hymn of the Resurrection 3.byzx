@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.5.40",
+  "appVersion": "0.5.50",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -457,21 +457,29 @@
       {
         "id": 209,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "measureBarLeft": "MeasureBarTop",
-        "lyrics": "joice;"
+        "quantitativeNeume": "OligonPlusKentemata",
+        "measureBarLeft": "MeasureBarShortDouble",
+        "lyrics": "joice;",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 319,
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "isMelisma": true
       },
       {
         "id": 284,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "fthora": "GeneralFlat_Top",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "let"
       },
       {
         "id": 210,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "Apostrophos",
+        "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "earth",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -480,15 +488,15 @@
       {
         "id": 211,
         "elementType": "Note",
-        "quantitativeNeume": "Elaphron",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "ly"
       },
       {
         "id": 214,
         "elementType": "Note",
-        "quantitativeNeume": "Petasti",
+        "quantitativeNeume": "PetastiPlusOligon",
         "timeNeume": "Klasma_Bottom",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "ison": "Ison.Pa",
         "lyrics": "things"
       },
@@ -1102,7 +1110,7 @@
       }
     ],
     "lyrics": {
-      "text": "Let the heav--ens re-joice; let earth-ly things be__ glad; for the Lord__ hath wrought might with His arm, He hath tram--pled up-on death by death. The first-born of the dead hath He be-come. From the bel-ly of Ha-des hath He de-liv-ered us, and hath grant--ed great mer-cy to the world. \n\nand hath grant-ed great mer-cy to the world.____"
+      "text": "Let the heav--ens re-joice;__ let earth-ly things be__ glad; for the Lord__ hath wrought might with His arm, He hath tram--pled up-on death by death. The first-born of the dead hath He be-come. From the bel-ly of Ha-des hath He de-liv-ered us, and hath grant--ed great mer-cy to the world. \n\nand hath grant-ed great mer-cy to the world.____"
     }
   }
 }
