@@ -2333,7 +2333,6 @@
         "id": 274,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "I"
       },
@@ -2341,7 +2340,6 @@
         "id": 275,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "gorgonNeume": "Gorgon_Bottom",
         "lyrics": "of"
       },
       {
@@ -3542,8 +3540,8 @@
       {
         "id": 433,
         "elementType": "Note",
-        "quantitativeNeume": "Petasti",
-        "timeNeume": "Klasma_Bottom",
+        "quantitativeNeume": "OligonPlusKentemata",
+        "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "gain"
       },
@@ -3551,19 +3549,22 @@
         "id": 434,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "to"
+        "lyrics": "to",
+        "isMelisma": true,
+        "isMelismaStart": true
       },
       {
         "id": 435,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "RunningElaphron",
         "lyrics": "Thy"
       },
       {
         "id": 436,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
-        "vocalExpressionNeume": "Psifiston",
+        "quantitativeNeume": "Oligon",
+        "timeNeume": "Klasma_Top",
+        "vocalExpressionNeume": "Homalon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "like",
         "isMelisma": true,
@@ -3579,13 +3580,13 @@
       {
         "id": 438,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "that"
       },
       {
         "id": 439,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "OligonPlusKentima",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "I"
       },
@@ -3598,7 +3599,7 @@
       {
         "id": 441,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "be"
       },
       {
@@ -5073,20 +5074,22 @@
         "id": 631,
         "elementType": "Note",
         "quantitativeNeume": "Ison",
-        "lyrics": "us"
+        "lyrics": "us",
+        "isMelisma": true,
+        "isMelismaStart": true
       },
       {
         "id": 633,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "RunningElaphron",
         "lyrics": "who"
       },
       {
         "id": 635,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarTop",
+        "ison": "Ison.Thi",
         "lyrics": "wor",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -5095,49 +5098,60 @@
       {
         "id": 636,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "ship"
       },
       {
         "id": 637,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Oligon",
+        "vocalExpressionNeume": "Psifiston",
+        "measureBarLeft": "MeasureBarShortDouble",
+        "ison": "Ison.Ke",
         "lyrics": "Thee"
       },
       {
         "id": 638,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "with"
       },
       {
         "id": 639,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "timeNeume": "Dipli",
-        "measureBarLeft": "MeasureBarTop",
+        "quantitativeNeume": "Apostrophos",
+        "timeNeume": "Klasma_Top",
         "lyrics": "faith,"
       },
       {
         "id": 640,
         "elementType": "Martyria",
         "auto": true,
-        "note": "NiHigh",
-        "rootSign": "Nana",
-        "scale": "Diatonic"
+        "note": "Ke",
+        "rootSign": "Alpha",
+        "scale": "Diatonic",
+        "measureBarLeft": "MeasureBarShortTheseosAbove"
       },
       {
         "id": 641,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
-        "lyrics": "and"
+        "quantitativeNeume": "Oligon",
+        "lyrics": "and",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 882,
+        "elementType": "Note",
+        "quantitativeNeume": "Kentemata",
+        "isMelisma": true
       },
       {
         "id": 643,
         "elementType": "Note",
         "quantitativeNeume": "PetastiPlusOligon",
         "timeNeume": "Klasma_Bottom",
-        "measureBarLeft": "MeasureBarTop",
+        "measureBarLeft": "MeasureBarShortDouble",
         "lyrics": "snatch"
       },
       {
@@ -5223,8 +5237,8 @@
         "id": 654,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Ke",
-        "rootSign": "Alpha",
+        "note": "ZoHigh",
+        "rootSign": "Legetos",
         "scale": "Diatonic",
         "alignRight": true
       },
@@ -5282,8 +5296,8 @@
         "id": 763,
         "elementType": "Martyria",
         "auto": true,
-        "note": "NiHigh",
-        "rootSign": "Nana",
+        "note": "PaHigh",
+        "rootSign": "DeltaDotted",
         "scale": "Diatonic",
         "measureBarLeft": "MeasureBarTopAbove"
       },
@@ -5377,8 +5391,8 @@
         "id": 775,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Ke",
-        "rootSign": "Alpha",
+        "note": "ZoHigh",
+        "rootSign": "Legetos",
         "scale": "Diatonic",
         "alignRight": true
       },
@@ -5497,8 +5511,8 @@
         "id": 669,
         "elementType": "Martyria",
         "auto": true,
-        "note": "NiHigh",
-        "rootSign": "Nana",
+        "note": "PaHigh",
+        "rootSign": "DeltaDotted",
         "scale": "Diatonic"
       },
       {
@@ -5584,8 +5598,8 @@
         "id": 684,
         "elementType": "Martyria",
         "auto": true,
-        "note": "NiHigh",
-        "rootSign": "Nana",
+        "note": "PaHigh",
+        "rootSign": "DeltaDotted",
         "scale": "Diatonic"
       },
       {
@@ -5679,8 +5693,8 @@
         "id": 709,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Ke",
-        "rootSign": "Alpha",
+        "note": "ZoHigh",
+        "rootSign": "Legetos",
         "scale": "Diatonic"
       },
       {
@@ -5772,8 +5786,8 @@
         "id": 721,
         "elementType": "Martyria",
         "auto": true,
-        "note": "NiHigh",
-        "rootSign": "Nana",
+        "note": "PaHigh",
+        "rootSign": "DeltaDotted",
         "scale": "Diatonic"
       },
       {
@@ -5892,8 +5906,8 @@
         "id": 736,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Ke",
-        "rootSign": "Alpha",
+        "note": "ZoHigh",
+        "rootSign": "Legetos",
         "scale": "Diatonic",
         "alignRight": true
       },
@@ -5997,8 +6011,8 @@
         "id": 793,
         "elementType": "Martyria",
         "auto": true,
-        "note": "NiHigh",
-        "rootSign": "Nana",
+        "note": "PaHigh",
+        "rootSign": "DeltaDotted",
         "scale": "Diatonic",
         "measureBarLeft": "MeasureBarShortTheseosAbove"
       },
@@ -6112,8 +6126,8 @@
         "id": 807,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Ke",
-        "rootSign": "Alpha",
+        "note": "ZoHigh",
+        "rootSign": "Legetos",
         "scale": "Diatonic",
         "alignRight": true
       },
@@ -6218,8 +6232,8 @@
         "id": 864,
         "elementType": "Martyria",
         "auto": true,
-        "note": "NiHigh",
-        "rootSign": "Nana",
+        "note": "PaHigh",
+        "rootSign": "DeltaDotted",
         "scale": "Diatonic",
         "measureBarLeft": "MeasureBarShortTheseosAbove"
       },
@@ -6333,8 +6347,8 @@
         "id": 878,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Ke",
-        "rootSign": "Alpha",
+        "note": "ZoHigh",
+        "rootSign": "Legetos",
         "scale": "Diatonic",
         "alignRight": true
       },
@@ -6439,8 +6453,8 @@
         "id": 820,
         "elementType": "Martyria",
         "auto": true,
-        "note": "NiHigh",
-        "rootSign": "Nana",
+        "note": "PaHigh",
+        "rootSign": "DeltaDotted",
         "scale": "Diatonic",
         "measureBarLeft": "MeasureBarShortTheseosAbove"
       },
@@ -6606,8 +6620,8 @@
         "id": 839,
         "elementType": "Martyria",
         "auto": true,
-        "note": "Ke",
-        "rootSign": "Alpha",
+        "note": "ZoHigh",
+        "rootSign": "Legetos",
         "scale": "Diatonic",
         "alignRight": true
       },
