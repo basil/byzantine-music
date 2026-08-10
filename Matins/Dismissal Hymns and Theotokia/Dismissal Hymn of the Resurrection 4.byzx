@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "appVersion": "0.5.50",
+  "appVersion": "0.5.52",
   "pageSetup": {
     "pageSize": "Letter",
     "pageSizeUnit": "in",
@@ -767,8 +767,6 @@
       },
       {
         "id": 329,
-        "lineBreak": true,
-        "lineBreakType": "Justify",
         "elementType": "Note",
         "quantitativeNeume": "Elaphron",
         "lyrics": "the"
@@ -776,6 +774,7 @@
       {
         "id": 330,
         "elementType": "Note",
+        "keepWithNext": true,
         "quantitativeNeume": "Oligon",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "Lord",
