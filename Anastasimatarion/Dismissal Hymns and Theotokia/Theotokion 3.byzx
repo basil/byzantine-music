@@ -364,7 +364,7 @@
       {
         "id": 5,
         "elementType": "RichTextBox",
-        "content": "<p class=\"neanes-paragraph-style-default-text\" style=\"text-align:center;\">Father Ephraim Poonen</p>",
+        "content": "<p class=\"neanes-paragraph-style-default-text\" style=\"text-align:center;\">Adapted from Father Ephraim Poonen by Basil Crow</p>",
         "contentBottom": "",
         "contentLeft": "",
         "contentRight": "",
@@ -592,7 +592,7 @@
         "id": 384,
         "elementType": "Note",
         "quantitativeNeume": "RunningElaphron",
-        "timeNeume": "Dipli",
+        "timeNeume": "Klasma_Top",
         "measureBarLeft": "MeasureBarShortTheseosAbove",
         "lyrics": "kos;"
       },
@@ -607,35 +607,44 @@
       {
         "id": 386,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
-        "ison": "Ison.Unison",
+        "quantitativeNeume": "OligonPlusKentimaAbove",
+        "ison": "Ison.Ni",
         "lyrics": "for"
       },
       {
         "id": 387,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "in"
       },
       {
         "id": 388,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "ison": "Ison.Ga",
+        "quantitativeNeume": "Ison",
         "lyrics": "the"
       },
       {
         "id": 389,
         "elementType": "Note",
         "quantitativeNeume": "OligonPlusKentemata",
+        "gorgonNeume": "Gorgon_Top",
         "measureBarLeft": "MeasureBarShortDouble",
-        "lyrics": "flesh"
+        "lyrics": "flesh",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 439,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 390,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "PetastiPlusApostrophos",
+        "timeNeume": "Klasma_Bottom",
         "measureBarLeft": "MeasureBarShortTheseos",
         "lyrics": "tak",
         "isMelisma": true,
@@ -643,49 +652,67 @@
         "isHyphen": true
       },
       {
-        "id": 391,
-        "elementType": "Note",
-        "quantitativeNeume": "Kentemata",
-        "isMelisma": true,
-        "isHyphen": true
-      },
-      {
         "id": 392,
         "elementType": "Note",
-        "quantitativeNeume": "Ison",
+        "quantitativeNeume": "RunningElaphron",
+        "accidental": "Sharp_2_Left",
         "lyrics": "en"
       },
       {
         "id": 393,
         "elementType": "Note",
-        "quantitativeNeume": "Elaphron",
+        "quantitativeNeume": "Oligon",
+        "ison": "Ison.Ga",
         "lyrics": "from"
       },
       {
         "id": 394,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "OligonPlusKentemata",
         "measureBarLeft": "MeasureBarShortDouble",
-        "lyrics": "thee,"
+        "lyrics": "thee,",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 440,
+        "elementType": "Note",
+        "quantitativeNeume": "Ison",
+        "isMelisma": true
+      },
+      {
+        "id": 438,
+        "elementType": "Martyria",
+        "auto": true,
+        "note": "Ke",
+        "rootSign": "AlphaDotted",
+        "scale": "Diatonic"
       },
       {
         "id": 395,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Ison",
         "lyrics": "thy"
       },
       {
         "id": 396,
         "elementType": "Note",
-        "quantitativeNeume": "Petasti",
-        "timeNeume": "Klasma_Bottom",
+        "quantitativeNeume": "Ison",
         "measureBarLeft": "MeasureBarTop",
-        "lyrics": "Son"
+        "lyrics": "Son",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 442,
+        "elementType": "Note",
+        "quantitativeNeume": "Kentemata",
+        "isMelisma": true
       },
       {
         "id": 397,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Ison",
         "lyrics": "and",
         "isMelisma": true,
         "isMelismaStart": true
@@ -693,24 +720,15 @@
       {
         "id": 398,
         "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
+        "quantitativeNeume": "Elaphron",
         "lyrics": "our"
       },
       {
         "id": 399,
         "elementType": "Note",
         "quantitativeNeume": "Oligon",
-        "timeNeume": "Dipli",
         "measureBarLeft": "MeasureBarTop",
         "lyrics": "God"
-      },
-      {
-        "id": 400,
-        "elementType": "Martyria",
-        "auto": true,
-        "note": "Ke",
-        "rootSign": "AlphaDotted",
-        "scale": "Diatonic"
       },
       {
         "id": 401,
@@ -721,23 +739,29 @@
       {
         "id": 402,
         "elementType": "Note",
-        "quantitativeNeume": "OligonPlusKentemata",
+        "quantitativeNeume": "Oligon",
         "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarTop",
-        "lyrics": "deigned"
+        "lyrics": "deigned",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 437,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 403,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "to",
-        "isMelisma": true,
-        "isMelismaStart": true
+        "lyrics": "to"
       },
       {
         "id": 404,
         "elementType": "Note",
-        "quantitativeNeume": "RunningElaphron",
+        "quantitativeNeume": "Ison",
         "lyrics": "en",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -746,23 +770,22 @@
       {
         "id": 405,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
+        "quantitativeNeume": "Ison",
+        "vocalExpressionNeume": "Psifiston",
         "measureBarLeft": "MeasureBarTop",
+        "ison": "Ison.Pa",
         "lyrics": "dure"
       },
       {
         "id": 406,
         "elementType": "Note",
-        "quantitativeNeume": "Elaphron",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "the"
       },
       {
         "id": 407,
         "elementType": "Note",
-        "quantitativeNeume": "Oligon",
-        "vocalExpressionNeume": "Psifiston",
-        "measureBarLeft": "MeasureBarTop",
-        "ison": "Ison.Pa",
+        "quantitativeNeume": "Apostrophos",
         "lyrics": "pas",
         "isMelisma": true,
         "isMelismaStart": true,
@@ -772,19 +795,38 @@
         "id": 408,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "sion"
+        "lyrics": "sion",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 436,
+        "elementType": "Note",
+        "quantitativeNeume": "Kentemata",
+        "gorgonNeume": "Gorgon_Bottom",
+        "isMelisma": true
       },
       {
         "id": 409,
         "elementType": "Note",
-        "quantitativeNeume": "Apostrophos",
+        "quantitativeNeume": "Petasti",
+        "timeNeume": "Klasma_Bottom",
+        "measureBarLeft": "MeasureBarTop",
         "lyrics": "through"
       },
       {
         "id": 410,
         "elementType": "Note",
         "quantitativeNeume": "Apostrophos",
-        "lyrics": "the"
+        "lyrics": "the",
+        "isMelisma": true,
+        "isMelismaStart": true
+      },
+      {
+        "id": 435,
+        "elementType": "Note",
+        "quantitativeNeume": "Apostrophos",
+        "isMelisma": true
       },
       {
         "id": 411,
@@ -968,7 +1010,7 @@
       }
     ],
     "lyrics": {
-      "text": "We praise thee, the Me-di-a-tress for the sal-va-tion of our race, O Vir-gin The-o-to-kos; for in the flesh tak-en from thee, thy Son and our God hath deigned to en-dure the pas-sion through the Cross, and hath re-deemed us from cor-rup-tion, since He is the Friend of man.____"
+      "text": "We praise thee, the Me-di-a-tress for the sal-va-tion of our race, O Vir-gin The-o-to-kos; for in the flesh__ tak-en from thee,__ thy Son and our God hath deigned__ to en-dure the pas-sion through the__ Cross, and hath re-deemed us from cor-rup-tion, since He is the Friend of man.____"
     }
   }
 }
